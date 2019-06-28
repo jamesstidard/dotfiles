@@ -8,3 +8,10 @@
     ~/.dotfiles: ''
     ~/.vimrc: configs/vim/.vimrc
     ~/.hushlogin: configs/.hushlogin
+
+# TODO:
+# An error was encountered while executing action vscodefile
+# Action vscodefile not handled
+# - vscodefile:
+#     file: configs/vscode/extensions.vscodefile
+#     insiders: false
