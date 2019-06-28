@@ -104,7 +104,7 @@ keyBindings {
         id "core.toggle.show.hidden.files"
     }
 
-    "Control+H" {
+    "Shift+Cmd+." {
         id "core.toggle.show.hidden.files"
     }
 
