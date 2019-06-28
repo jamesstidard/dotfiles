@@ -6,5 +6,7 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: home/.vimrc
-    ~/.hushlogin: home/.hushlogin
+    ~/.vimrc: config/vim/.vimrc
+    ~/.hushlogin: config/.hushlogin
+    ~/.config/iterm2: config/.config/iterm2
+    ~/.config/karabiner/karabiner.json: config/.config/karabiner/karabiner.json
