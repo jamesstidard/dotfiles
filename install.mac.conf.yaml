@@ -14,4 +14,4 @@
     ~/Library/Application Support/Code/User/snippets: configs/vscode/User/snippets
 
 - brewfile:
-    file: system/macos/Brewfile
+    file: apps/macos.brewfile
