@@ -9,3 +9,6 @@
     ~/.config/karabiner/karabiner.json: config/karabiner/karabiner.json
     ~/Library/Application Support/org.yanex.marta/conf.marco: config/marta/conf.marco
     ~/Library/Application Support/Sublime Merge/Packages/User: config/sublime-merge/Packages/User
+    ~/Library/Application Support/Code/User/keybindings.json: config/vscode/User/keybindings-macos.json
+    ~/Library/Application Support/Code/User/settings.json: config/vscode/User/settings.json
+    ~/Library/Application Support/Code/User/snippets: config/vscode/User/snippets

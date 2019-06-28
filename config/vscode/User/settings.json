@@ -1,0 +1,202 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "SF Mono",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+    ],
+    "editor.copyWithSyntaxHighlighting": false,
+    "breadcrumbs.enabled": false,
+    "python.jediEnabled": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    "[vue]": {
+        "editor.tabSize": 2,
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.html-language-features",
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "[stylus]": {
+        "editor.tabSize": 2,
+    },
+    "workbench.commandPalette.preserveInput": true,
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "window.restoreWindows": "all",
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "explorer.confirmDragAndDrop": false,
+    "search.quickOpen.includeSymbols": true,
+    "search.smartCase": true,
+    "debug.inlineValues": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "SF Mono",
+    "git.autoStash": true,
+    "git.fetchOnPull": true,
+    "git.autofetch": true,
+    "git.defaultCloneDirectory": "/Users/james/Development",
+    "git.enableSmartCommit": true,
+    "git.path": "/usr/local/bin/hub",
+    "python.diagnostics.sourceMapsEnabled": false,
+    "python.disableInstallationCheck": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "python.venvPath": "/Users/james/.local/share/virtualenvs",
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pep8Enabled": false,
+    "editor.rulers": [
+        90
+    ],
+    "python.linting.flake8CategorySeverity.E": "Information",
+    // "workbench.colorCustomizations": {
+    //     "editorWarning.foreground": "#FFCC00",
+    //     "gitDecoration.untrackedResourceForeground": "#e97777",
+    //     "gitDecoration.modifiedResourceForeground": "#6896BA",
+    //     "editorUnnecessaryCode.opacity": "#000000c0",
+    //     "editor.background": "#343D46",
+    //     "activityBar.background": "#1F252A",
+    //     "sideBar.background": "#1F252A",
+    //     "tab.activeBackground": "#1F252A",
+    //     "tab.inactiveBackground": "#2A3138",
+    //     "titleBar.activeBackground": "#2A3138",
+    //     "editor.lineHighlightBackground": "#343D46",
+    //     "editorLineNumber.activeForeground": "#868E98",
+    //     "editorLineNumber.foreground": "#868E98",
+    //     "sideBarSectionHeader.background": "#474C50",
+    // },
+    // "workbench.colorCustomizations": {
+        // "[Mariana Pro (Cool)]": {
+        //     "editorCursor.foreground": "#ffffffad"
+        // }
+    // },
+    "editor.tokenColorCustomizations": {
+        "[Mariana Pro (Cool)]": {
+            "keywords": "#e292e2",
+            // "functions": "#47c2c2"
+        },
+        // "[One Dark Pro]": {
+            // "functions": "#5FB4B4",
+            // "variables": "#F9AE58",
+            // "types": "#6699CC",
+            // "numbers": "#F9AE58",
+            // "strings": "#99C794",
+            // "comments": "#959CA8",
+            // "textMateRules": [
+            //     {
+            //         "scope": [
+            //             "source.python"
+            //         ],
+            //         "settings": {
+            //             "foreground": "#D8DEE9",
+            //         }
+            //     }
+            // ]
+        // }
+    },
+    "python.linting.flake8CategorySeverity.W": "Hint",
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.autoUpdate": false,
+    "workbench.iconTheme": null,
+    "git.countBadge": "off",
+    "problems.decorations.enabled": false,
+    "cSpell.userWords": [
+        "Utilisation",
+        "aenter",
+        "aexit",
+        "aiter",
+        "anext",
+        "asdict",
+        "async",
+        "asyncio",
+        "datetime",
+        "devtool",
+        "envconfig",
+        "favicon",
+        "finalise",
+        "finalised",
+        "functools",
+        "gameplay",
+        "graphql",
+        "initialise",
+        "isasyncgen",
+        "isasyncgenfunction",
+        "isawaitable",
+        "iscoroutine",
+        "iscoroutinefunction",
+        "itertools",
+        "kwargs",
+        "numpy",
+        "pyqtgraph",
+        "pytest",
+        "reconnection",
+        "restart",
+        "rrule",
+        "sanic",
+        "spritesheet",
+        "sqlite",
+        "templating",
+        "tzinfo",
+        "uids",
+        "ujson",
+        "uuids",
+        "vuex",
+        "websockets"
+    ],
+    "rust.all_features": true,
+    "rust-client.channel": "stable",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "window.newWindowDimensions": "inherit",
+    "git.confirmSync": false,
+    "terminal.integrated.cursorStyle": "line",
+    "zenMode.fullScreen": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "debug.toolBarLocation": "docked",
+    "docker.groupImagesBy": "None",
+    "[json]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.lineNumbers": "relative",
+    "python.terminal.activateEnvironment": false,
+    "workbench.colorTheme": "Mariana Pro (Cool)",
+    "python.formatting.provider": "black",
+    // "vim.normalModeKeyBindingsNonRecursive": [
+    //     {
+    //         "before": [":"],
+    //         "commands": [
+    //             "workbench.action.showCommands",
+    //         ]
+    //     }
+    // ]
+}

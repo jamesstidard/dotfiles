@@ -1,0 +1,143 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Async Main": {
+		"prefix": "asyncmain",
+		"body": [
+			"import asyncio",
+			"",
+			"",
+			"async def main():",
+			"    ${1:pass}",
+			"",
+			"",
+			"if __name__ == '__main__':",
+    		"   asyncio.run(main())"
+		],
+	},
+	"Main": {
+		"prefix": "main",
+		"body": [
+			"def main():",
+			"    ${1:pass}",
+			"",
+			"",
+			"if __name__ == '__main__':",
+    		"    main()",
+		],
+	},
+	"Benchmark Context Manager": {
+		"prefix": "defbenchmark",
+		"body": [
+			"@contextmanager",
+			"def benchmark(name):",
+			"    \"\"\"Prints the elapsed time of the code within the \"with\" statement.\"\"\"",
+			"    start = time.time()",
+			"    print('STARTING: {}'.format(name))",
+			"    yield",
+			"    end = time.time()",
+			"    elapsed = (end - start)",
+			"    print('STOPPING: {} (ELAPSED: {:.1f} seconds)'.format(name, elapsed))",
+		],
+	},
+	"Chunk Iterable": {
+		"prefix": "defchunks",
+		"body": [
+			"def chunks(l, *, size):",
+			"    \"\"\"Yield successive n-sized chunks from l.\"\"\"",
+			"    for i in range(0, len(l), size):",
+			"        yield l[i:i + size]",
+		],
+	},
+	"Float Range": {
+		"prefix": "deffrange",
+		"body": [
+			"def frange(start, stop, step):",
+			"    \"\"\"A range-like function for floats.\"\"\"",
+			"    # Using decimals to iterate as floating points",
+			"    # can produce some strange behaviour.",
+			"    current = decimal.Decimal(str(start))",
+			"    stop = decimal.Decimal(str(stop))",
+			"    step = decimal.Decimal(str(step))",
+			"    while current < stop:",
+			"        yield float(current)",
+			"        current += step",
+		],
+	},
+	"Key Sorter": {
+		"prefix": "defkeysorter",
+		"body": [
+			"def key_sorter(*key_order):",
+			"    \"\"\"",
+			"    Sort dictionary keys by provided order.",
+			"",
+			"    This returns a function that cant be used as a key for a sort function,",
+			"    such as `fn` in `sorted(a, key=fn)`.",
+			"    \"\"\"",
+			"    def column_index(dict_item):",
+			"        key, _ = dict_item",
+			"        try:",
+			"            return key_order.index(key)",
+			"        except ValueError:",
+			"            return float('infinity')",
+			"    return column_index",
+		],
+	},
+	"Merge Dicts": {
+		"prefix": "defmerge",
+		"body": [
+			"def merge_dicts(*dicts):",
+			"    \"\"\"",
+			"    Merges dicts with right-most dict's value taking president.",
+			"",
+			"    :param dicts: The list of dicts to combine",
+			"    :return: A new dict object",
+			"    \"\"\"",
+			"    all_keys  = set(k for d in dicts for k in d.keys())",
+			"    chain_map = ChainMap(*reversed(dicts))",
+			"    return {k: chain_map[k] for k in all_keys}",
+		],
+	},
+	"String List Sentance": {
+		"prefix": "defstrlist",
+		"body": [
+			"def str_list(items, oxford_comma=True, conjunctive='&', quoted=True):",
+			"    items = list(items)",
+			"",
+			"    if quoted:",
+			"        items = [f'\"{i}\"' for i in items]",
+			"",
+			"    if len(items) <= 1:",
+			"        return ''.join(items)",
+			"    else:",
+			"        *head, tail = items",
+			"",
+			"        if oxford_comma:",
+			"            tail = f', {conjunctive} {tail}'",
+			"        else:",
+			"            tail = f' {conjunctive} {tail}'",
+			"",
+			"        return ', '.join(head) + tail",
+		],
+	},
+	"Redirect stdout": {
+		"prefix": "stdoutr",
+		"body": [
+			"stdout = io.StringIO()",
+			"with redirect_stdout(stdout):",
+			"    ${1:pass}",
+			"output = stdout.getvalue()",
+		],
+	},
+}
