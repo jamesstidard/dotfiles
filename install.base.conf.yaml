@@ -6,5 +6,5 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: config/vim/.vimrc
-    ~/.hushlogin: config/.hushlogin
+    ~/.vimrc: configs/vim/.vimrc
+    ~/.hushlogin: configs/.hushlogin
