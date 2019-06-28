@@ -2,9 +2,6 @@
     link:
         relink: true
 
-- brewfile:
-    file: system/macos/Brewfile
-
 - clean: ['~']
 
 - link:
@@ -15,3 +12,6 @@
     ~/Library/Application Support/Code/User/keybindings.json: configs/vscode/User/keybindings-macos.json
     ~/Library/Application Support/Code/User/settings.json: configs/vscode/User/settings.json
     ~/Library/Application Support/Code/User/snippets: configs/vscode/User/snippets
+
+- brewfile:
+    file: system/macos/Brewfile
