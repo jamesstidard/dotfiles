@@ -1,3 +1,5 @@
 # Dotfiles
-Symbolic links > symlinks. Changes are reflected in the repo.
 
+```sh
+$ git clone git@github.com:jamesstidard/dotfiles && cd dotfiles && ./install
+```

@@ -8,5 +8,3 @@
     ~/.dotfiles: ''
     ~/.vimrc: config/vim/.vimrc
     ~/.hushlogin: config/.hushlogin
-    ~/.config/iterm2: config/iterm2
-    ~/.config/karabiner/karabiner.json: config/karabiner/karabiner.json

@@ -1,0 +1,8 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/sublime_merge/Packages/User: config/sublime-merge/Packages/User

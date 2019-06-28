@@ -1,0 +1,28 @@
+[
+	{ "keys": ["super+control+p"], "command": "quick_switch_repository" },
+	{ "keys": ["super+shift+p"], "command": "show_command_palette" },
+	{
+        "keys": ["command+option+x"],
+        "command": "show_command_palette",
+        "args": {"command": "pull"}
+    },
+    {
+        "keys": ["command+option+p"],
+        "command": "show_command_palette",
+        "args": {"command": "push"}
+    },
+    {
+        "keys": ["command+option+b"],
+        "command": "show_command_palette",
+        "args": {"command": "create_branch"}
+    },
+    {
+        "keys": ["command+b"],
+        "command": "show_command_palette",
+        "args": {"command": "checkout_branch"}
+    },
+    {
+        "keys": ["command+option+a"],
+        "command": "stage_all"
+    }
+]

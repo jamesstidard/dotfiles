@@ -1,0 +1,11 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/iterm2: config/iterm2
+    ~/.config/karabiner/karabiner.json: config/karabiner/karabiner.json
+    ~/Library/Application Support/org.yanex.marta/conf.marco: config/marta/conf.marco
+    ~/Library/Application Support/Sublime Merge/Packages/User: config/sublime-merge/Packages/User

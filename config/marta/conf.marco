@@ -1,0 +1,134 @@
+behavior {
+    doublePaneConfigurationInSublime true
+    preselectFirstMenuItem true
+    showActionBar true
+
+    actions {
+        core.copy.askTargetPath false
+        core.delete.confirm false
+        core.trash.confirm false
+    }
+}
+
+environment {
+    terminal "iTerm"
+}
+
+etty {
+    copyOnSelection false
+    pasteOnRightClick false
+
+    fonts {
+        normal [ "SF Mono" 12 ]
+    }
+}
+
+gadgets [
+    {
+        application "PyCharm"
+        files [ "${active.dir.path}" ]
+        id "gadget.action.pycharm"
+        name "Open PyCharm here"
+        type "application"
+    }
+    {
+        application "Visual Studio Code"
+        files [ "${active.dir.path}" ]
+        id "gadget.action.vscode"
+        name "Open VS Code here"
+        type "application"
+    }
+    {
+        application "Sublime Text"
+        files [ "${active.dir.path}" ]
+        id "gadget.action.sublimetext"
+        name "Open Sublime Text here"
+        type "application"
+    }
+    {
+        application "Sublime Merge"
+        files [ "${active.dir.path}" ]
+        id "gadget.action.sublimemerge"
+        name "Open Sublime Merge here"
+        type "application"
+    }
+    {
+        args [ "diff" "${active.selection.paths}" ]
+        executable "/usr/local/bin/charm"
+        id "gadget.action.charmdiff"
+        name "Diff selected"
+        type "executable"
+    }
+]
+
+keyBindings {
+    "Alt+Cmd+C" { id "core.copy.selected.paths" }
+
+    "Cmd+G" {
+        id "core.goto.path"
+    }
+
+    "Cmd+Shift+T" {
+        id "core.toggle.terminal"
+    }
+
+    "Cmd+[" {
+        id "core.back"
+    }
+
+    "Cmd+]" {
+        id "core.forwards"
+    }
+
+    "Control+Alt+Cmd+O" {
+        id "core.lookup.here"
+    }
+
+    "Control+Cmd+C" {
+        id "core.copy"
+    }
+
+    "Control+Cmd+M" {
+        id "core.move"
+    }
+
+    "Control+Cmd+O" {
+        id "core.lookup"
+    }
+
+    "Control+Cmd+R" {
+        id "core.rename"
+    }
+    
+    "Shift+Cmd+>" {
+        id "core.toggle.show.hidden.files"
+    }
+
+    "Control+H" {
+        id "core.toggle.show.hidden.files"
+    }
+
+    "Control+Shift+Cmd+O" {
+        id "core.lookup.here"
+    }
+
+    "Shift+Alt+Cmd+C" {
+        id "core.copy.current.dir.path"
+    }
+
+    "Shift+Alt+Cmd+N" {
+        id "core.new.file"
+    }
+
+    "Shift+Cmd+G" {
+        id "core.goto.path"
+    }
+
+    "Shift+Cmd+N" {
+        id "core.new.directory"
+    }
+    
+    "Cmd+E" { id "core.edit" }
+    
+    "Cmd+Shift+E" { id "core.open.editor.here" }
+}
