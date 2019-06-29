@@ -40,6 +40,7 @@ function update
             echo "Purging orphaned venv: $orphan"
             rm $orphan
         end
+        echo "Purging complete"
     end
 
     if type -q mas
