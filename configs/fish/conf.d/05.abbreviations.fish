@@ -1,3 +1,5 @@
+abbr -a up update
+
 abbr -a git hub
 abbr -a gc hub clone
 abbr -a gx hub pull
