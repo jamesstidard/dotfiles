@@ -40,8 +40,8 @@ function update
             echo "Purging orphaned venv: $orphan"
             rm $orphan
         end
-        echo "Purging complete"
     end
+    echo "Purging complete"
 
     if type -q mas
         echo_header "App Store"
