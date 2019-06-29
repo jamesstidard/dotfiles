@@ -1,6 +1,7 @@
 - defaults:
     link:
         relink: true
+        create: true
 
 - clean: ['~']
 
@@ -8,6 +9,9 @@
     ~/.dotfiles: ''
     ~/.vimrc: configs/vim/.vimrc
     ~/.hushlogin: configs/.hushlogin
+    ~/.config/fish/config.fish: configs/fish/config.fish
+    ~/.config/fish/fisher/fishfile: configs/fish/fisher/fishfile
+    ~/.config/fish/functions: configs/fish/functions
 
 - vscodefile:
     file: configs/vscode/extensions.vscodefile
