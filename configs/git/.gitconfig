@@ -1,0 +1,5 @@
+[hub]
+	protocol = ssh
+[user]
+	name = James Stidard
+	email = james@stidard.com

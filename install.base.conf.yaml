@@ -12,6 +12,7 @@
     ~/.config/fish/config.fish: configs/fish/config.fish
     ~/.config/fish/fisher/fishfile: configs/fish/fisher/fishfile
     ~/.config/fish/functions: configs/fish/functions
+    ~/.gitconfig: configs/git/.gitconfig
 
 - vscodefile:
     file: configs/vscode/extensions.vscodefile
