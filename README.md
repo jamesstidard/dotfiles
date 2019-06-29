@@ -1,8 +1,7 @@
 # dotfiles
 My dotfiles config. Below the stolen README from the dotbot project.
 
-Dotbot
-======
+# Dotbot
 
 Dotbot makes installing your dotfiles as easy as `git clone $url && cd dotfiles
 && ./install`, even on a freshly installed system!
