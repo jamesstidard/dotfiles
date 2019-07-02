@@ -1,0 +1,9 @@
+[hub]
+	protocol = ssh
+[user]
+	name = James Stidard
+	email = james@wave-venture.com
+[merge]
+    tool = "Sublime Merge"
+[mergetool "Sublime Merge"]
+    cmd = smerge mergetool \"$BASE\" \"$REMOTE\" \"$LOCAL\" -o \"$MERGED\"

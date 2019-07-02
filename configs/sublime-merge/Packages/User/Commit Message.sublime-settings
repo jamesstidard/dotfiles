@@ -1,4 +1,6 @@
-// Settings in here override those in "Default/Commit Message.sublime-settings"
 {
-
+	"rulers":
+	[
+		90
+	]
 }
