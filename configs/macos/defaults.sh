@@ -44,6 +44,10 @@ defaults write com.apple.dock tilesize -int 36
 
 defaults write com.apple.dock trash-full -int 1
 
+# Set Quick Look Color Code theme
+
+defaults write org.n8gray.QLColorCode hlTheme Zenburn
+
 # Kill affected applications
 for app in \
 	"Dock" \

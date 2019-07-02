@@ -12,6 +12,7 @@
     ~/.config/fish/conf.d: configs/fish/conf.d
     ~/.config/fish/fisher/fishfile: configs/fish/fisher/fishfile
     ~/.config/fish/functions: configs/fish/functions
+    ~/.config/flake8: configs/python/flake8
 
 - vscodefile:
     file: configs/vscode/extensions.vscodefile
