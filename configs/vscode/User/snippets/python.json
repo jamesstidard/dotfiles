@@ -140,4 +140,29 @@
 			"output = stdout.getvalue()",
 		],
 	},
+	"Named Zip": {
+		"prefix": "defnamedzip",
+		"body": [
+			"def named_zip(**kwargs):",
+			"    result = namedtuple('result', kwargs)",
+			"",
+			"    for items in zip(*kwargs.values()):",
+			"        yield result(*items)"
+		]
+	},
+	"All Equal": {
+		"prefix": "defallequal",
+		"body": [
+			"def all_equal(l):",
+    		"    return len(set(l)) in {0, 1}"
+		]
+	},
+	"Snake Case": {
+		"prefix": "defsnakecase",
+		"body": [
+			"def snake_case(name):",
+            "    s1 = re.sub('(.)([A-Z][a-z]+)', r'\\1_\\2', name)",
+            "    return re.sub('([a-z0-9])([A-Z])', r'\\1_\\2', s1).lower()"
+		]
+	}
 }
