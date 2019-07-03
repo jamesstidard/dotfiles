@@ -53,11 +53,11 @@ function update
         softwareupdate --instal --all
     end
 
-    if type -q apt
+    if type -q apt-get
         echo_header "Apt"
-        sudo apt update -y -qq
-        sudo apt autoremove -y -qq
-        sudo apt upgrade -y -qq
+        sudo apt-get update -y -qq
+        sudo apt-get autoremove -y -qq
+        sudo apt-get upgrade -y -qq
     end
 
     echo_header "Fish Auto Complete"
