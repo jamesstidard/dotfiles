@@ -65,7 +65,7 @@
     "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": true,
     "python.venvPath": "/Users/james/.local/share/virtualenvs",
-    "python.linting.mypyEnabled": true,
+    "python.linting.mypyEnabled": false,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.pep8Enabled": false,
