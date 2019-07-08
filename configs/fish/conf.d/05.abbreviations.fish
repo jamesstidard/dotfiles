@@ -1,9 +1,9 @@
 abbr -a up update
 
-abbr -a gc hub clone
-abbr -a gx hub pull
-abbr -a gp hub push
-abbr -a ga hub add
+abbr -a gc git clone
+abbr -a gx git pull
+abbr -a gp git push
+abbr -a ga git add
 
 abbr -a merge smerge
 
