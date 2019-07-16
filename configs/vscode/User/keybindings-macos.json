@@ -778,6 +778,15 @@
         "key": "shift+cmd+k shift+cmd+j",
         "command": "workbench.action.focusPanel"
     },
+    {
+        "key": "cmd+backspace",
+        "command": "-notification.clear",
+        "when": "notificationFocus"
+    },
+    {
+        "key": "ctrl+alt+cmd+backspace",
+        "command": "notifications.clearAll"
+    },
     // {
     //     "key": "cmd+t cmd+v",
     //     "command": "toggleVim"
