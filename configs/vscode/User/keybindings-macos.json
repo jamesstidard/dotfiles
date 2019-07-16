@@ -239,7 +239,7 @@
         "command": "workbench.action.editorLayoutThreeColumns"
     },
     {
-        "key": "cmd+k cmd+j",
+        "key": "cmd+k cmd+h",
         "command": "workbench.action.focusLeftGroup"
     },
     {
@@ -263,15 +263,11 @@
         "command": "-workbench.action.moveActiveEditorGroupUp"
     },
     {
-        "key": "shift+cmd+k shift+cmd+k",
-        "command": "workbench.action.moveActiveEditorGroupDown"
-    },
-    {
         "key": "cmd+k down",
         "command": "-workbench.action.moveActiveEditorGroupDown"
     },
     {
-        "key": "cmd+k cmd+i",
+        "key": "cmd+k cmd+k",
         "command": "workbench.action.focusAboveGroup"
     },
     {
@@ -283,7 +279,7 @@
         "command": "-workbench.action.focusAboveGroup"
     },
     {
-        "key": "cmd+k cmd+k",
+        "key": "cmd+k cmd+j",
         "command": "workbench.action.focusBelowGroup"
     },
     {
@@ -301,10 +297,6 @@
     {
         "key": "shift+alt+cmd+tab",
         "command": "workbench.action.focusPreviousGroup"
-    },
-    {
-        "key": "shift+cmd+k shift+cmd+j",
-        "command": "workbench.action.moveActiveEditorGroupLeft"
     },
     {
         "key": "cmd+k left",
@@ -694,19 +686,15 @@
         "when": "isDevelopment"
     },
     {
-        "key": "shift+cmd+i",
+        "key": "shift+cmd+k shift+cmd+k",
         "command": "workbench.action.focusActiveEditorGroup"
     },
     {
-        "key": "shift+cmd+j",
-        "command": "workbench.action.focusSideBar"
+        "key": "shift+cmd+k shift+cmd+l",
+        "command": "workbench.action.focusActiveEditorGroup"
     },
     {
         "key": "shift+cmd+k",
-        "command": "workbench.action.focusPanel"
-    },
-    {
-        "key": "shift+cmd+l",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "!editorTextFocus"
     },
@@ -777,6 +765,18 @@
     {
         "key": "alt+cmd+k",
         "command": "editor.debug.action.runToCursor"
+    },
+    {
+        "key": "shift+cmd+k shift+cmd+h",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "shift+cmd+k shift+cmd+j",
+        "command": "workbench.action.focusPanel"
     },
     // {
     //     "key": "cmd+t cmd+v",

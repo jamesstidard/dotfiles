@@ -8,3 +8,5 @@ abbr -a ga git add
 abbr -a merge smerge
 
 abbr -a dc docker-compose
+
+abbr -a pg pyground
