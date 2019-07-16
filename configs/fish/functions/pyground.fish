@@ -9,4 +9,6 @@ function pyground
     code $dir main.py
 
     pipenv install $argv --pre black flake8 flake8-bugbear
+
+    cd -
 end
