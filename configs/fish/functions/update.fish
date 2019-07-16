@@ -38,7 +38,7 @@ function update
         if not test -e $proj
             set orphan (dirname $venv)
             echo "Purging orphaned venv: $orphan"
-            rm $orphan
+            rm -rf $orphan
         end
     end
     echo "Purging complete"
