@@ -1,9 +1,9 @@
 function pyground
-    set dir (mktemp -d)
+    set --local dir (mktemp -d)
 
     cd $dir
 
-    pipenv install --skip-lock
+    pipenv --bare install --skip-lock
 
     touch main.py
     code $dir main.py
