@@ -3,6 +3,7 @@ function pyground
 
     cd $dir
 
+    set --local --export PIPENV_VENV_IN_PROJECT 1
     pipenv --bare install --skip-lock
 
     mkdir .vscode
