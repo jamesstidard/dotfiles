@@ -33,7 +33,9 @@ function pyground
 }'
     echo $settings > .vscode/settings.json
 
-    touch {main.py,.env}
+    touch main.py
+
+    echo "PYTHONPATH="$dir > .env
 
     code $dir main.py
 
