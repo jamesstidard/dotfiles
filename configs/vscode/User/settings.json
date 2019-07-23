@@ -148,6 +148,8 @@
         "isawaitable",
         "iscoroutine",
         "iscoroutinefunction",
+        "isna",
+        "iterrows",
         "itertools",
         "kwargs",
         "numpy",

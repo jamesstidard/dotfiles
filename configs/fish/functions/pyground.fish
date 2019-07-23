@@ -37,9 +37,16 @@ function pyground
 
     echo "PYTHONPATH="$dir > .env
 
+    gitignore macos windows linux python
+    echo ".vscode" >> .gitignore
+
     code $dir main.py
 
     pipenv install $argv --pre black flake8 flake8-bugbear
+
+    git init
+    git add .
+    git commit -m "init"
 
     cd -
 end
