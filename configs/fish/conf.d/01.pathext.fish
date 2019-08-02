@@ -7,3 +7,7 @@ if test -d ~/.pyenv/bin
 end
 
 set -x PATH ~/.local/bin $PATH
+
+if test -d /home/linuxbrew
+    eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+end
