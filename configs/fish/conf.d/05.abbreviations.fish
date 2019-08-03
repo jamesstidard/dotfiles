@@ -17,6 +17,6 @@ abbr -a pu pipenv uninstall
 
 abbr -a bs brew search
 abbr -a bi brew install
-abbr -a bu brew uninstall
+abbr -a bu brew rmtree
 abbr -a bci brew cask install
 abbr -a bcu brew cask uninstall
