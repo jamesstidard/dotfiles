@@ -14,6 +14,7 @@ abbr -a pg pyground
 
 abbr -a pi pipenv install
 abbr -a pu pipenv uninstall
+abbr -a pl pipenv lock
 
 abbr -a bs brew search
 abbr -a bi brew install
