@@ -7,3 +7,6 @@
 [submodule "dotbot-vscode"]
 	path = dotbot-vscode
 	url = https://github.com/jamesstidard/dotbot-vscode
+[submodule "dotbot-asdf"]
+	path = dotbot-asdf
+	url = https://github.com/sobolevn/dotbot-asdf.git
