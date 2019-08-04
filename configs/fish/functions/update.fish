@@ -7,6 +7,7 @@ function update
     end
 
     if test -d ~/.dotfiles
+        echo_header "dotfiles"
         git -C ~/.dotfiles stash
         git -C ~/.dotfiles pull --rebase
         git -C ~/.dotfiles stash pop
