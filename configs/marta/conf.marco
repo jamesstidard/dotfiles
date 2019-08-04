@@ -12,6 +12,7 @@ behavior {
 
 environment {
     terminal "iTerm"
+    textEditor "Visual Studio Code"
 }
 
 etty {
