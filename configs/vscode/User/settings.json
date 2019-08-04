@@ -42,7 +42,6 @@
     },
     "workbench.commandPalette.preserveInput": true,
     "explorer.confirmDelete": false,
-    "workbench.statusBar.feedback.visible": false,
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "window.restoreWindows": "all",
@@ -61,7 +60,7 @@
     "git.path": "/usr/local/bin/hub",
     "python.diagnostics.sourceMapsEnabled": false,
     "python.disableInstallationCheck": true,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": true,
     "python.venvPath": "/Users/james/.local/share/virtualenvs",
@@ -190,7 +189,6 @@
     "editor.acceptSuggestionOnEnter": "off",
     "python.linting.pylintUseMinimalCheckers": false,
     "debug.toolBarLocation": "docked",
-    "docker.groupImagesBy": "None",
     "[json]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "HookyQR.beautify"
