@@ -1,7 +1,5 @@
 
 source (brew --prefix asdf)/asdf.fish
-
-if type -q pyenv
-    status --is-interactive; and source (pyenv init -|psub)
-    set -x PYENV_ROOT (pyenv root)
-end
+# asdf bin is already in brew linked PATH
+# don't need a second clustering up my PATH
+set PATH (string match -v /usr/local/opt/asdf/bin $PATH)
