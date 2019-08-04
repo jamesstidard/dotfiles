@@ -1,10 +1,11 @@
 abbr -a up update
 
-abbr -a gc git clone
+abbr -a gi git clone
 abbr -a gs git status
 abbr -a gx git pull
 abbr -a gp git push
 abbr -a ga git add
+abbr -a gc git commit
 
 abbr -a sm smerge
 
