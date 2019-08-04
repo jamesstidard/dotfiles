@@ -18,20 +18,6 @@ function update
         brew cask upgrade
     end
 
-    if type -q pipsi
-        echo_header "Pipsi"
-
-        set PACKAGES (pipsi list | grep 'Package ' | cut -d\" -f2)
-
-        for PACKAGE in $PACKAGES
-            eval $PIPSI_HOME"/"$PACKAGE"/bin/pip" install --upgrade pip > /dev/null
-
-            pipsi upgrade $PACKAGE | \
-                string replace --regex " in .+/\.local/share/virtualenvs/.+/lib/python[2-3].[0-9]/site-packages" "" | \
-                string match --invert --regex '^.+(from .+)$'
-        end
-    end
-
     echo_header "Purging Orphaned Venvs"
     for venv in ~/.local/share/virtualenvs/*/.project
         read proj < $venv
