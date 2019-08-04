@@ -100,7 +100,7 @@ keyBindings {
     "Control+Cmd+R" {
         id "core.rename"
     }
-    
+
     "Shift+Cmd+>" {
         id "core.toggle.show.hidden.files"
     }
@@ -128,8 +128,8 @@ keyBindings {
     "Shift+Cmd+N" {
         id "core.new.directory"
     }
-    
+
     "Cmd+E" { id "core.edit" }
-    
+
     "Cmd+Shift+E" { id "core.open.editor.here" }
 }
