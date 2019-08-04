@@ -11,6 +11,8 @@ abbr -a sm smerge
 
 abbr -a dc docker-compose
 
+abbr -a dev ~/Development
+
 abbr -a pg pyground
 
 abbr -a pi pipenv install
