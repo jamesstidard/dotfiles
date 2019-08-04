@@ -209,4 +209,11 @@
     //         ]
     //     }
     // ]
+    "vim.easymotion": true,
+    "vim.easymotionMarkerBackgroundColor": "#F9DA57",
+    "vim.easymotionMarkerForegroundColorOneChar": "#000000",
+    "vim.easymotionMarkerForegroundColorTwoChar": "#000000",
+    "vim.easymotionMarkerFontFamily": "SF Mono",
+    "vim.easymotionMarkerHeight": 20,
+    "vim.easymotionMarkerYOffset": -10,
 }
