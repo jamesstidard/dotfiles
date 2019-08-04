@@ -1,6 +1,6 @@
 abbr -a up update
 
-abbr -a gi git clone
+abbr -a gcl git clone
 abbr -a gs git status
 abbr -a gx git pull
 abbr -a gp git push
