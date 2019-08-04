@@ -21,3 +21,8 @@ abbr -a bi brew install
 abbr -a bu brew rmtree
 abbr -a bci brew cask install
 abbr -a bcu brew cask uninstall
+
+abbr -a ai asdf install
+abbr -a au asdf uninstall
+abbr -a al asdf list
+abbr -a as asdf current
