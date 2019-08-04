@@ -7,3 +7,5 @@
     tool = "Sublime Merge"
 [mergetool "Sublime Merge"]
     cmd = smerge mergetool \"$BASE\" \"$REMOTE\" \"$LOCAL\" -o \"$MERGED\"
+[pull]
+	rebase = true

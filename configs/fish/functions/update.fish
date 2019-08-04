@@ -6,6 +6,12 @@ function update
         set_color normal
     end
 
+    if test -d ~/.dotfiles
+        git -C ~/.dotfiles stash
+        git -C ~/.dotfiles pull --rebase
+        git -C ~/.dotfiles stash pop
+    end
+
     if type -q fisher
         echo_header "Fisherman"
         fisher self-update
