@@ -4,7 +4,8 @@ function pyground
     cd $dir
 
     set --local --export PIPENV_VENV_IN_PROJECT 1
-    pipenv --bare install --skip-lock
+    pipenv --bare install --skip-lock $argv
+    pipenv --bare install --dev --pre black flake8 flake8-bugbear
 
     mkdir .vscode
 
@@ -40,13 +41,11 @@ function pyground
     gitignore macos windows linux python
     echo ".vscode" >> .gitignore
 
-    code $dir main.py
-
-    pipenv install $argv --pre black flake8 flake8-bugbear
-
     git init
     git add .
     git commit -m "init"
+
+    code $dir main.py
 
     cd -
 end
