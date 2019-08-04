@@ -8,6 +8,7 @@
     ~/.config/iterm2: configs/iterm2
     ~/.config/karabiner/karabiner.json: configs/karabiner/karabiner.json
     ~/Library/Application Support/org.yanex.marta/conf.marco: configs/marta/conf.marco
+    ~/Library/Application Support/org.yanex.marta/favorites.marco: configs/marta/favorites.marco
     ~/Library/Application Support/Sublime Merge/Packages/User: configs/sublime-merge/Packages/User
     ~/Library/Application Support/Code/User/keybindings.json: configs/vscode/User/keybindings-macos.json
     ~/Library/Application Support/Code/User/settings.json: configs/vscode/User/settings.json
