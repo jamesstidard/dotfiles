@@ -54,10 +54,10 @@ gadgets [
         type "application"
     }
     {
-        args [ "diff" "${active.selection.paths}" ]
-        executable "/usr/local/bin/charm"
-        id "gadget.action.charmdiff"
-        name "Diff selected"
+        args [ "mergetool" "${active.selection.paths}" ]
+        executable "/usr/local/bin/smerge"
+        id "gadget.action.sublimediff"
+        name "Diff Selected"
         type "executable"
     }
 ]
