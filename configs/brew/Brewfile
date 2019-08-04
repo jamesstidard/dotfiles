@@ -84,7 +84,7 @@ cask "virtualbox-extension-pack"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
 cask "wakeonlan"
-cask "whatsapp"
+cask "chatmate-for-whatsapp"
 mas "Affinity Designer", id: 824171161
 mas "Cascadea", id: 1432182561
 mas "CL!ng", id: 1244392031
