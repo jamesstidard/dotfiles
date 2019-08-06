@@ -60,7 +60,7 @@
     "git.path": "/usr/local/bin/hub",
     "python.diagnostics.sourceMapsEnabled": false,
     "python.disableInstallationCheck": true,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "python.venvPath": "/Users/james/.local/share/virtualenvs",

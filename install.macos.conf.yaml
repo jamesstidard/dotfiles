@@ -17,6 +17,7 @@
 - brewfile:
     file: configs/brew/Brewfile
     stdout: true
+    include: ['cask', 'mas']
 
 - shell:
     - [sh configs/macos/defaults.sh, "Setting macOS Defaults"]

@@ -18,6 +18,11 @@
     file: configs/vscode/extensions.vscodefile
     insiders: false
 
+- brewfile:
+    file: configs/brew/Brewfile
+    stdout: true
+    include: ['tap', 'brew']
+
 - asdf:
     - plugin: cmake
       url: https://github.com/srivathsanmurali/asdf-cmake.git
