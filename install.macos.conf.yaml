@@ -16,6 +16,7 @@
 
 - brewfile:
     file: configs/brew/Brewfile
+    stdout: true
 
 - shell:
     - [sh configs/macos/defaults.sh, "Setting macOS Defaults"]
