@@ -149,6 +149,7 @@
         "isawaitable",
         "iscoroutine",
         "iscoroutinefunction",
+        "isfile",
         "isna",
         "iterrows",
         "itertools",
