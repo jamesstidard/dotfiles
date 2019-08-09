@@ -4,6 +4,7 @@ function pyground
     cd $dir
 
     set --local --export PIPENV_VENV_IN_PROJECT 1
+    set --local --export PIPENV_IGNORE_VIRTUALENVS 1
     pipenv --bare install --skip-lock $argv
     pipenv --bare install --dev --pre black flake8 flake8-bugbear
 
