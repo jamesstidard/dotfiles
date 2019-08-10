@@ -27,8 +27,8 @@ function fish_prompt
             set_color --dim red
             printf 'n '
         case insert
-            set_color --dim green
-            printf 'i '
+            set_color --dim white
+            printf '$ '
         case replace_one
             set_color --dim green
             printf 'r '
