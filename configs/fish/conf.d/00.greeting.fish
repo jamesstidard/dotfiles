@@ -1,1 +1,3 @@
-set fish_greeting
+if status is-login
+    set fish_greeting
+end
