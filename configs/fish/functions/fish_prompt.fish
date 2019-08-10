@@ -24,17 +24,17 @@ function fish_prompt
 
     switch $fish_bind_mode
         case default
-            set_color --dim red
-            printf 'n '
+            set_color red
+            printf 'N '
         case insert
-            set_color --dim white
+            set_color white
             printf '$ '
         case replace_one
             set_color --dim green
-            printf 'r '
+            printf 'R '
         case visual
             set_color --dim brmagenta
-            printf 'v '
+            printf 'V '
         case '*'
             set_color --dim red
             printf '? '
