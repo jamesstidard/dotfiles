@@ -217,5 +217,4 @@
     "vim.easymotionMarkerFontFamily": "SF Mono",
     "vim.easymotionMarkerHeight": 20,
     "vim.easymotionMarkerYOffset": -10,
-    "explorer.sortOrder": "type",
 }

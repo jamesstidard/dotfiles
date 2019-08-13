@@ -7,6 +7,8 @@ if status is-login
     abbr -a gp git push
     abbr -a ga git add
     abbr -a gc git commit
+    abbr -a gf git fetch
+    abbr -a gco git checkout
 
     abbr -a sm smerge
 
