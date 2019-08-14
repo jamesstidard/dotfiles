@@ -1,5 +1,5 @@
 function pyground
-    set --local dir (mktemp -d)
+    set --local dir (mktemp -d -t pyground)
 
     cd $dir
 
