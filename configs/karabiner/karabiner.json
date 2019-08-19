@@ -13,7 +13,30 @@
         "basic.to_if_held_down_threshold_milliseconds": 500,
         "mouse_motion_to_scroll.speed": 100
       },
-      "rules": [{
+      "rules": [
+        {
+          "description": "fn to ctrl for some games",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "key_code": "fn"
+              },
+              "to": {
+                "key_code": "left_control"
+              },
+              "conditions": [
+                {
+                  "type": "frontmost_application_if",
+                  "file_paths": [
+                    "^\/Users\/.*\/Library\/Application Support\/Steam\/steamapps\/common\/Counter-Strike Global Offensive\/csgo_osx64$"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "description": "escape to grave",
           "manipulators": [{
               "description": "fn+escape to grave",
