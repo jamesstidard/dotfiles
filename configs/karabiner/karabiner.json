@@ -24,14 +24,23 @@
               },
               "to": {
                 "key_code": "left_control"
+              }
+            },
+            {
+              "type": "basic",
+              "from": {
+                "key_code": "left_control"
               },
-              "conditions": [
-                {
-                  "type": "frontmost_application_if",
-                  "file_paths": [
-                    "^\/Users\/.*\/Library\/Application Support\/Steam\/steamapps\/common\/Counter-Strike Global Offensive\/csgo_osx64$"
-                  ]
-                }
+              "to": {
+                "key_code": "fn"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "file_paths": [
+                "^\/Users\/.*\/Library\/Application Support\/Steam\/steamapps\/common\/Counter-Strike Global Offensive\/csgo_osx64$"
               ]
             }
           ]
