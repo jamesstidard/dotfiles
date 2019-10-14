@@ -1,6 +1,7 @@
 - defaults:
     link:
         relink: true
+        create: true
 
 - clean: ['~']
 
@@ -17,6 +18,7 @@
 - brewfile:
     file: configs/brew/Brewfile
     stdout: true
+    stderr: true
     include: ['cask', 'mas']
 
 - shell:

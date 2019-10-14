@@ -21,6 +21,7 @@
 - brewfile:
     file: configs/brew/Brewfile
     stdout: true
+    stderr: true
     include: ['tap', 'brew']
 
 - asdf:
