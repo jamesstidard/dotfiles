@@ -67,7 +67,7 @@
     "python.linting.mypyEnabled": false,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.pep8Enabled": false,
+    "python.linting.pycodestyleEnabled": false,
     "editor.rulers": [
         90
     ],
