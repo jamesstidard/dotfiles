@@ -152,6 +152,7 @@
         "gameplay",
         "graphql",
         "groupby",
+        "histogramdd",
         "ilike",
         "iloc",
         "initialise",
@@ -174,6 +175,7 @@
         "ndim",
         "normalise",
         "numpy",
+        "openpyxl",
         "opex",
         "popen",
         "pyqtgraph",
@@ -196,7 +198,8 @@
         "uuids",
         "vuex",
         "websockets",
-        "xarray"
+        "xarray",
+        "xlsx"
     ],
     "rust.all_features": true,
     "rust-client.channel": "stable",

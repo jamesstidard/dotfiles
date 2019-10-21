@@ -22,6 +22,7 @@ if status is-login
     abbr -a pi pipenv install
     abbr -a pu pipenv uninstall
     abbr -a pl pipenv lock
+    abbr -a pr pipenv run
 
     abbr -a bs brew search
     abbr -a bi brew install
