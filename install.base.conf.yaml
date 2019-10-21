@@ -13,25 +13,3 @@
     ~/.config/fish/fisher/fishfile: configs/fish/fisher/fishfile
     ~/.config/fish/functions: configs/fish/functions
     ~/.config/flake8: configs/python/flake8
-
-- vscodefile:
-    file: configs/vscode/extensions.vscodefile
-    insiders: false
-
-- brewfile:
-    file: configs/brew/Brewfile
-    stdout: true
-    stderr: true
-    include: ['tap', 'brew']
-
-- asdf:
-    - plugin: cmake
-      url: https://github.com/srivathsanmurali/asdf-cmake.git
-    - plugin: golang
-      url: https://github.com/kennyp/asdf-golang.git
-    - plugin: python
-      url: https://github.com/danhper/asdf-python.git
-    - plugin: ruby
-      url: https://github.com/asdf-vm/asdf-ruby.git
-    - plugin: rust
-      url: https://github.com/code-lever/asdf-rust.git

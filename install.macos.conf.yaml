@@ -19,7 +19,11 @@
     file: configs/brew/Brewfile
     stdout: true
     stderr: true
-    include: ['cask', 'mas']
+    include: ['tap', 'brew', 'cask', 'mas']
 
 - shell:
     - [sh configs/macos/defaults.sh, "Setting macOS Defaults"]
+
+- vscodefile:
+    file: configs/vscode/extensions.vscodefile
+    insiders: false
