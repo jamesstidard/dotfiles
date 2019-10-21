@@ -19,10 +19,11 @@ if status is-login
 
     abbr -a pg pyground
 
-    abbr -a pi pipenv install
-    abbr -a pu pipenv uninstall
-    abbr -a pl pipenv lock
-    abbr -a pr pipenv run
+    abbr -a pei pipenv install
+    abbr -a peu pipenv uninstall
+    abbr -a pel pipenv lock
+    abbr -a per pipenv run
+    abbr -a pes pipenv sync
 
     abbr -a bs brew search
     abbr -a bi brew install

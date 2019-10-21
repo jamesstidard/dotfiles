@@ -1,7 +1,7 @@
 {
 	"font_face": "SF Mono Regular",
 	"font_size": 14,
-	"git_binary": "hub",
+	"git_binary": "/usr/local/bin/git",
 	"hide_menu": false,
 	"theme": "Merge Dark.sublime-theme",
 	"translate_tabs_to_spaces": true
