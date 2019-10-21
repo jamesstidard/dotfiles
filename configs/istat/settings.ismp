@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<string>1090</string>
+	<string>1113</string>
 	<key>license</key>
 	<dict>
 		<key>email</key>
@@ -188,6 +188,31 @@
 		<true/>
 		<key>Migrated_6.22</key>
 		<true/>
+		<key>Network_DecimalLevelKB</key>
+		<integer>0</integer>
+		<key>Network_DropdownCombineBandwidth</key>
+		<integer>1</integer>
+		<key>Network_DropdownOrderDisabled</key>
+		<string>buttons</string>
+		<key>Network_GraphMode</key>
+		<integer>1</integer>
+		<key>Network_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>100</string>
+				<key>uuid</key>
+				<string>0E98D876-359B-4247-B891-B4E4B2DC503D</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>0</string>
+				<key>uuid</key>
+				<string>1AC0358F-93CE-46F4-B079-41A70E42F74B</string>
+			</dict>
+		</array>
+		<key>Network_ProcessCount</key>
+		<integer>10</integer>
 		<key>Network_StatusCheckFlatten</key>
 		<integer>0</integer>
 		<key>Notifications-Enabled</key>
@@ -235,31 +260,16 @@
 		<true/>
 		<key>StatusItems-Order</key>
 		<array>
+			<integer>4</integer>
 			<integer>7</integer>
 			<integer>6</integer>
 		</array>
 		<key>Time_CLockSortCurrentLocationFirst</key>
 		<integer>0</integer>
 		<key>Time_CLockSortMode</key>
-		<integer>3</integer>
+		<integer>1</integer>
 		<key>Time_Cities</key>
 		<array>
-			<dict>
-				<key>city</key>
-				<string>UTC</string>
-				<key>country</key>
-				<string></string>
-				<key>identifier</key>
-				<integer>-5</integer>
-				<key>latitude</key>
-				<integer>0</integer>
-				<key>longitude</key>
-				<real>51.479100000000003</real>
-				<key>state</key>
-				<string></string>
-				<key>timezone</key>
-				<string>UTC</string>
-			</dict>
 			<dict>
 				<key>city</key>
 				<string>San Francisco</string>
@@ -291,6 +301,22 @@
 				<string>New York</string>
 				<key>timezone</key>
 				<string>America/New_York</string>
+			</dict>
+			<dict>
+				<key>city</key>
+				<string>UTC</string>
+				<key>country</key>
+				<string></string>
+				<key>identifier</key>
+				<integer>-5</integer>
+				<key>latitude</key>
+				<integer>0</integer>
+				<key>longitude</key>
+				<real>51.479100000000003</real>
+				<key>state</key>
+				<string></string>
+				<key>timezone</key>
+				<string>UTC</string>
 			</dict>
 			<dict>
 				<key>city</key>
@@ -389,10 +415,15 @@
 		</array>
 		<key>TimerFrequency</key>
 		<integer>2</integer>
+		<key>Updater_Attempts</key>
+		<dict>
+			<key>1113</key>
+			<string>1</string>
+		</dict>
 		<key>Zarya-TLE</key>
 		<dict>
 			<key>time</key>
-			<real>1565401304.5421681</real>
+			<real>1571525031.1010499</real>
 			<key>tle</key>
 			<string>ISS (ZARYA)             
 1 25544U 98067A   19024.69130787  .00000289  00000-0  11946-4 0  9991
@@ -400,6 +431,6 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>6.31</string>
+	<string>6.40</string>
 </dict>
 </plist>
