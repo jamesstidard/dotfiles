@@ -61,7 +61,7 @@
     "python.diagnostics.sourceMapsEnabled": false,
     "python.disableInstallationCheck": true,
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": true,
     "python.venvPath": "/Users/james/.local/share/virtualenvs",
     "python.linting.mypyEnabled": false,

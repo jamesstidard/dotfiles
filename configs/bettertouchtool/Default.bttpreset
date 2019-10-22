@@ -12,7 +12,11 @@
     "disableScrollingIf2" : true,
     "batteryWarning" : false,
     "BSTDontShowSnapAreasWhileModMoving" : 0,
+<<<<<<< Updated upstream
     "BTTSavedMousePosition" : "{1709.98828125, 483.01953125}",
+=======
+    "BTTSavedMousePosition" : "{-2193, 735}",
+>>>>>>> Stashed changes
     "BSTWindowGrabPosY" : 10,
     "singleFingerTapRight" : 0.05000000074505806,
     "BTTDrawingStrokeWidth" : 4,
@@ -46,7 +50,11 @@
     "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
     "BSTMoveTreshold" : 2,
     "BTTHideFomControlStripWhenOpen" : false,
+<<<<<<< Updated upstream
     "BTTNumberOfStarts" : 8962,
+=======
+    "BTTNumberOfStarts" : 7590,
+>>>>>>> Stashed changes
     "BTTForceNormalClickPressure3F" : 150,
     "showSiriRemoteTab" : true,
     "SIRIScrollSpeed" : 1,
@@ -71,7 +79,7 @@
     "BTTForceForceClickPressure5F" : 600,
     "BTTForceForceClickPressure" : 700,
     "BSTMemorySaver" : true,
-    "BTTLastClamshellState" : false,
+    "BTTLastClamshellState" : true,
     "BTTTouchBarAnimateGroups" : true,
     "BTTShowBTTWhenControlStripHidden" : true,
     "BTTFreeSpaceAfterESC" : 10,
@@ -154,12 +162,23 @@
     "showOtherTriggersTab" : true,
     "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
   },
+<<<<<<< Updated upstream
   "BTTPresetUUID" : "8727C30D-38CC-4E38-A225-70F0EA6DF57D",
   "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "com.apple.finder",
       "BTTAppName" : "Finder",
       "BTTAppAutoInvertIcon" : 1,
+=======
+  "BTTPresetUUID" : "71FA28F5-25DE-41F5-8D88-BCC2FC06000F",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+>>>>>>> Stashed changes
       "BTTTriggers" : [
         {
           "BTTTriggerType" : 1004,
@@ -172,7 +191,11 @@
           "BTTShortcutToSend" : "55,30",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
           "BTTUUID" : "58CE32C6-70FD-45C6-92DB-E7B2036E7F6A",
+=======
+          "BTTUUID" : "08B4179D-943D-4D98-9E35-F5BAECAD766B",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -190,7 +213,11 @@
           "BTTShortcutToSend" : "55,33",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
           "BTTUUID" : "C096CC23-97C6-43BD-8BA5-4A74B879429E",
+=======
+          "BTTUUID" : "294EC982-7D7C-4F06-9DFC-FF3D7E33163A",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -200,29 +227,20 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "BTTAppBundleIdentifier" : "com.google.Chrome",
       "BTTAppName" : "Google Chrome",
       "BTTAppAutoInvertIcon" : 1,
       "BTTAppProcessMatchMode" : 2,
       "BTTAppProcessName" : "Google Chrome",
+=======
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Safari",
+>>>>>>> Stashed changes
       "BTTTriggers" : [
-        {
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,30",
-          "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTUUID" : "08B4179D-943D-4D98-9E35-F5BAECAD766B",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0
-        },
         {
           "BTTTriggerType" : 1003,
           "BTTTriggerTypeDescription" : "Button 3",
@@ -233,11 +251,36 @@
           "BTTShortcutToSend" : "55,33",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
-          "BTTUUID" : "294EC982-7D7C-4F06-9DFC-FF3D7E33163A",
+<<<<<<< Updated upstream
+          "BTTUUID" : "08B4179D-943D-4D98-9E35-F5BAECAD766B",
+=======
+          "BTTUUID" : "83DBBB32-A228-4BF6-B773-1A760E6157C3",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
+          "BTTUUID" : "294EC982-7D7C-4F06-9DFC-FF3D7E33163A",
+=======
+          "BTTUUID" : "31022E18-134D-45B0-9C9A-E59DCA14A43C",
+>>>>>>> Stashed changes
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 1,
           "BTTDisplayOrder" : 0
         }
       ]
@@ -246,11 +289,9 @@
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
       "BTTAppAutoInvertIcon" : 1,
-      "BTTAppSpecificSettings" : {
-
-      },
       "BTTTriggers" : [
         {
+<<<<<<< Updated upstream
           "BTTTouchBarButtonName" : "Show Desktop",
           "BTTTriggerType" : 629,
           "BTTTriggerTypeDescription" : "Touch Bar button",
@@ -286,10 +327,48 @@
           "BTTOrder" : 7,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
+=======
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Safari.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310729",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "BC7EBCB2-4E8B-438C-A28F-7AFD32D3EDE1",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "s",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 26,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 1002,
+          "BTTTriggerTypeDescription" : "Middle Mouse Button",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 165,
+          "BTTPredefinedActionName" : "Mission Control & Immediately Show Desktop Preview",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTUUID" : "A46F5952-F288-49C3-B950-BEB32E4B8A14",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0
+>>>>>>> Stashed changes
         },
         {
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 84,
           "BTTPredefinedActionName" : "Restore Old Window Size",
           "BTTAdditionalConfiguration" : "1835049",
@@ -304,12 +383,31 @@
           "BTTShortcutKeyCode" : 38,
           "BTTShortcutModifierKeys" : 1835008,
           "BTTOrder" : 15,
+=======
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/System\/Applications\/Utilities\/Activity%20Monitor.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310729",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "5F1D2008-0908-4E98-B3D6-670B706AEF7B",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "m",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 46,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 22,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 177,
           "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
           "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Sublime%20Merge.app",
@@ -325,10 +423,27 @@
           "BTTShortcutKeyCode" : 7,
           "BTTShortcutModifierKeys" : 1310720,
           "BTTOrder" : 23,
+=======
+          "BTTPredefinedActionType" : 122,
+          "BTTPredefinedActionName" : "Show Notification Center",
+          "BTTAdditionalConfiguration" : "1310729",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "5D0405BF-EC62-450D-9497-86E5603EA4B8",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : ",",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 43,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 21,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
+<<<<<<< Updated upstream
           "BTTTouchBarButtonName" : "Bartender",
           "BTTTriggerType" : 629,
           "BTTTriggerTypeDescription" : "Touch Bar button",
@@ -346,148 +461,7 @@
           "BTTOrder" : 1,
           "BTTDisplayOrder" : 0,
           "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 90,
-          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
-          "BTTAdditionalConfiguration" : "1835049",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "B64F23B2-DE6D-48DB-8B10-C94609E2D428",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "m",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 46,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 92,
-          "BTTPredefinedActionName" : "Resize Window to Top Right Quarter \/ Corner",
-          "BTTAdditionalConfiguration" : "1835049",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "57992952-E787-44FE-AD34-DBD18405A573",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : ".",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 47,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 8,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 196,
-          "BTTPredefinedActionName" : "Add New Space to Mission Control",
-          "BTTAdditionalConfiguration" : "1835008",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "F818C52D-7378-4855-9640-ABF99FE3CDE7",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 45,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 16,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 177,
-          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
-          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Safari.app",
-          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
-          "BTTAdditionalConfiguration" : "1310729",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "BC7EBCB2-4E8B-438C-A28F-7AFD32D3EDE1",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "s",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 1,
-          "BTTShortcutModifierKeys" : 1310720,
-          "BTTOrder" : 24,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTLayoutIndependentActionChar" : "]",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,30",
-          "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTUUID" : "1D906CC4-991F-43A5-9126-20CC1A68A464",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0
-        },
-        {
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 47,
-          "BTTPredefinedActionName" : "Move Window to Next Monitor",
-          "BTTAdditionalConfiguration" : "1835049",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "DA22AD7E-DE58-48E7-9D59-2EA3DA7DB96E",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "RETURN",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 36,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 93,
-          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
-          "BTTAdditionalConfiguration" : "1835049",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "1EF926F8-4F4D-4A38-8264-3DFA7133FD01",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "\/",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 44,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 9,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
+=======
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 151,
           "BTTPredefinedActionName" : "Move Window One Space\/Desktop Left",
@@ -504,199 +478,120 @@
           "BTTOrder" : 17,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 624,
-          "BTTTriggerTypeDescription" : "Please Select a Trigger ",
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 177,
-          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
-          "BTTAppToShowOrHide" : "com.sublimemerge",
-          "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "9B24C990-703A-4F1C-BF3A-4574186DDFBF",
-          "BTTTriggerOnDown" : 1,
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : -1,
-          "BTTShortcutModifierKeys" : -1,
-          "BTTOrder" : 24,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0,
-          "BTTKeySequence" : {
-            "BTTPauseBetween" : 0.29999999999999999,
-            "BTTKeyCount" : 8,
-            "BTTKeySequenceDownKeys" : [
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCode" : 55,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " S",
-                "BTTKEYCode" : 1,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " M",
-                "BTTKEYCode" : 46,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              }
-            ],
-            "BTTKeySequenceMixedKeys" : [
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCode" : 55,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " S",
-                "BTTKEYCode" : 1,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " S",
-                "BTTKEYCode" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " M",
-                "BTTKEYCode" : 46,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " M",
-                "BTTKEYCode" : 46,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCode" : 55,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              }
-            ],
-            "BTTKeySequenceUpKeys" : [
-              {
-                "BTTKEYCharacter" : " S",
-                "BTTKEYCode" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCharacter" : " M",
-                "BTTKEYCode" : 46,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCode" : 55,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              },
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 572136000
-              }
-            ]
-          }
+>>>>>>> Stashed changes
         },
         {
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 108,
-          "BTTPredefinedActionName" : "Resize window to Left Third",
+<<<<<<< Updated upstream
+          "BTTPredefinedActionType" : 90,
+          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
           "BTTAdditionalConfiguration" : "1835049",
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "6C3CDC30-D356-4CF7-A0F5-C5CD88DA12F3",
+          "BTTUUID" : "B64F23B2-DE6D-48DB-8B10-C94609E2D428",
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "p",
+          "BTTLayoutIndependentChar" : "m",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 35,
+          "BTTShortcutKeyCode" : 46,
           "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 2,
+          "BTTOrder" : 0,
+=======
+          "BTTPredefinedActionType" : 84,
+          "BTTPredefinedActionName" : "Restore Old Window Size",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "3558C556-959D-4873-8E90-D2E0824F79BB",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "j",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 38,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 15,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
-          "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 21,
-          "BTTPredefinedActionName" : "Maximize Window",
-          "BTTAdditionalConfiguration" : "1835049",
+          "BTTPredefinedActionType" : 152,
+          "BTTPredefinedActionName" : "Move Window One Space\/Desktop Right",
+          "BTTAdditionalConfiguration" : "10223616",
           "BTTEnabled2" : 1,
+<<<<<<< Updated upstream
           "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "314CE6B0-A1D4-4ECB-BF7C-223877E67964",
+          "BTTUUID" : "57992952-E787-44FE-AD34-DBD18405A573",
+=======
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "C25438B6-2EF6-4C44-BA60-94B7EC4FD36E",
+>>>>>>> Stashed changes
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "k",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 40,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 10,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 18,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
+<<<<<<< Updated upstream
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 177,
-          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
-          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Visual%20Studio%20Code.app",
-          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
-          "BTTAdditionalConfiguration" : "1310720",
+          "BTTPredefinedActionType" : 196,
+          "BTTPredefinedActionName" : "Add New Space to Mission Control",
+          "BTTAdditionalConfiguration" : "1835008",
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "77890C84-4361-41EF-A459-392FA8B27A4E",
+          "BTTUUID" : "F818C52D-7378-4855-9640-ABF99FE3CDE7",
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 8,
-          "BTTShortcutModifierKeys" : 1310720,
-          "BTTOrder" : 25,
+          "BTTShortcutKeyCode" : 45,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 16,
+=======
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "65A077F5-DD76-4B26-B4DA-F7B6C5EC3DEF",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "l",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 14,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTAdditionalConfiguration" : "1835008",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "76B54752-49D0-4189-B72B-7BBC8C425A7F",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 4,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 13,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
@@ -836,13 +731,557 @@
           }
         },
         {
+          "BTTGestureNotes" : "Eject drives and egpu",
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 195,
+          "BTTPredefinedActionName" : "Run Apple Script (async in background)",
+          "BTTInlineAppleScript" : "tell application \"Finder\" to eject (every disk whose ejectable is true and local volume is true and free space is not equal to 0)",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutScope" : 0,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "F07CF8DD-33F0-4A22-8B4E-E39F60295538",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 1,
+          "BTTLayoutIndependentChar" : "e",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 14,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 12,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTPredefinedActionType" : 246,
+              "BTTPredefinedActionName" : "Execute Terminal Command (Synchronous, blocking)",
+              "BTTTerminalCommand" : "\/usr\/bin\/SafeEjectGPU Eject",
+              "BTTEnabled2" : 1,
+              "BTTKeyboardShortcutKeyboardType" : 0,
+              "BTTUUID" : "09EF4D23-3FEF-4C0F-9774-9FA1603B8C00",
+              "BTTNotesInsteadOfDescription" : 0,
+              "BTTEnabled" : 1,
+              "BTTModifierMode" : 0,
+              "BTTShortcutKeyCode" : -1,
+              "BTTShortcutModifierKeys" : -1,
+              "BTTOrder" : 2,
+              "BTTDisplayOrder" : 0,
+              "BTTAutoAdaptToKeyboardLayout" : 0
+            }
+          ],
+          "BTTTriggerConfig" : {
+            "BTTHUDText" : "Ejecting",
+            "BTTShowHUD" : 1
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Bartender",
+          "BTTTriggerType" : 629,
+          "BTTTriggerTypeDescription" : "Touch Bar button",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "56,55,50",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTUUID" : "4ECDF1D6-EEDB-4ED7-8CE8-FF56D09C9659",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Safari.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310729",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "BC7EBCB2-4E8B-438C-A28F-7AFD32D3EDE1",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "s",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 24,
+=======
+          "BTTPredefinedActionType" : 97,
+          "BTTPredefinedActionName" : "Center Window",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "8463FA55-4088-41A2-808B-BC6227092F05",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "DELETE",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 51,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 11,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTouchBarButtonName" : "Show Desktop",
+          "BTTTriggerType" : 629,
+          "BTTTriggerTypeDescription" : "Touch Bar button",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "Show Desktop",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTUUID" : "AE481373-AE42-4913-B987-74C240DAC9DF",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "314CE6B0-A1D4-4ECB-BF7C-223877E67964",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "k",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 10,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 93,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "1EF926F8-4F4D-4A38-8264-3DFA7133FD01",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "\/",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 44,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 9,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 92,
+          "BTTPredefinedActionName" : "Resize Window to Top Right Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "57992952-E787-44FE-AD34-DBD18405A573",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : ".",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 47,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 8,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+<<<<<<< Updated upstream
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTLayoutIndependentActionChar" : "]",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTUUID" : "1D906CC4-991F-43A5-9126-20CC1A68A464",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 1,
+=======
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTLayoutIndependentActionChar" : "[",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTUUID" : "CEC0616E-3AB9-455A-932B-93D9083DDAA3",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 0,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "DA22AD7E-DE58-48E7-9D59-2EA3DA7DB96E",
+=======
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Visual%20Studio%20Code.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310720",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "77890C84-4361-41EF-A459-392FA8B27A4E",
+>>>>>>> Stashed changes
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "RETURN",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
+          "BTTShortcutKeyCode" : 36,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 1,
+=======
+          "BTTShortcutKeyCode" : 8,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 27,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
+          "BTTPredefinedActionType" : 93,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "1EF926F8-4F4D-4A38-8264-3DFA7133FD01",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "\/",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 44,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 9,
+=======
+          "BTTPredefinedActionType" : 91,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Left Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "4808102A-F9B5-4510-84A4-F6F1D9F93110",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : ",",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 43,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 7,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+<<<<<<< Updated upstream
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 151,
+          "BTTPredefinedActionName" : "Move Window One Space\/Desktop Left",
+          "BTTAdditionalConfiguration" : "10223657",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "1A592CB3-9E97-4173-8428-930D48DCE30D",
+=======
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 175,
+          "BTTPredefinedActionName" : "Resize window to Right Two Thirds",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "0EEC2948-E48D-416D-8FC4-D4418363CF6F",
+>>>>>>> Stashed changes
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "=",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 17,
+=======
+          "BTTShortcutKeyCode" : 24,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 6,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 624,
+          "BTTTriggerTypeDescription" : "Please Select a Trigger ",
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "com.sublimemerge",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "9B24C990-703A-4F1C-BF3A-4574186DDFBF",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : -1,
+          "BTTOrder" : 24,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0,
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.29999999999999999,
+            "BTTKeyCount" : 8,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " S",
+                "BTTKEYCode" : 1,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " M",
+                "BTTKEYCode" : 46,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " S",
+                "BTTKEYCode" : 1,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " S",
+                "BTTKEYCode" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " M",
+                "BTTKEYCode" : 46,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " M",
+                "BTTKEYCode" : 46,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCharacter" : " S",
+                "BTTKEYCode" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCharacter" : " M",
+                "BTTKEYCode" : 46,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 572136000
+              }
+            ]
+          }
+        },
+        {
+<<<<<<< Updated upstream
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 108,
+          "BTTPredefinedActionName" : "Resize window to Left Third",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "6C3CDC30-D356-4CF7-A0F5-C5CD88DA12F3",
+          "BTTTriggerOnDown" : 1,
+=======
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTLayoutIndependentActionChar" : "]",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTUUID" : "022BE21D-0C13-4D63-9F0B-BDE8B7842CCE",
+>>>>>>> Stashed changes
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "p",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
+          "BTTShortcutKeyCode" : 35,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 2,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "314CE6B0-A1D4-4ECB-BF7C-223877E67964",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "k",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 10,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Visual%20Studio%20Code.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310720",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "77890C84-4361-41EF-A459-392FA8B27A4E",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 8,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 25,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+=======
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0
+>>>>>>> Stashed changes
+        },
+        {
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 109,
           "BTTPredefinedActionName" : "Resize window to Middle Third",
           "BTTAdditionalConfiguration" : "1835049",
           "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTKeyboardShortcutKeyboardType" : 40,
           "BTTUUID" : "E7CE2455-E8EB-47DC-A074-D7190D634C51",
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
@@ -858,6 +1297,44 @@
         {
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
+          "BTTPredefinedActionType" : 109,
+          "BTTPredefinedActionName" : "Resize window to Middle Third",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "E7CE2455-E8EB-47DC-A074-D7190D634C51",
+=======
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Sublime%20Merge.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310729",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "15E4E96B-1993-436B-B556-FCBFF8406743",
+>>>>>>> Stashed changes
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "[",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
+          "BTTShortcutKeyCode" : 33,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 3,
+=======
+          "BTTShortcutKeyCode" : 7,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 25,
+>>>>>>> Stashed changes
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 97,
           "BTTPredefinedActionName" : "Center Window",
           "BTTAdditionalConfiguration" : "1835049",
@@ -937,11 +1414,20 @@
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 41,
           "BTTUUID" : "C85364AC-169D-404B-A605-BD32DB246CFE",
+=======
+          "BTTPredefinedActionType" : 110,
+          "BTTPredefinedActionName" : "Resize window to Right Third",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "3FD8EA91-E0BD-4E60-B5AE-21B06EECADEB",
+>>>>>>> Stashed changes
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "m",
+          "BTTLayoutIndependentChar" : "]",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
           "BTTShortcutKeyCode" : 46,
           "BTTShortcutModifierKeys" : 1310720,
           "BTTOrder" : 26,
@@ -980,6 +1466,8 @@
           "BTTLayoutIndependentChar" : "]",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
+=======
+>>>>>>> Stashed changes
           "BTTShortcutKeyCode" : 30,
           "BTTShortcutModifierKeys" : 1835008,
           "BTTOrder" : 4,
@@ -987,6 +1475,7 @@
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
+<<<<<<< Updated upstream
           "BTTGestureNotes" : "Eject drives and egpu",
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1042,13 +1531,30 @@
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
           "BTTUUID" : "E7A1F107-E603-4096-BB9A-1A9D77C0041E",
+=======
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "file:\/\/\/Applications\/Marta.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTAdditionalConfiguration" : "1310720",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "46DB39E9-6B15-4F0E-82B5-125EF0448566",
+>>>>>>> Stashed changes
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
           "BTTShortcutKeyCode" : 45,
           "BTTShortcutModifierKeys" : 1310720,
           "BTTOrder" : 20,
+=======
+          "BTTShortcutKeyCode" : 14,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 24,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
@@ -1075,25 +1581,40 @@
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 19,
           "BTTPredefinedActionName" : "Maximize Window Left",
           "BTTAdditionalConfiguration" : "1835008",
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
           "BTTUUID" : "76B54752-49D0-4189-B72B-7BBC8C425A7F",
+=======
+          "BTTPredefinedActionType" : 50,
+          "BTTPredefinedActionName" : "Hide All Windows",
+          "BTTAdditionalConfiguration" : "1703978",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "EF67C37F-E0DB-45B2-A5B1-217BFEFEE3B4",
+>>>>>>> Stashed changes
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTShortcutKeyCode" : 4,
+<<<<<<< Updated upstream
           "BTTShortcutModifierKeys" : 1835008,
           "BTTOrder" : 13,
+=======
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 23,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 50,
           "BTTPredefinedActionName" : "Hide All Windows",
           "BTTAdditionalConfiguration" : "1703978",
@@ -1107,12 +1628,28 @@
           "BTTShortcutKeyCode" : 4,
           "BTTShortcutModifierKeys" : 1703936,
           "BTTOrder" : 21,
+=======
+          "BTTPredefinedActionType" : 90,
+          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "B64F23B2-DE6D-48DB-8B10-C94609E2D428",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "m",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 46,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 0,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
-          "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 175,
           "BTTPredefinedActionName" : "Resize window to Right Two Thirds",
           "BTTAdditionalConfiguration" : "1835049",
@@ -1127,30 +1664,48 @@
           "BTTShortcutKeyCode" : 24,
           "BTTShortcutModifierKeys" : 1835008,
           "BTTOrder" : 6,
-          "BTTDisplayOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 20,
-          "BTTPredefinedActionName" : "Maximize Window Right",
-          "BTTAdditionalConfiguration" : "1835049",
+=======
+          "BTTPredefinedActionType" : 201,
+          "BTTPredefinedActionName" : "Toggle Night Shift",
+          "BTTAdditionalConfiguration" : "1310720",
           "BTTEnabled2" : 1,
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTUUID" : "65A077F5-DD76-4B26-B4DA-F7B6C5EC3DEF",
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "E7A1F107-E603-4096-BB9A-1A9D77C0041E",
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
-          "BTTLayoutIndependentChar" : "l",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
-          "BTTShortcutKeyCode" : 37,
-          "BTTShortcutModifierKeys" : 1835008,
-          "BTTOrder" : 14,
+          "BTTShortcutKeyCode" : 45,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 20,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 203,
+          "BTTPredefinedActionName" : "Show Clipboard \/ Pasteboard History",
+          "BTTAdditionalConfiguration" : "1179658",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+<<<<<<< Updated upstream
+          "BTTUUID" : "65A077F5-DD76-4B26-B4DA-F7B6C5EC3DEF",
+=======
+          "BTTUUID" : "DAAD0112-3AC8-447A-8C44-7DC281C04BA1",
+>>>>>>> Stashed changes
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 1179648,
+          "BTTOrder" : 19,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+<<<<<<< Updated upstream
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 177,
@@ -1161,13 +1716,30 @@
           "BTTEnabled2" : 1,
           "BTTKeyboardShortcutKeyboardType" : 0,
           "BTTUUID" : "46DB39E9-6B15-4F0E-82B5-125EF0448566",
+=======
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 174,
+          "BTTPredefinedActionName" : "Resize window to Left Two Thirds",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "B85550D3-AB1F-48AB-9B74-4366A51A3881",
+>>>>>>> Stashed changes
           "BTTTriggerOnDown" : 1,
           "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "-",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
+<<<<<<< Updated upstream
           "BTTShortcutKeyCode" : 14,
           "BTTShortcutModifierKeys" : 1310720,
           "BTTOrder" : 22,
+=======
+          "BTTShortcutKeyCode" : 27,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 5,
+>>>>>>> Stashed changes
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
         }
@@ -1183,6 +1755,7 @@
         {
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+<<<<<<< Updated upstream
           "BTTPredefinedActionType" : 124,
           "BTTPredefinedActionName" : "Trigger Menubar Menu-Item",
           "BTTMenubarPath" : "View;Toggle Full Screen",
@@ -1200,15 +1773,60 @@
           "BTTOrder" : 0,
           "BTTDisplayOrder" : 0,
           "BTTAutoAdaptToKeyboardLayout" : 0
+=======
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "DA22AD7E-DE58-48E7-9D59-2EA3DA7DB96E",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "RETURN",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 36,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 196,
+          "BTTPredefinedActionName" : "Add New Space to Mission Control",
+          "BTTAdditionalConfiguration" : "1835008",
+          "BTTEnabled2" : 1,
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTUUID" : "F818C52D-7378-4855-9640-ABF99FE3CDE7",
+          "BTTTriggerOnDown" : 1,
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 45,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 16,
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+>>>>>>> Stashed changes
         }
-      ]
+      ],
+      "BTTAppSpecificSettings" : {
+
+      }
     },
     {
+<<<<<<< Updated upstream
       "BTTAppBundleIdentifier" : "com.apple.Safari",
       "BTTAppName" : "Safari",
       "BTTAppAutoInvertIcon" : 1,
       "BTTAppProcessMatchMode" : 2,
       "BTTAppProcessName" : "Safari",
+=======
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+>>>>>>> Stashed changes
       "BTTTriggers" : [
         {
           "BTTTriggerType" : 1003,
@@ -1216,11 +1834,16 @@
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
+          "BTTLayoutIndependentActionChar" : "[",
           "BTTAutoAdaptActionToKeyboardLayout" : true,
           "BTTShortcutToSend" : "55,33",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
           "BTTUUID" : "83DBBB32-A228-4BF6-B773-1A760E6157C3",
+=======
+          "BTTUUID" : "C096CC23-97C6-43BD-8BA5-4A74B879429E",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -1233,11 +1856,16 @@
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
+          "BTTLayoutIndependentActionChar" : "]",
           "BTTAutoAdaptActionToKeyboardLayout" : true,
           "BTTShortcutToSend" : "55,30",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
           "BTTUUID" : "31022E18-134D-45B0-9C9A-E59DCA14A43C",
+=======
+          "BTTUUID" : "58CE32C6-70FD-45C6-92DB-E7B2036E7F6A",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -1263,7 +1891,11 @@
           "BTTShortcutToSend" : "55,33",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
           "BTTUUID" : "942029DC-86FB-4D48-B57A-A8B0600B0BB7",
+=======
+          "BTTUUID" : "18A88595-91AE-4C58-9FE1-BEEB44F5174C",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -1280,7 +1912,11 @@
           "BTTShortcutToSend" : "55,30",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
           "BTTUUID" : "18A88595-91AE-4C58-9FE1-BEEB44F5174C",
+=======
+          "BTTUUID" : "942029DC-86FB-4D48-B57A-A8B0600B0BB7",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
@@ -1290,6 +1926,74 @@
       ]
     },
     {
+<<<<<<< Updated upstream
+      "BTTAppBundleIdentifier" : "org.yanex.marta",
+      "BTTAppName" : "Marta",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Marta",
+=======
+      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
+      "BTTAppName" : "Code",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Code",
+>>>>>>> Stashed changes
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
+          "BTTUUID" : "CEC0616E-3AB9-455A-932B-93D9083DDAA3",
+=======
+          "BTTUUID" : "F8EB3B86-C5F3-4606-BE5A-0E6EDE5826F0",
+>>>>>>> Stashed changes
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
+          "BTTUUID" : "022BE21D-0C13-4D63-9F0B-BDE8B7842CCE",
+=======
+          "BTTUUID" : "8E455E67-351A-471C-8695-59FA77C63EDE",
+>>>>>>> Stashed changes
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0
+        }
+      ]
+    },
+    {
+<<<<<<< Updated upstream
+      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
+      "BTTAppName" : "Code",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Code",
+      "BTTTriggers" : [
+        {
+=======
       "BTTAppBundleIdentifier" : "org.yanex.marta",
       "BTTAppName" : "Marta",
       "BTTAppAutoInvertIcon" : 1,
@@ -1315,6 +2019,7 @@
           "BTTDisplayOrder" : 0
         },
         {
+>>>>>>> Stashed changes
           "BTTTriggerType" : 1004,
           "BTTTriggerTypeDescription" : "Button 4",
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
@@ -1325,55 +2030,59 @@
           "BTTShortcutToSend" : "55,30",
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
+<<<<<<< Updated upstream
+          "BTTUUID" : "F8EB3B86-C5F3-4606-BE5A-0E6EDE5826F0",
+=======
           "BTTUUID" : "022BE21D-0C13-4D63-9F0B-BDE8B7842CCE",
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTOrder" : 1,
           "BTTDisplayOrder" : 0
+<<<<<<< Updated upstream
+        },
+=======
         }
       ]
     },
     {
-      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
-      "BTTAppName" : "Code",
+      "BTTAppBundleIdentifier" : "com.googlecode.iterm2",
+      "BTTAppName" : "iTerm2",
       "BTTAppAutoInvertIcon" : 1,
       "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "Code",
+      "BTTAppProcessName" : "iTerm2",
       "BTTTriggers" : [
+>>>>>>> Stashed changes
         {
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,30",
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 124,
+          "BTTPredefinedActionName" : "Trigger Menubar Menu-Item",
+          "BTTMenubarPath" : "View;Toggle Full Screen",
+          "BTTAdditionalConfiguration" : "1310729",
           "BTTEnabled2" : 1,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTUUID" : "F8EB3B86-C5F3-4606-BE5A-0E6EDE5826F0",
-          "BTTNotesInsteadOfDescription" : 0,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0
-        },
-        {
-          "BTTTriggerType" : 1003,
-          "BTTTriggerTypeDescription" : "Button 3",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutToSend" : "55,33",
-          "BTTEnabled2" : 1,
+<<<<<<< Updated upstream
           "BTTAlternateModifierKeys" : 0,
           "BTTUUID" : "8E455E67-351A-471C-8695-59FA77C63EDE",
+=======
+          "BTTKeyboardShortcutKeyboardType" : 40,
+          "BTTUUID" : "BF895637-7336-4222-84DF-9932199287F4",
+          "BTTTriggerOnDown" : 1,
+>>>>>>> Stashed changes
           "BTTNotesInsteadOfDescription" : 0,
+          "BTTLayoutIndependentChar" : "f",
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
+          "BTTShortcutKeyCode" : 3,
+          "BTTShortcutModifierKeys" : 1310720,
           "BTTOrder" : 0,
+<<<<<<< Updated upstream
           "BTTDisplayOrder" : 0
+=======
+          "BTTDisplayOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+>>>>>>> Stashed changes
         }
       ]
     }

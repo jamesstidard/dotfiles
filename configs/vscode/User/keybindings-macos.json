@@ -255,7 +255,7 @@
         "command": "-workbench.action.focusRightGroup"
     },
     {
-        "key": "shift+cmd+k shift+cmd+i",
+        "key": "shift+cmd+k shift+cmd+k",
         "command": "workbench.action.moveActiveEditorGroupUp"
     },
     {
