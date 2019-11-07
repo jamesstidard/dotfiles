@@ -15,22 +15,12 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 git submodule update --init --recursive "dotbot-asdf"
 git submodule update --init --recursive "dotbot-brewfile"
 git submodule update --init --recursive "dotbot-vscode"
-git submodule update --init --recursive "dotbot-apt-get"
 
 for conf in ${DEFAULT_CONFIG_BODY} ${@}; do
-    # get around python3 requiremtn for apt-get on macOS that ships with 2
-    if [ "$conf" == "linux" ]; then
-        "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
-            --plugin-dir dotbot-vscode \
-            --plugin-dir dotbot-brewfile \
-            --plugin-dir dotbot-asdf \
-            --plugin-dir dotbot-apt-get \
-            -c "${CONFIG_PREFIX}${conf}${CONFIG_SUFFIX}"
-    else
-        "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
-            --plugin-dir dotbot-vscode \
-            --plugin-dir dotbot-brewfile \
-            --plugin-dir dotbot-asdf \
-            -c "${CONFIG_PREFIX}${conf}${CONFIG_SUFFIX}"
-    fi
+    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
+        --plugin-dir dotbot-vscode \
+        --plugin-dir dotbot-brewfile \
+        --plugin-dir dotbot-asdf \
+        --plugin-dir dotbot-apt-get \
+        -c "${CONFIG_PREFIX}${conf}${CONFIG_SUFFIX}"
 done
