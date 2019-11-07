@@ -5,7 +5,7 @@
 
 - clean: ['~']
 
-- aptget:
+- apt-get:
   - linuxbrew-wrapper
   - build-essential
   - libssl-dev
