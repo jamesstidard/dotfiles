@@ -10,9 +10,9 @@
     command: sudo apt update && sudo apt -y upgrade && sudo apt install -y linuxbrew-wrapper build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
     stdin: true
     stdout: true
-  - grep -qxF 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' ~/.bash_profile || echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.bash_profile
-  - grep -qxF 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' ~/.bash_profile || echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >> ~/.bash_profile
-  - grep -qxF 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' ~/.bash_profile || echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bash_profile
+  - grep -qxF 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' ~/.bashrc || echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.bashrc
+  - grep -qxF 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' ~/.bashrc || echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >> ~/.bashrc
+  - grep -qxF 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' ~/.bashrc || echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bashrc
   - PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
   - brew install gcc
 
