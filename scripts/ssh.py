@@ -81,7 +81,7 @@ if LINUX:
     if not XCLIP_PRESSENT:
         install.append("xclip")
     if install:
-        subprocess.call(["sudo apt update && sudo apt install -y", *install], shell=True)
+        subprocess.call(["sudo apt update && sudo apt install -y"] + install, shell=True)
 
 
 GITHUB_AUTH = subprocess.call(["ssh", "-T", "git@github.com"], shell=True) == 1
