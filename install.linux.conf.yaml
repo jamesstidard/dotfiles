@@ -6,11 +6,6 @@
 - clean: ['~']
 
 - shell:
-  - sudo apt update && sudo apt install -y git xclip
-  -
-    command: /usr/bin/env python scripts/ssh.py
-    stdin: true
-    stdout: true
   -
     command: sudo apt update && sudo apt -y upgrade && sudo apt install -y linuxbrew-wrapper build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
     stdin: true

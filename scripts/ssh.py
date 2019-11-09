@@ -13,9 +13,13 @@ except NameError:
     pass
 
 
+MACOS = sys.platform.startswith("darwin")
+LINUX = sys.platform.startswith("linux")
 SSH_PATH = os.path.expanduser("~/.ssh/id_rsa")
 SSH_PATH_PUB = os.path.expanduser("~/.ssh/id_rsa.pub")
 SSH_PRESENT = os.path.exists(SSH_PATH)
+GIT_PRESENT = subprocess.call("which git", shell=True) == 0
+XCLIP_PRESSENT = subprocess.call("which xclip", shell=True) == 0
 
 NO_COLOR = '\033[0m' # No Color
 
@@ -61,12 +65,23 @@ if not SSH_PRESENT:
     )
     subprocess.check_call(["eval", "\"$(ssh-agent -s)\""], shell=True)
 
-    if sys.platform.startswith("darwin"):
+    if MACOS:
         subprocess.check_call(["ssh-add", "-K", SSH_PATH], shell=True)
     else:
         subprocess.check_call(["ssh-add", SSH_PATH], shell=True)
 
     print(green("ssh key made."))
+
+
+if LINUX:
+    install = []
+
+    if not GIT_PRESENT:
+        install.append("git")
+    if not XCLIP_PRESSENT:
+        install.append("xclip")
+    if install:
+        subprocess.call(["sudo apt update && sudo apt install -y", *install], shell=True)
 
 
 GITHUB_AUTH = subprocess.call(["ssh", "-T", "git@github.com"], shell=True) == 1
@@ -83,9 +98,9 @@ if not GITHUB_AUTH:
         ) + "\n" + pub + "\n"
     )
 
-    if sys.platform.startswith("darwin"):
+    if MACOS:
         on_clipboard = subprocess.call(["pbcopy", "<", SSH_PATH_PUB], shell=True) == 0
-    elif sys.playform.startswith("linux"):
+    elif LINUX:
         on_clipboard = subprocess.call(["xclip -sel clip", "<", SSH_PATH_PUB], shell=True) == 0
     else:
         on_clipboard = False

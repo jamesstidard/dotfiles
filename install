@@ -16,6 +16,8 @@ git submodule update --init --recursive "dotbot-asdf"
 git submodule update --init --recursive "dotbot-brewfile"
 git submodule update --init --recursive "dotbot-vscode"
 
+./scripts/ssh.py
+
 for conf in ${DEFAULT_CONFIG_BODY} ${@}; do
     "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
         --plugin-dir dotbot-vscode \
