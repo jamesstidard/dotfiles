@@ -114,3 +114,5 @@ if not GITHUB_AUTH:
     #         ["hub", "api", "--method", "POST", "/user/keys", "--input", tf.name],
     #         shell=True,
     #     )
+
+exit(0)
