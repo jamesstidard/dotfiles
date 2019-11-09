@@ -16,7 +16,6 @@ git submodule update --init --recursive "dotbot-asdf"
 git submodule update --init --recursive "dotbot-brewfile"
 git submodule update --init --recursive "dotbot-vscode"
 
-chmod u+x ./scripts/ssh.py
 ./scripts/ssh.py
 
 for conf in ${DEFAULT_CONFIG_BODY} ${@}; do
