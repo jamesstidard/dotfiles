@@ -99,9 +99,9 @@ if not GITHUB_AUTH:
     )
 
     if MACOS:
-        on_clipboard = subprocess.call(["pbcopy", "<", SSH_PATH_PUB], shell=True) == 0
+        on_clipboard = subprocess.call(["pbcopy <" + SSH_PATH_PUB], shell=True) == 0
     elif LINUX:
-        on_clipboard = subprocess.call(["xclip -sel clip", "<", SSH_PATH_PUB], shell=True) == 0
+        on_clipboard = subprocess.call(["xclip -sel clip < " + SSH_PATH_PUB], shell=True) == 0
     else:
         on_clipboard = False
 
