@@ -84,7 +84,7 @@ if LINUX:
         subprocess.call(["sudo apt update && sudo apt install -y"] + install, shell=True)
 
 
-GITHUB_AUTH = subprocess.call(["ssh", "-T", "git@github.com"], shell=True) == 1
+GITHUB_AUTH = subprocess.call(["ssh -T git@github.com"], shell=True) == 1
 
 if not GITHUB_AUTH:
     with open(SSH_PATH_PUB, "r") as fp:
@@ -111,7 +111,7 @@ if not GITHUB_AUTH:
     while True:
         input("press enter when complete: ")
 
-        if subprocess.call(["ssh", "-T", "git@github.com"], shell=True) == 1:
+        if subprocess.call(["ssh -T git@github.com"], shell=True) == 1:
             break
         else:
             print("it doesn't look like you've done it to me...")
