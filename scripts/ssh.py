@@ -52,7 +52,7 @@ GITHUB_AUTH = subprocess.call(["ssh", "-T", "git@github.com"], shell=True) == 1
 
 if not GITHUB_AUTH:
     user = os.environ.get('USER')
-    machine = os.uname().nodename
+    machine = os.uname()[1]
 
     with open(SSH_PATH_PUB, "r") as fp:
         pub = fp.read()
