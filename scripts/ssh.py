@@ -12,7 +12,7 @@ SSH_PRESENT = os.path.exists(SSH_PATH)
 def confirm(msg):
     rsp = input(msg + " [Y/n]")
     while True:
-        if rsp is None or  rsp.lower() in {"y", "ye", "yes"}:
+        if rsp is None or rsp.lower() in {"y", "ye", "yes"}:
             return True
         elif rsp.lower() in {"n", "no"}:
             return False
