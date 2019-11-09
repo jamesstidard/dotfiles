@@ -10,7 +10,7 @@ SSH_PRESENT = os.path.exists(SSH_PATH)
 
 
 def confirm(msg):
-    rsp = input(msg + " [Y/n]")
+    rsp = input(msg + " [Y/n]: ")
     while True:
         if rsp is None or rsp.lower() in {"y", "ye", "yes"}:
             return True
@@ -38,12 +38,12 @@ if not SSH_PRESENT:
 
     email = grab_github_email()
 
-    subprocess.check_call(["ssh-keygen -t rsa -b 4096 -C", email])
-    subprocess.check_call(["eval \"$(ssh-agent -s)\""])
-    subprocess.check_call(["ssh-add", SSH_PATH])
+    subprocess.check_call(["ssh-keygen -t rsa -b 4096 -C", email], shell=True)
+    subprocess.check_call(["eval \"$(ssh-agent -s)\""], shell=True)
+    subprocess.check_call(["ssh-add", SSH_PATH], shell=True)
 
 
-GITHUB_AUTH = subprocess.call("ssh -T git@github.com") == 1
+GITHUB_AUTH = subprocess.call("ssh -T git@github.com", shell=True) == 1
 
 if not GITHUB_AUTH:
     user = os.environ.get('USER')
@@ -59,4 +59,7 @@ if not GITHUB_AUTH:
                 "key": pub
             })
 
-        subprocess.check_call(["hub api /user/keys --method POST --input", tf.name])
+        subprocess.check_call(
+            ["hub api /user/keys --method POST --input", tf.name],
+            shell=True,
+        )
