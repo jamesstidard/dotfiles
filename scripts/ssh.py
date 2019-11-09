@@ -65,6 +65,6 @@ if not GITHUB_AUTH:
             }, fp)
 
         subprocess.check_call(
-            ["hub", "api", "/user/keys" "--method", "POST", "--input", tf.name],
+            ["hub", "api", "/user/keys", "--method", "POST", "--input", tf.name],
             shell=True,
         )
