@@ -4,6 +4,11 @@ import json
 import tempfile
 import subprocess
 
+try:
+    input = raw_input
+except NameError:
+    pass
+
 SSH_PATH = os.path.expanduser("~/.ssh/id_rsa")
 SSH_PATH_PUB = os.path.expanduser("~/.ssh/id_rsa.pub")
 SSH_PRESENT = os.path.exists(SSH_PATH)
