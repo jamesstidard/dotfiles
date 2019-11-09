@@ -9,4 +9,4 @@
     cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 [pull]
-	rebase = true
+	rebase = false
