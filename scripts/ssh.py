@@ -62,7 +62,7 @@ if not GITHUB_AUTH:
             json.dump({
                 "title": user + "@" + machine + " [dotfiles]",
                 "key": pub
-            })
+            }, fp)
 
         subprocess.check_call(
             ["hub", "api", "/user/keys" "--method", "POST", "--input", tf.name],
