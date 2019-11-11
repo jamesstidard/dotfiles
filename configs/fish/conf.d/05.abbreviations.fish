@@ -13,6 +13,7 @@ if status is-login
     abbr -a gl git log
 
     abbr -a sm smerge
+    abbr -a smd smerge mergetool
 
     abbr -a dc docker-compose
 
