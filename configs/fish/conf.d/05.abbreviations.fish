@@ -10,15 +10,17 @@ if status is-login
     abbr -a gca git commit -am
     abbr -a gf git fetch
     abbr -a gco git checkout
+    abbr -a gl git log
 
     abbr -a sm smerge
 
     abbr -a dc docker-compose
 
-    abbr -a dev ~/Development
+    abbr -a cd dev ~/Development
 
     abbr -a pg pyground
 
+    abbr -a pe pipenv
     abbr -a pei pipenv install
     abbr -a peu pipenv uninstall
     abbr -a pel pipenv lock
