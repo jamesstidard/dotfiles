@@ -3,6 +3,7 @@
 "Desktop" "${user.desktop}"
 "Documents" "${user.documents}"
 "Development" "~/Development"
+"Nextcloud" "~/Nextcloud"
 "Downloads" "${user.downloads}"
 "Library" "${user.library}"
 "Python Virtual Environments" "~/.local/share/virtualenvs"

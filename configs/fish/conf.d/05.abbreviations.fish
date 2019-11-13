@@ -17,7 +17,7 @@ if status is-login
 
     abbr -a dc docker-compose
 
-    abbr -a cd dev ~/Development
+    abbr -a dev cd ~/Development
 
     abbr -a pg pyground
 
