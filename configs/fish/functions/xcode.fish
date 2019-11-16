@@ -13,6 +13,10 @@ function xcode
         open -a Xcode $file
         return
     end
+    if test -e $argv
+        open -a Xcode $argv
+        return
+    end
 
     echo 'No *.xcworkspace or *.xcodeproj found in directory'
 end

@@ -12,21 +12,30 @@ if status is-login
     abbr -a gco git checkout
     abbr -a gl git log
 
+    abbr -a c code
+    abbr -a xc xcode
+
     abbr -a sm smerge
     abbr -a smd smerge mergetool
 
     abbr -a dc docker-compose
 
-    abbr -a dev cd ~/Development
+    abbr -a hm cd ~
+    abbr -a dt cd ~/Desktop
+    abbr -a dv cd ~/Development
+    abbr -a js cd ~/Development/James-Stidard
+    abbr -a wv cd ~/Development/Wave-Venture
 
     abbr -a pg pyground
 
     abbr -a pe pipenv
     abbr -a pei pipenv install
-    abbr -a peu pipenv uninstall
+    abbr -a peu pipenv update
+    abbr -a perm pipenv uninstall
     abbr -a pel pipenv lock
     abbr -a per pipenv run
-    abbr -a pes pipenv sync
+    abbr -a perp pipenv run python
+    abbr -a pes pipenv sync --dev
 
     abbr -a bs brew search
     abbr -a bi brew install
