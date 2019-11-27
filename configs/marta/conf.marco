@@ -78,11 +78,7 @@ keyBindings {
     }
 
     "Cmd+]" {
-        id "core.forwards"
-    }
-
-    "Control+Alt+Cmd+O" {
-        id "core.lookup.here"
+        id "core.forward"
     }
 
     "Control+Cmd+C" {
@@ -93,7 +89,7 @@ keyBindings {
         id "core.move"
     }
 
-    "Control+Cmd+O" {
+    "Cmd+F" {
         id "core.lookup"
     }
 
@@ -101,15 +97,11 @@ keyBindings {
         id "core.rename"
     }
 
-    "Shift+Cmd+>" {
-        id "core.toggle.show.hidden.files"
-    }
-
     "Shift+Cmd+." {
         id "core.toggle.show.hidden.files"
     }
 
-    "Control+Shift+Cmd+O" {
+    "Shift+Cmd+F" {
         id "core.lookup.here"
     }
 
