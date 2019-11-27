@@ -113,12 +113,12 @@ keyBindings {
         id "core.new.file"
     }
 
-    "Shift+Cmd+G" {
-        id "core.goto.path"
-    }
-
     "Shift+Cmd+N" {
         id "core.new.directory"
+    }
+    
+    "Shift+Cmd+G" {
+        id "gadget.action.sublimemerge"
     }
 
     "Cmd+E" { id "core.edit" }
