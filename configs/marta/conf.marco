@@ -8,6 +8,7 @@ behavior {
         core.delete.confirm false
         core.trash.confirm false
     }
+    theme "Kon"
 }
 
 environment {
@@ -119,6 +120,10 @@ keyBindings {
     
     "Shift+Cmd+G" {
         id "gadget.action.sublimemerge"
+    }
+    
+    "Cmd+R" {
+        id "core.refresh"
     }
 
     "Cmd+E" { id "core.edit" }
