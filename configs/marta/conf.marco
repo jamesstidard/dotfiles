@@ -9,6 +9,12 @@ behavior {
         core.trash.confirm false
     }
     theme "Kon"
+    
+    sheetDialogs false
+    
+    table {
+        showGoUpDirectory false
+    }
 }
 
 environment {
@@ -64,6 +70,10 @@ gadgets [
 ]
 
 keyBindings {
+    "Left" { id "core.go.up" }
+    
+    "Right" { id "core.open.directory" }
+
     "Alt+Cmd+C" { id "core.copy.selected.paths" }
 
     "Cmd+G" {
