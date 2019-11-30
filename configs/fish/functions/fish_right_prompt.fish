@@ -13,7 +13,7 @@ function fish_right_prompt
     if git_is_repo
         if test (git_untracked_files) -gt 0
             set_color brwhite
-            printf '●'
+            printf '•'
         else
             set_color brblack
             printf '◦'
@@ -21,7 +21,7 @@ function fish_right_prompt
 
         if git_is_dirty
             set_color brblue
-            printf '●'
+            printf '•'
         else
             set_color brblack
             printf '◦'
@@ -39,13 +39,13 @@ function fish_right_prompt
             switch (git_ahead)
             case +
                 set_color brgreen
-                printf ' ●'
+                printf ' •'
             case ±
                 set_color bryellow
-                printf ' ●'
+                printf ' •'
             case -
                 set_color brblue
-                printf ' ●'
+                printf ' •'
             case '*'
                 set_color brblack
                 printf ' ◦'
