@@ -14,3 +14,5 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 eval "$(hub alias -s)"
 
 eval "$(pyenv init -)"
+
+alias update="fish -c 'update'"
