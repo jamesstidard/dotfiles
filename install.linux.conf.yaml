@@ -14,7 +14,7 @@
   - grep -qxF 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' ~/.bashrc || echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >> ~/.bashrc
   - grep -qxF 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' ~/.bashrc || echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bashrc
   - export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-  - brew install gcc
+  - /home/linuxbrew/.linuxbrew/bin/brew install gcc
 
 
 - brewfile:
