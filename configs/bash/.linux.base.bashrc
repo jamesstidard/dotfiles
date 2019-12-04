@@ -11,6 +11,8 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 # export CPPFLAGS="-I/home/linuxbrew/.linuxbrew/opt/qt/include"
 # export PKG_CONFIG_PATH="/home/linuxbrew/.linuxbrew/opt/qt/lib/pkgconfig"
 
+export PATH="$HOME/.asdf/shims:$PATH"
+
 eval "$(hub alias -s)"
 
 eval "$(pyenv init -)"
