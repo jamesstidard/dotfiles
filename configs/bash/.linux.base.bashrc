@@ -13,6 +13,9 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 
 export PATH="$HOME/.asdf/shims:$PATH"
 
+export CC="$(which gcc-8)"
+export CXX="$(which g++-8)"
+
 eval "$(hub alias -s)"
 
 eval "$(pyenv init -)"
