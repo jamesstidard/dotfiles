@@ -35,4 +35,4 @@
     - plugin: ruby
       url: https://github.com/asdf-vm/asdf-ruby.git
     - plugin: rust
-      url: https://github.com/code-lever/asdf-rust.gi
+      url: https://github.com/code-lever/asdf-rust.git
