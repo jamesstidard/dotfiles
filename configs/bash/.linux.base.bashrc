@@ -7,6 +7,8 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 
 eval "$(hub alias -s)"
 
+eval "$(pyenv init -)"
+
 # linux brew qt
 export PATH="/home/linuxbrew/.linuxbrew/opt/qt/bin:$PATH"
 export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/qt/lib"
