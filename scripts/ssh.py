@@ -93,8 +93,8 @@ if not GITHUB_AUTH:
     print(
         green(
             "Looks like your ssh key isn't present on GitHub. "
-            "Take this to  Github.com > settings > ssh & gpg keys > add ssh key > "
-            "paste key and save."
+            "Take this to  Github.com > settings (top right under profile picture) "
+            "> ssh & gpg keys > add ssh key > paste key and save."
         ) + "\n" + pub + "\n"
     )
 
