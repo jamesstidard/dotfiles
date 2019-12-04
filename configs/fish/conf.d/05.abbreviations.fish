@@ -11,6 +11,10 @@ if status is-login
     abbr -a gf git fetch
     abbr -a gco git checkout
     abbr -a gl git log
+    abbr -a gsm git submodule
+    abbr -a gsmi git submodule init
+    abbr -a gsms git submodule sync
+    abbr -a gsmu git submodule update --recursive
 
     abbr -a c code
     abbr -a xc xcode
