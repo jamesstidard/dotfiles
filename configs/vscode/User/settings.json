@@ -189,6 +189,7 @@
         "levelno",
         "linuxbrew",
         "logging",
+        "mac",
         "mobilisation",
         "ndarray",
         "ndim",
@@ -198,6 +199,7 @@
         "openpyxl",
         "openssl",
         "opex",
+        "os",
         "pipenv",
         "pkgutil",
         "popen",
@@ -237,6 +239,7 @@
         "wamit",
         "websockets",
         "xarray",
+        "xclip",
         "xlsx"
     ],
     "rust.all_features": true,
