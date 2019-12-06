@@ -17,16 +17,19 @@ brew "gcc"
 brew "gifsicle"
 brew "git"
 brew "gprof2dot"
+brew "helm"
 brew "httpie"
 brew "hub"
 brew "imagemagick"
-brew "kubernetes-helm"
 brew "make"
 brew "mas"
 brew "mercurial"
+brew "minikube", link: false
 brew "mosh"
 brew "nmap"
+brew "pandoc"
 brew "pipenv"
+brew "qt"
 brew "rmtrash"
 brew "rpl"
 brew "telnet"
@@ -43,6 +46,7 @@ cask "balenaetcher"
 cask "bartender"
 cask "battle-net"
 cask "bettertouchtool"
+cask "cardhop"
 cask "chatmate-for-whatsapp"
 cask "db-browser-for-sqlite"
 cask "discord"
@@ -64,10 +68,11 @@ cask "ngrok"
 cask "openemu"
 cask "parsec"
 cask "pocket-casts"
-cask "pycharm"
+cask "pycharm-ce"
 cask "qlcolorcode"
 cask "qlstephen"
 cask "sequel-pro"
+cask "skype"
 cask "slack"
 cask "spotify"
 cask "steam"
@@ -83,7 +88,7 @@ cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
-mas "Affinity Designer", id: 824171161
+mas "1Blocker", id: 1107421413
 mas "Cascadea", id: 1432182561
 mas "CL!ng", id: 1244392031
 mas "Disk Cartography", id: 905264208
@@ -93,4 +98,5 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Remote Mouse", id: 403195710
+mas "Vimari", id: 1480933944
 mas "Xcode", id: 497799835
