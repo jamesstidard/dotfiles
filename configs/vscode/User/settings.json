@@ -193,6 +193,7 @@
         "ndarray",
         "ndim",
         "nemoh",
+        "netcdf",
         "normalise",
         "numpy",
         "openpyxl",
@@ -279,4 +280,7 @@
     "vim.easymotionMarkerHeight": 20,
     "vim.easymotionMarkerYOffset": -10,
     "workbench.editor.showTabs": true,
+    "task.problemMatchers.neverPrompt": {
+        "shell": true
+    },
 }
