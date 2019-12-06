@@ -16,6 +16,8 @@ if status is-login
     abbr -a gsms git submodule sync
     abbr -a gsmu git submodule update --recursive
 
+    abbr -a mta marta
+
     abbr -a c code
     abbr -a xc xcode
 
