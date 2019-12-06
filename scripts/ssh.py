@@ -18,8 +18,8 @@ LINUX = sys.platform.startswith("linux")
 SSH_PATH = os.path.expanduser("~/.ssh/id_rsa")
 SSH_PATH_PUB = os.path.expanduser("~/.ssh/id_rsa.pub")
 SSH_PRESENT = os.path.exists(SSH_PATH)
-GIT_PRESENT = subprocess.call("which git", shell=True) == 0
-XCLIP_PRESSENT = subprocess.call("which xclip", shell=True) == 0
+GIT_PRESENT = subprocess.call("which git", shell=True, stdout=subprocess.DEVNULL) == 0
+XCLIP_PRESSENT = subprocess.call("which xclip", shell=True, stdout=subprocess.DEVNULL) == 0
 
 NO_COLOR = '\033[0m' # No Color
 
@@ -84,7 +84,7 @@ if LINUX:
         subprocess.call(["sudo apt update && sudo apt install -y"] + install, shell=True)
 
 
-GITHUB_AUTH = subprocess.call(["ssh -T git@github.com"], shell=True) == 1
+GITHUB_AUTH = subprocess.call(["ssh -T git@github.com"], shell=True, stderr=subprocess.DEVNULL) == 1
 
 if not GITHUB_AUTH:
     with open(SSH_PATH_PUB, "r") as fp:
