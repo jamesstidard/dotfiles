@@ -49,3 +49,7 @@
 - vscodefile:
     file: configs/vscode/extensions.vscodefile
     insiders: false
+
+- shell:
+    - grep -qxF '/usr/local/bin/fish' /etc/shells || echo /usr/local/bin/fish | sudo tee -a /etc/shells
+    - chsh -s /usr/local/bin/fish
