@@ -194,6 +194,7 @@
         "mac",
         "macos",
         "mobilisation",
+        "mobilisations",
         "ndarray",
         "ndim",
         "nemoh",
@@ -290,4 +291,5 @@
     "task.problemMatchers.neverPrompt": {
         "shell": true
     },
+    "terminal.integrated.rendererType": "experimentalWebgl",
 }
