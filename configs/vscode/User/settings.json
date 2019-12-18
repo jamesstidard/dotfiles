@@ -207,6 +207,7 @@
         "os",
         "pipenv",
         "pkgutil",
+        "plist",
         "popen",
         "ppath",
         "pydatetime",
