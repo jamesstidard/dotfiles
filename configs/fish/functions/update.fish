@@ -8,7 +8,7 @@ function update
 
     if test -d ~/.dotfiles
         echo_header "dotfiles"
-        git -C ~/.dotfiles pull --rebase --autostash
+        git -C ~/.dotfiles pull --autostash
     end
 
     if type -q fisher
