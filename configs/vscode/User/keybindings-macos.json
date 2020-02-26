@@ -393,11 +393,6 @@
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+cmd+d",
-        "command": "editor.action.changeAll",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "cmd+f2",
         "command": "-editor.action.changeAll",
         "when": "editorTextFocus && !editorReadonly"
@@ -787,17 +782,8 @@
         "key": "ctrl+alt+cmd+backspace",
         "command": "notifications.clearAll"
     },
-    // {
-    //     "key": "cmd+t cmd+v",
-    //     "command": "toggleVim"
-    // },
-    // {
-    //     "key": "shift+;",
-    //     "command": "vim.showQuickpickCmdLine",
-    //     "when": "editorTextFocus && vim.mode != 'Insert'"
-    // }
-    // {
-    //     "key": "shift+cmd+i",
-    //     "command": "python.datascience.showhistorypane"
-    // }
+    {
+        "key": "alt+cmd+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch"
+    }
 ]
