@@ -60,6 +60,15 @@
 			"        yield l[i:i + size]",
 		],
 	},
+	"Rotate Iterable": {
+		"prefix": "defrotate",
+		"body": [
+			"def rotate(iterable, n):",
+			"    iterable = deque(iterable)",
+			"    iterable.rotate(n)",
+			"    return list(iterable)",
+		]
+	},
 	"Float Range": {
 		"prefix": "deffrange",
 		"body": [
