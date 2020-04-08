@@ -93,11 +93,11 @@ keyBindings {
     }
 
     "Control+Cmd+C" {
-        id "core.copy"
+        id "core.copy.to"
     }
 
-    "Control+Cmd+M" {
-        id "core.move"
+    "Shift+Cmd+M" {
+        id "core.move.to"
     }
 
     "Cmd+F" {
@@ -139,4 +139,18 @@ keyBindings {
     "Cmd+E" { id "core.edit" }
 
     "Cmd+Shift+E" { id "core.open.editor.here" }
+}
+
+setup {
+    actionBar [
+        "core.open"
+        "core.open.with"
+        "core.edit"
+        "core.rename"
+        "core.copy.to"
+        "core.move.to"
+        "core.new.directory"
+        "core.new.file"
+        "core.trash"
+    ]
 }

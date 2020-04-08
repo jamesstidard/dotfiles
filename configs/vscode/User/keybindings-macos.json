@@ -189,7 +189,7 @@
         "command": "-workbench.action.openEditorAtIndex9"
     },
     {
-        "key": "alt+cmd+x",
+        "key": "shift+alt+cmd+d",
         "command": "editor.action.smartSelect.expand",
         "when": "editorTextFocus"
     },
@@ -785,5 +785,25 @@
     {
         "key": "alt+cmd+d",
         "command": "editor.action.addSelectionToPreviousFindMatch"
+    },
+    {
+        "key": "shift+alt+cmd+e",
+        "command": "revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
     }
 ]

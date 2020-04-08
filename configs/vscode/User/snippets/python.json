@@ -34,7 +34,7 @@
 			"",
 			"",
 			"if __name__ == '__main__':",
-    		"    main()",
+    	"    main()",
 		],
 	},
 	"Benchmark Context Manager": {
@@ -163,15 +163,15 @@
 		"prefix": "defallequal",
 		"body": [
 			"def all_equal(l):",
-    		"    return len(set(l)) in {0, 1}"
+    	"    return len(set(l)) in {0, 1}"
 		]
 	},
 	"Snake Case": {
 		"prefix": "defsnakecase",
 		"body": [
 			"def snake_case(name):",
-            "    s1 = re.sub('(.)([A-Z][a-z]+)', r'\\1_\\2', name)",
-            "    return re.sub('([a-z0-9])([A-Z])', r'\\1_\\2', s1).lower()"
+			"    s1 = re.sub('(.)([A-Z][a-z]+)', r'\\1_\\2', name)",
+			"    return re.sub('([a-z0-9])([A-Z])', r'\\1_\\2', s1).lower()"
 		]
 	},
 	"CWD Context": {
@@ -179,12 +179,12 @@
 		"body": [
 			"@contextmanager",
 			"def cwd(wd):",
-			"   previous_wd = os.getcwd()",
+			"    previous_wd = os.getcwd()",
 			"    os.chdir(wd)",
-            "    try:",
-            "        yield",
-            "    finally:",
-            "        os.chdir(previous_wd)"
+			"    try:",
+			"        yield",
+			"    finally:",
+			"        os.chdir(previous_wd)"
 		]
 	}
 }
