@@ -70,6 +70,19 @@ gadgets [
 ]
 
 keyBindings {
+    "F1" { }
+    "F2" { }
+    "F3" { }
+    "F4" { }
+    "F5" { }
+    "F6" { }
+    "F7" { }
+    "F8" { }
+    "F9" { }
+    "F10" { }
+    "F11" { }
+    "F12" { }    
+
     "Left" { id "core.go.up" }
     
     "Right" { id "core.open.directory" }
@@ -92,7 +105,7 @@ keyBindings {
         id "core.forward"
     }
 
-    "Control+Cmd+C" {
+    "Shift+Cmd+C" {
         id "core.copy.to"
     }
 
@@ -135,10 +148,32 @@ keyBindings {
     "Cmd+R" {
         id "core.refresh"
     }
+    
+    "Cmd+O" { id "core.open" }
+    
+    "Cmd+Alt+O" { id "core.open.with" }
 
     "Cmd+E" { id "core.edit" }
 
     "Cmd+Shift+E" { id "core.open.editor.here" }
+    
+    "Return" { id "core.rename" }
+    
+    "Cmd+Alt+Backspace" { id "core.delete" }
+}
+
+setup {
+    actionBar [
+        "core.open"
+        "core.open.with"
+        "core.edit"
+        "core.rename"
+        "core.copy.to"
+        "core.move.to"
+        "core.new.directory"
+        "core.new.file"
+        "core.trash"
+    ]
 }
 
 setup {
