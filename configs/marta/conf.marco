@@ -70,6 +70,7 @@ gadgets [
 ]
 
 keyBindings {
+
     "F1" { }
     "F2" { }
     "F3" { }
@@ -133,7 +134,7 @@ keyBindings {
         id "core.copy.current.dir.path"
     }
 
-    "Shift+Alt+Cmd+N" {
+    "Cmd+Alt+N" {
         id "core.new.file"
     }
 
