@@ -42,6 +42,7 @@ if status is-login
     abbr -a per pipenv run
     abbr -a perp pipenv run python
     abbr -a pes pipenv sync --dev
+    abbr -a peo pipenv open
 
     abbr -a bs brew search
     abbr -a bi brew install
