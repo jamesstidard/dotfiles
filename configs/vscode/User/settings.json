@@ -164,6 +164,7 @@
         "corefile",
         "cors",
         "customisable",
+        "customisation",
         "dask",
         "datetime",
         "dateutil",
@@ -326,6 +327,7 @@
         "wheel",
         "xarray",
         "xclip",
+        "xcode",
         "xlsx",
         "yanex"
     ],
