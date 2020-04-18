@@ -31,6 +31,7 @@ if status is-login
     abbr -a dv cd ~/Development
     abbr -a js cd ~/Development/James-Stidard
     abbr -a wv cd ~/Development/Wave-Venture
+    abbr -a dl cd ~/Downloads
 
     abbr -a pg pyground
 
