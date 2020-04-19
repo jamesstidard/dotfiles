@@ -1,3 +1,3 @@
 if status is-login
-    set --local --export EDITOR code
+    set --global --export EDITOR code
 end
