@@ -43,6 +43,11 @@
       url: https://github.com/asdf-vm/asdf-ruby.git
     - plugin: rust
       url: https://github.com/code-lever/asdf-rust.git
+    - plugin: nodejs
+      url: https://github.com/asdf-vm/asdf-nodejs.git
+      global: 13.9.0
+      versions:
+        - 13.9.0
 
 - shell:
     - [sh configs/macos/defaults.sh, "Setting macOS Defaults"]
