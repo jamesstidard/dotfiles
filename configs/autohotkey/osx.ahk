@@ -41,18 +41,136 @@ Return
     Send ^+{End}
 Return
 
->+J::
+
+; === Grave & Tilde on Escape ===
+
+>^Esc::
+    Send {`` down}
+    Send {`` up}
+Return
+
+<+Esc::
+    Send {~ down}
+    Send {~ up}
+Return
+
+
+; === HJKL Arrow Keys ===
+
+>^J::
     Send {Down}
 Return
 
->+K::
+>^K::
     Send {Up}
 Return
 
->+H::
+>^H::
     Send {Left}
 Return
 
->+L::
+>^L::
     Send {Right}
 Return
+
+
+; === F-Keys on Number Row ===
+
+>^1::
+    Send {F1}
+Return
+
+>^2::
+    Send {F2}
+Return
+
+>^3::
+    Send {F3}
+Return
+
+>^4::
+    Send {F4}
+Return
+
+>^5::
+    Send {F5}
+Return
+
+>^6::
+    Send {F6}
+Return
+
+>^7::
+    Send {F7}
+Return
+
+>^8::
+    Send {F8}
+Return
+
+>^9::
+    Send {F9}
+Return
+
+>^0::
+    Send {F10}
+Return
+
+>^-::
+    Send {F11}
+Return
+
+>^=::
+    Send {F12}
+Return
+
+
+; === Media Keys on Number Row ===
+
+>^<+7::
+    Send {Media_Prev}
+Return
+
+>^<+8::
+    Send {Media_Play_Pause}
+Return
+
+>^<+9::
+    Send {Media_Next}
+Return
+
+>^<+0::
+    Send {Volume_Mute}
+Return
+
+>^<+-::
+    Send {Volume_Down}
+Return
+
+>^<+=::
+    Send {Volume_Up}
+Return
+
+<+<^4::
+    Send {PrintScreen}
+Return
+
+
+; === Window Snapping ===
+
+<!<#<^H::
+    Send #{Left}
+Return
+
+<!<#<^J::
+    Send #{Up}
+Return
+
+<!<#<^K::
+    Send #{Down}
+Return
+
+<!<#<^L::
+    Send #{Right}
+Return
+
