@@ -159,18 +159,17 @@ Return
 ; === Window Snapping ===
 
 <!<#<^H::
-    Send #{Left}
+    Send #{Left Down}
 Return
 
 <!<#<^J::
-    Send #{Up}
+    Send #{Down Down}
 Return
 
 <!<#<^K::
-    Send #{Down}
+    Send #{Up Down}
 Return
 
 <!<#<^L::
-    Send #{Right}
+    Send #{Right Down}
 Return
-
