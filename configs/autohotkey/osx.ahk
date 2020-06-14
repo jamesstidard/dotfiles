@@ -7,7 +7,7 @@ LCtrl & Tab:: AltTab
 !Tab:: Send ^{Tab}
 !+Tab:: Send ^+{Tab}
 
-^Space:: Send ^{Esc}
+<^Space:: Send ^{Esc}
 
 ^Left::
     Send {Home}
@@ -39,6 +39,24 @@ Return
 
 ^+Down::
     Send ^+{End}
+Return
+
+
+; === Backspace as Delete ===
+
+>^Backspace::
+    Send {Delete}
+Return
+
+
+; === Currency ===
+
+<#3::
+    Send £
+Return
+
+<#4::
+    Send €
 Return
 
 
