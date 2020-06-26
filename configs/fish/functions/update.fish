@@ -25,8 +25,8 @@ function update
 
     echo_header "Purging Orphaned Venvs"
     for venv in ~/.local/share/virtualenvs/*/.project
-        read proj < $venv
-        if not test -e $proj
+        read directory < $venv
+        if not test -e "$directory/Pipfile"
             set orphan (dirname $venv)
             echo "Purging orphaned venv: $orphan"
             rm -rf $orphan
