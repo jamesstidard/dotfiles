@@ -7,7 +7,7 @@
 
 - shell:
   -
-    command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    command: which brew || curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
     stdin: true
     stdout: true
   - grep -qxF 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' ~/.bashrc || echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.bashrc
