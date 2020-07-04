@@ -380,5 +380,6 @@
     },
     "terminal.integrated.rendererType": "experimentalWebgl",
     "docker.defaultRegistryPath": "node1.external.wv:5000",
+    "liveshare.featureSet": "stable",
     "python.languageServer": "Microsoft",
 }
