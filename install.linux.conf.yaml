@@ -15,6 +15,8 @@
   - grep -qxF 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' ~/.bashrc || echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bashrc
   - export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
   - /home/linuxbrew/.linuxbrew/bin/brew install gcc
+  - grep -qxF '/home/linuxbrew/.linuxbrew/bin/fish' /etc/shells || echo '/home/linuxbrew/.linuxbrew/bin/fish' >> /etc/shells
+  - chsh -s /home/linuxbrew/.linuxbrew/bin/fish
 
 
 - brewfile:
