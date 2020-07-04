@@ -16,7 +16,7 @@
   - export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
   - /home/linuxbrew/.linuxbrew/bin/brew install gcc
   - grep -qxF '/home/linuxbrew/.linuxbrew/bin/fish' /etc/shells || echo '/home/linuxbrew/.linuxbrew/bin/fish' | sudo tee -a /etc/shells
-  - chsh -s /home/linuxbrew/.linuxbrew/bin/fish
+  - sudo chsh -s /home/linuxbrew/.linuxbrew/bin/fish
 
 
 - brewfile:
