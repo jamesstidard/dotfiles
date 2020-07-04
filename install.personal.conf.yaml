@@ -6,4 +6,5 @@
 - clean: ['~']
 
 - link:
+    ~/.ssh/authorized_keys: configs/ssh/personal.authorized_keys
     ~/.gitconfig: configs/git/.personal.gitconfig
