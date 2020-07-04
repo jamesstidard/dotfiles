@@ -186,5 +186,21 @@
 			"    finally:",
 			"        os.chdir(previous_wd)"
 		]
+	},
+	"Retry": {
+		"prefix": "defretry",
+		"body": [
+			"def retry(fn, args=(), kwargs=(), max_attempts=3, allowed_exceptions=(Exception, )):",
+			"    args = list(args)",
+			"    kwargs = dict(kwargs)",
+			"    allowed_exceptions = tuple(allowed_exceptions)",
+			"",
+			"    for attempt in itertools.count(start=1):",
+			"        try:",
+			"            return fn(*args, **kwargs)",
+			"        except allowed_exceptions as e:",
+			"            if attempt >= max_attempts:",
+			"                raise e",
+		]
 	}
 }
