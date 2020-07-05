@@ -67,7 +67,7 @@ Return
     Send {`` up}
 Return
 
-<+Esc::
++Esc::
     Send {~ down}
     Send {~ up}
 Return
