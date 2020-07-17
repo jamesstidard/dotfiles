@@ -270,6 +270,7 @@
         "pyplot",
         "pyqtgraph",
         "pytest",
+        "pythonpath",
         "quantile",
         "randomise",
         "randomised",
@@ -382,4 +383,5 @@
     "docker.defaultRegistryPath": "node1.external.wv:5000",
     "liveshare.featureSet": "stable",
     "python.languageServer": "Microsoft",
+    "python.showStartPage": false,
 }
