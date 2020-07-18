@@ -1,0 +1,13 @@
+- defaults:
+    link:
+        relink: true
+        create: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/sublime-merge/Packages/User: configs/sublime-merge/Packages/User
+
+- vscodefile:
+    file: configs/vscode/extensions.vscodefile
+    insiders: false

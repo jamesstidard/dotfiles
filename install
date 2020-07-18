@@ -10,6 +10,17 @@ if [[ -z "${BASH_SOURCE}" ]]; then
     exit 1
 fi
 
+# Platform Specifics
+if [[ "$(uname)" = "Darwin" ]]; then
+    export PLATFORM="macos"
+    export HOMEBREW_BIN="/usr/local/bin"
+elif [[ "$(uname)" = "Linux" ]] && command -v apt-get &> /dev/null ; then
+    export PLATFORM="linux"
+    export HOMEBREW_BIN="/home/linuxbrew/.linuxbrew/bin"
+else
+    echo "Unsupported/unknown platform."; exit 1
+fi
+
 # Constants
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DOTBOT_DIR="dotbot/core"
@@ -26,12 +37,23 @@ git submodule update --init --recursive "dotbot/vscode"
 # Scripts will setup PATH appropriatly
 # but need to assume first run so make sure
 # everything we need is there
-export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:$PATH"
+export PATH="$HOMEBREW_BIN:$PATH"
 
-for profile in ${DEFAULT_PROFILE} ${@}; do
+for PROFILE in ${DEFAULT_PROFILE} ${@}; do
+    # Run platform agnostic profile
     "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
         --plugin-dir dotbot/asdf \
         --plugin-dir dotbot/brewfile \
         --plugin-dir dotbot/vscode \
-        -c "${PROFILE_DIR}/${profile}.yaml"
+        -c "${PROFILE_DIR}/${PROFILE}.yaml"
+
+    # extend with platform specific profile of current platform
+    PLATFORM_PROFILE="${PROFILE_DIR}/${PROFILE}.${PLATFORM}.yaml"
+    if [ -f "$PLATFORM_PROFILE" ]; then
+        "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
+            --plugin-dir dotbot/asdf \
+            --plugin-dir dotbot/brewfile \
+            --plugin-dir dotbot/vscode \
+            -c "${PLATFORM_PROFILE}"
+    fi
 done

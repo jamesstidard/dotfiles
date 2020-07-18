@@ -16,7 +16,7 @@ brew "ffmpeg"
 brew "fish"
 brew "gcc"
 brew "gifsicle"
-brew "git"
+brew "git" 
 brew "gprof2dot"
 brew "helm"
 brew "httpie"
@@ -90,7 +90,6 @@ cask "twitch"
 cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "visual-studio-code"
-cask "visual-studio-code-insiders"
 mas "1Blocker", id: 1107421413
 mas "Cascadea", id: 1432182561
 mas "CL!ng", id: 1244392031

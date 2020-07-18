@@ -4,6 +4,3 @@
         create: true
 
 - clean: ['~']
-
-- link:
-    ~/.gitconfig: configs/git/.work.gitconfig
