@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -e
+
+HOMEBREW_URL="https://raw.githubusercontent.com/Homebrew/install/master/install.sh"
+
+# Install Homebrew if not already
+if ! command -v brew &> /dev/null; then
+    if [[ "$(uname)" = "Darwin" ]]; then
+        bash -c "$(curl -fsSL ${HOMEBREW_URL})"
+        eval $(/usr/local/bin/brew shellenv)
+
+    elif [[ "$(uname)" = "Linux" ]] && command -v apt-get &> /dev/null ; then
+        sudo apt update && sudo apt install -y build-essential curl file git
+        bash -c "$(curl -fsSL ${HOMEBREW_URL})"
+        eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+    else
+        echo "Unable to install homebrew. Unsupported/unknown platform."
+        exit 1
+    fi
+fi

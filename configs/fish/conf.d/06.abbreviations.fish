@@ -45,6 +45,7 @@ if status is-login
     abbr -a pes pipenv sync --dev
     abbr -a peo pipenv open
 
+    abbr -a brwe brew
     abbr -a bs brew search
     abbr -a bi brew install
     abbr -a bu brew rmtree
