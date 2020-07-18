@@ -38,6 +38,7 @@ git submodule update --init --recursive "dotbot/vscode"
 # but need to assume first run so make sure
 # everything we need is there
 export PATH="$HOMEBREW_BIN:$PATH"
+export HOMEBREW_BUNDLE_NO_LOCK=1
 
 for PROFILE in ${DEFAULT_PROFILE} ${@}; do
     # Run platform agnostic profile
