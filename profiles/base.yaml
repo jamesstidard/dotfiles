@@ -1,0 +1,35 @@
+- defaults:
+    link:
+        relink: true
+        create: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.vimrc: configs/vim/.vimrc
+    ~/.hushlogin: configs/.hushlogin
+    ~/.config/fish/conf.d: configs/fish/conf.d
+    ~/.config/fish/fisher/fishfile: configs/fish/fisher/fishfile
+    ~/.config/fish/functions: configs/fish/functions
+    ~/.config/flake8: configs/python/flake8
+
+- shell:
+    -
+        command: ./scripts/homebrew
+        description: Installing Homebrew
+        stdin: true
+        stdout: true
+        stderr: true
+    -
+        command: brew install gcc
+        description: Installing GCC base
+        stdin: true
+        stdout: true
+        stderr: true
+
+- brewfile:
+    file: configs/brew/Brewfile
+    stdout: true
+    stderr: true
+    include: ['tap', 'brew', 'cask', 'mas']

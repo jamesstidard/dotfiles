@@ -6,10 +6,6 @@
 - clean: ['~']
 
 - shell:
-  -
-    command: which brew || curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
-    stdin: true
-    stdout: true
   - grep -qxF 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' ~/.bashrc || echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.bashrc
   - grep -qxF 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' ~/.bashrc || echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >> ~/.bashrc
   - grep -qxF 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' ~/.bashrc || echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bashrc
