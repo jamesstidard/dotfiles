@@ -210,12 +210,10 @@
 	</dict>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>584 456 799 448 0 0 1920 1057 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>-1406 607 400 129 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>-938 255 620 392 -1920 0 1920 1057 </string>
+	<string>-1247 498 620 392 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>990 367 612 384 0 0 1920 1057 </string>
+	<string>262 123 862 701 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-1873 0 1873 1057 -1920 0 1920 1057 </string>
 	<key>New Bookmarks</key>
@@ -1858,7 +1856,6 @@
 	<array>
 		<string>3.3.6</string>
 		<string>3.3.7</string>
-		<string>3.3.8</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -1874,7 +1871,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>592951749.03863394</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>55</integer>
+	<integer>36</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2591,6 +2588,13 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSearchHistory2</key>
+	<array>
+		<string>brew</string>
+		<string>self.ind_</string>
+		<string>self.id</string>
+		<string>port </string>
+	</array>
 	<key>NoSyncSuppressBroadcastInputWarning</key>
 	<true/>
 	<key>NoSyncSuppressBroadcastInputWarning_selection</key>
@@ -2659,7 +2663,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-03T09:53:12Z</date>
+	<date>2019-12-03T10:21:32Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -2713,7 +2717,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.8</string>
+	<string>3.3.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
