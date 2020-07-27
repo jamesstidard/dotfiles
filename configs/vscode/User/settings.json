@@ -241,6 +241,7 @@
         "ndim",
         "nemoh",
         "netcdf",
+        "networkx",
         "nextcloud",
         "noqa",
         "normalise",
@@ -384,4 +385,6 @@
     "liveshare.featureSet": "stable",
     "python.languageServer": "Microsoft",
     "python.showStartPage": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
 }
