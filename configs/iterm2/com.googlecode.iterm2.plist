@@ -18,6 +18,8 @@
 	<string>manual</string>
 	<key>BadgeFont</key>
 	<string>SF Mono Regular</string>
+	<key>Command</key>
+	<string>/usr/local/bin/fish</string>
 	<key>Default Bookmark Guid</key>
 	<string>92AA75B3-98FB-4857-AB03-DB52F50EA4E0</string>
 	<key>DimBackgroundWindows</key>
@@ -163,10 +165,16 @@
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 1</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Development/James-Stidard/dotfiles/configs/iterm2</string>
+	<string>~/Desktop</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{799, 448}</string>
+	<string>{712, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -208,14 +216,50 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>584 456 799 448 0 0 1920 1057 </string>
+	<key>NSWindow Frame NSColorPanel</key>
+	<string>47 83 224 275 0 0 2560 1417 </string>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>325 141 575 77 0 0 1440 877 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>543 561 400 129 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>-1247 498 620 392 -1920 0 1920 1057 </string>
+	<string>433 363 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 126 606 469 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>-970 200 796 486 -2560 0 2560 1417 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>262 123 862 701 0 0 1920 1057 </string>
+	<string>237 53 1060 903 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-1873 0 1873 1057 -1920 0 1920 1057 </string>
+	<string>98 425 612 368 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 10</key>
+	<string>312 177 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 11</key>
+	<string>810 430 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 12</key>
+	<string>828 366 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 13</key>
+	<string>57 343 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 14</key>
+	<string>78 320 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>211 246 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>637 96 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>733 237 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>762 234 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>181 41 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>625 256 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 8</key>
+	<string>152 71 612 420 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 9</key>
+	<string>765 73 612 420 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -421,7 +465,7 @@
 			<key>Columns</key>
 			<integer>86</integer>
 			<key>Command</key>
-			<string></string>
+			<string>/usr/local/bin/fish</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -486,6 +530,8 @@
 			<integer>1</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string></string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1855,33 +1901,46 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
+		<string>3.3.11</string>
+		<string>3.3.12</string>
+		<string>3.3.4</string>
+		<string>3.3.1</string>
+		<string>3.3.3</string>
 		<string>3.3.7</string>
+		<string>3.3.9</string>
+		<string>3.2.9</string>
+		<string>3.3.0</string>
+		<string>3.3.2</string>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1920, 1080}}</string>
+		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{149, 736}</string>
+		<string>{311, 690}</string>
 	</dict>
+	<key>NoSyncHaveRequestedFullDiskAccess</key>
+	<true/>
 	<key>NoSyncHaveUsedCopyMode</key>
 	<true/>
+	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
+	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>9CD7BCFA-7768-4077-A86C-09020B269299</string>
-	<key>NoSyncLastTipTime</key>
-	<real>592951749.03863394</real>
+	<string>635512BA-60EF-443E-9509-C9CA943672EF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>36</integer>
+	<integer>152</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>593038145.06630194</real>
+	<real>586717568.03311503</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
-	<true/>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -2208,6 +2267,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.jobPid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>frame</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2241,6 +2308,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.lastCommand</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2296,14 +2371,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>number</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>currentTab.currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2313,6 +2380,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.commandLine</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>number</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2377,6 +2452,14 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>title</string>
@@ -2387,7 +2470,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>title</string>
+				<string>tmuxWindowTitle</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2395,7 +2478,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>tmuxWindowTitle</string>
+				<string>title</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2491,7 +2574,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.termid</string>
+				<string>currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2523,7 +2606,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.path</string>
+				<string>currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2588,25 +2671,12 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory2</key>
-	<array>
-		<string>brew</string>
-		<string>self.ind_</string>
-		<string>self.id</string>
-		<string>port </string>
-	</array>
 	<key>NoSyncSuppressBroadcastInputWarning</key>
 	<true/>
 	<key>NoSyncSuppressBroadcastInputWarning_selection</key>
 	<integer>0</integer>
-	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>592775572.60929203</real>
-	<key>NoSyncTipsDisabled</key>
-	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-	</array>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>560892845.285748</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -2651,7 +2721,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/james/Development/James-Stidard/dotfiles/configs/iterm2</string>
+	<string>/Users/james/.config/iterm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2659,13 +2729,15 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=58</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=44</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-03T10:21:32Z</date>
+	<date>2020-07-22T14:57:26Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>904272398</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2702,6 +2774,8 @@
 		<string>Recent Directories</string>
 		<string>Jobs</string>
 	</array>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1554155136</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>UseMetal</key>
@@ -2717,7 +2791,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

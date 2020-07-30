@@ -51,6 +51,7 @@ function update
         sudo apt-get upgrade -y -qq
     end
 
-    echo_header "Fish Auto Complete"
+    echo_header "Fish Config"
+    set_fish_profile
     fish_update_completions
 end
