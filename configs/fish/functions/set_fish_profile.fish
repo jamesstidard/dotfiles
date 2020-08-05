@@ -59,7 +59,7 @@ function set_fish_profile
     # HOMEBREW
     if test (uname) = "Darwin"
         set -Ux HOMEBREW_PREFIX "/usr/local"
-    else if test (uname) = "linux"
+    else if test (uname) = "Linux"
         set -Ux HOMEBREW_PREFIX "/home/linuxbrew/.linuxbrew"
     else
         echo "unknown brew path"
@@ -149,7 +149,7 @@ function set_fish_profile
     abbr -a md "pbpaste | pandoc --highlight-style kate --standalone --metadata pagetitle=\"...\" --from gfm --to html | textutil -stdin -format html -convert rtf -stdout | pbcopy"
 
     # FISHER
-    set -U fisher_path ~/.config/fish/fisher
+    set -Ux fisher_path ~/.config/fish/fisher
 
     add_fish_function_path $fisher_path/functions
     add_fish_complete_path $fisher_path/completions
