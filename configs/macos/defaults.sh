@@ -28,6 +28,7 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -int 1
 defaults write com.apple.finer WarnOnEmptyTrash -int 0
 
 # Dock
+# NOTE: overriden with a dock profile on "./install complete"
 defaults write com.apple.dock autohide -int 0
 
 defaults write com.apple.dock expose-group-apps -int 0
@@ -44,7 +45,7 @@ defaults write com.apple.dock tilesize -int 36
 
 defaults write com.apple.dock trash-full -int 1
 
-# Set Quick Look Color Code theme
+Set Quick Look Color Code theme
 
 defaults write org.n8gray.QLColorCode hlTheme Zenburn
 

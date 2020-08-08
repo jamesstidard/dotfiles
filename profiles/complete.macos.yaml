@@ -1,3 +1,7 @@
 - vscodefile:
     file: configs/vscode/extensions.vscodefile
     insiders: false
+
+
+- shell:
+    - ["/usr/bin/profiles -I -F configs/macos/dock.mobileconfig", "Installing Dock Profile"]

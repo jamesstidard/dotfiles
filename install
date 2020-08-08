@@ -41,7 +41,7 @@ export PATH="$HOMEBREW_BIN:$PATH"
 export HOMEBREW_BUNDLE_NO_LOCK=1
 
 for PROFILE in ${DEFAULT_PROFILE} ${@}; do
-    # Run platform agnostic profile
+    echo "Runing platform agnostic \"${PROFILE}\" profile"
     "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
         --plugin-dir dotbot/asdf \
         --plugin-dir dotbot/brewfile \
@@ -51,6 +51,7 @@ for PROFILE in ${DEFAULT_PROFILE} ${@}; do
     # extend with platform specific profile of current platform
     PLATFORM_PROFILE="${PROFILE_DIR}/${PROFILE}.${PLATFORM}.yaml"
     if [ -f "$PLATFORM_PROFILE" ]; then
+        echo "Running platform specific \"${PROFILE}\" profile for ${PLATFORM}"
         "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
             --plugin-dir dotbot/asdf \
             --plugin-dir dotbot/brewfile \
