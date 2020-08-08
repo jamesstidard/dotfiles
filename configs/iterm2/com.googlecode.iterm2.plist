@@ -32,6 +32,8 @@
 	<false/>
 	<key>DisableWindowSizeSnap</key>
 	<true/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<false/>
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>EnableProxyIcon</key>
@@ -146,11 +148,11 @@
 	<key>HideScrollbar</key>
 	<false/>
 	<key>HideTab</key>
-	<true/>
+	<false/>
 	<key>HideTabCloseButton</key>
 	<false/>
 	<key>HideTabNumber</key>
-	<true/>
+	<false/>
 	<key>Hotkey</key>
 	<true/>
 	<key>HotkeyChar</key>
@@ -220,6 +222,8 @@
 	<string>47 83 224 275 0 0 2560 1417 </string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>325 141 575 77 0 0 1440 877 </string>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>1130 927 347 181 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>543 561 400 129 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -231,7 +235,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>237 53 1060 903 0 0 2560 1417 </string>
+	<string>1261 424 612 410 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>98 425 612 368 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
@@ -844,7 +848,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Menlo-Regular 11</string>
+			<string>SFMono-Regular 11</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -1404,12 +1408,16 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.15791046619415283</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
 				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.68000233173370361</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1445,7 +1453,7 @@
 			</dict>
 			<key>Bound Hosts</key>
 			<array>
-				<string>johnas</string>
+				<string>!freebie</string>
 			</array>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1909,17 +1917,24 @@
 		<string>3.3.7</string>
 		<string>3.3.9</string>
 		<string>3.2.9</string>
-		<string>3.3.0</string>
 		<string>3.3.2</string>
+		<string>3.3.0</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>SF Mono</string>
+		<string>Menlo</string>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
+	<key>NoSyncEnableAutomaticProfileSwitchingLogging</key>
 	<true/>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1440, 900}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{311, 690}</string>
+		<string>{376, 830}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -1930,7 +1945,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>635512BA-60EF-443E-9509-C9CA943672EF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>152</integer>
+	<integer>154</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2671,6 +2686,8 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
+	<true/>
 	<key>NoSyncSuppressBroadcastInputWarning</key>
 	<true/>
 	<key>NoSyncSuppressBroadcastInputWarning_selection</key>
@@ -2722,6 +2739,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/james/.config/iterm2</string>
+	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
+	<false/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2733,13 +2752,15 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-22T14:57:26Z</date>
+	<date>2020-08-08T10:05:16Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
 	<integer>904272398</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
+	<key>SeparateWindowTitlePerTab</key>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -2755,17 +2776,19 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.38177243163529739</real>
+	<real>0.24224567819148937</real>
 	<key>StatusBarPosition</key>
 	<integer>1</integer>
 	<key>StretchTabsToFillBar</key>
-	<true/>
+	<false/>
 	<key>TabStyle</key>
 	<integer>1</integer>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>5</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>TabsHaveCloseButton</key>
+	<false/>
 	<key>TerminalVMargin</key>
 	<integer>4</integer>
 	<key>ToolbeltTools</key>

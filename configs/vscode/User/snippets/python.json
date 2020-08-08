@@ -202,5 +202,16 @@
 			"            if attempt >= max_attempts:",
 			"                raise e",
 		]
+	},
+	"Engineering Notation": {
+		"prefix": "defengineer",
+		"body": [
+			"def engineering_notation(value, precision=3):",
+			"    fmt = \"{{:.{}g}}\".format(precision)",
+			"    sci = fmt.format(value)",
+			"    eng = decimal.Decimal(sci).to_eng_string()",
+			"    eng = eng.lower()  # small e is nicer",
+			"    return eng",
+		]
 	}
 }
