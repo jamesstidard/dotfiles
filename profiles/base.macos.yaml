@@ -18,3 +18,4 @@
 
 - shell:
     - [sh configs/macos/defaults.sh, "Setting macOS Defaults"]
+    - ["cp -f /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*.otf ~/Library/Fonts/", "Installing SF Mono Font"]
