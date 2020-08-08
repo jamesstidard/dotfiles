@@ -38,7 +38,6 @@ brew "imagemagick"
 brew "make"
 brew "mas"
 brew "mercurial"
-brew "minikube", link: false
 brew "mosh"
 brew "nmap"
 brew "nut"
@@ -59,7 +58,6 @@ brew "wireguard-tools"
 brew "yarn"
 brew "youtube-dl"
 brew "zlib"
-brew "finestructure/tap/arena"
 brew "heroku/brew/heroku"
 brew "jamesstidard/formulas/mzo"
 cask "1password"
@@ -116,7 +114,6 @@ cask "steelseries-engine"
 cask "sublime-merge"
 cask "sublime-text"
 cask "superduper"
-cask "teamviewer"
 cask "telegram"
 cask "transmit"
 cask "tunnelblick"
@@ -145,3 +142,4 @@ mas "Remote Mouse", id: 403195710
 mas "Vimari", id: 1480933944
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
+brew "finestructure/tap/arena"
