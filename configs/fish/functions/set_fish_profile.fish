@@ -78,9 +78,10 @@ function set_fish_profile
     add_path ~/.asdf/shims
 
     # COMPILER FLAGS
-    set -Ux CFLAGS "-I"(brew --prefix zlib)"/include -I"(brew --prefix sqlite)"/include -I"(brew --prefix bzip2)"/include -I"(brew --prefix openssl)"/include"
-    set -Ux CPPFLAGS "-I"(brew --prefix zlib)"/include -I"(brew --prefix sqlite)"/include -I"(brew --prefix bzip2)"/include -I"(brew --prefix openssl)"/include"
+    set -Ux CPPFLAGS "-I"(brew --prefix zlib)"/include -I"(brew --prefix sqlite)"/include -I"(brew --prefix openssl)"/include"
     set -Ux LDFLAGS "-L"(brew --prefix zlib)"/lib -L"(brew --prefix sqlite)"/lib -L"(brew --prefix bzip2)"/lib -L"(brew --prefix openssl)"/lib"
+
+    set -Ux PKG_CONFIG_PATH (brew --prefix openssl)"/lib/pkgconfig "(brew --prefix sqlite)"/lib/pkgconfig "(brew --prefix zlib)"/lib/pkgconfig"
 
     # ABBRIVIATIONS
     for a in (abbr --list)
