@@ -146,7 +146,7 @@ function set_fish_profile
     abbr -a al asdf list
     abbr -a as asdf current
 
-    abbr -a ipscan 'nmap -sP "10.0.0.*"'
+    abbr -a ipscan 'nmap -sP "10.1.62.*"'
 
     abbr -a md "pbpaste | pandoc --highlight-style kate --standalone --metadata pagetitle=\"...\" --from gfm --to html | textutil -stdin -format html -convert rtf -stdout | pbcopy"
 

@@ -159,7 +159,9 @@
         "bretschneider",
         "brewfile",
         "caddyfile",
+        "cafile",
         "capex",
+        "certifi",
         "chdir",
         "cmake",
         "coredns",
@@ -387,4 +389,5 @@
     "python.showStartPage": false,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
+    "python.dataScience.debugJustMyCode": false,
 }
