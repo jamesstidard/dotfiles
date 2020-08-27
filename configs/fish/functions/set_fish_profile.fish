@@ -105,8 +105,8 @@ function set_fish_profile
     abbr -a gsms git submodule sync
     abbr -a gsmu git submodule update --recursive
 
-    abbr -a iterm open -a iTerm .
-    abbr -a term open -a iTerm .
+    abbr -a iterm open -a iTerm
+    abbr -a term open -a iTerm
     abbr -a mta marta
 
     abbr -a c code
