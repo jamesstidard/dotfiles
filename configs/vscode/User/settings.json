@@ -162,6 +162,7 @@
         "cafile",
         "capex",
         "certifi",
+        "cfgrib",
         "chdir",
         "cmake",
         "coredns",
@@ -390,4 +391,5 @@
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
     "python.dataScience.debugJustMyCode": false,
+    "cSpell.enabled": false,
 }
