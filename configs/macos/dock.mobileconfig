@@ -87,7 +87,7 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Canary.app</string>
+							<string>/System/Applications/Mail.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
