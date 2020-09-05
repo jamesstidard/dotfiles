@@ -95,7 +95,7 @@
 		<key>CPU_CombineLogicalCores</key>
 		<integer>0</integer>
 		<key>CPU_DropdownOrderDisabled</key>
-		<string>processes,load,uptime,buttons</string>
+		<string>load,uptime,buttons</string>
 		<key>CPU_MenubarMode</key>
 		<array>
 			<dict>
@@ -111,6 +111,17 @@
 				<string>D90C3143-739D-47E0-8C2D-EF6164E7E1A6</string>
 			</dict>
 		</array>
+		<key>CombinedMenubarDisplayMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>1</string>
+				<key>uuid</key>
+				<string>73E2AA2A-FB45-408B-B3CC-B09F7C75CB54</string>
+			</dict>
+		</array>
+		<key>Disks_DropdownOrderDisabled</key>
+		<string>removable,unmounted,buttons</string>
 		<key>Disks_MenubarItems</key>
 		<array>
 			<dict>
@@ -119,7 +130,7 @@
 				<key>key</key>
 				<string>599C6E3F-CF2C-4F47-A163-B15C4DD0E36A</string>
 				<key>name</key>
-				<string>Macintosh HD</string>
+				<string>Macintosh HD - Data</string>
 			</dict>
 		</array>
 		<key>DropdownTheme-Dark</key>
@@ -198,7 +209,7 @@
 			</dict>
 		</array>
 		<key>Memory_DropdownOrderDisabled</key>
-		<string></string>
+		<string>buttons</string>
 		<key>MenubarGraphOpacity-Dark</key>
 		<real>1</real>
 		<key>MenubarSkinColor-Dark</key>
@@ -277,9 +288,11 @@
 		</array>
 		<key>Sensors-Limits-Updated</key>
 		<true/>
+		<key>Sensors_DropdownOrderDisabled</key>
+		<string>buttons</string>
 		<key>StatusItems-Order</key>
 		<array>
-			<integer>1</integer>
+			<integer>8</integer>
 			<integer>6</integer>
 			<integer>7</integer>
 		</array>
@@ -442,11 +455,11 @@
 		<key>Zarya-TLE</key>
 		<dict>
 			<key>time</key>
-			<real>1596806980.8683739</real>
+			<real>1599220380.7415261</real>
 			<key>tle</key>
 			<string>ISS (ZARYA)             
-1 25544U 98067A   20220.25765183  .00031791  00000-0  57938-3 0  9999
-2 25544  51.6453  95.7043 0001117  20.0719 119.8247 15.49172948239931</string>
+1 25544U 98067A   20248.24740521  .00001300  00000-0  31518-4 0  9997
+2 25544  51.6478 317.2174 0002004  80.4703  22.3765 15.49215668244277</string>
 		</dict>
 	</dict>
 	<key>version</key>
