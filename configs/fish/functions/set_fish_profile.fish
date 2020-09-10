@@ -110,7 +110,7 @@ function set_fish_profile
     abbr -a mta marta
 
     abbr -a c code
-    abbr -a asp "code --add (pipenv --venv)/lib/python*/site-packages/"
+    abbr -a asp "code --add (pipenv --venv)/lib/python*/"
     abbr -a xc xcode
 
     abbr -a sm smerge
