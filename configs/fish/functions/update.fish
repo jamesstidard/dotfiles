@@ -20,7 +20,6 @@ function update
         echo_header "Brew"
         brew update
         brew upgrade
-        brew cask upgrade
     end
 
     echo_header "Purging Orphaned Venvs"
