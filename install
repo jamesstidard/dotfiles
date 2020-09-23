@@ -2,60 +2,73 @@
 
 set -e
 
-# Check script is being executed appropriatly
-if [[ -z "${BASH_SOURCE}" ]]; then
-    msg="This file should be executed directly with \`./install\`
-    and not interpreted with \`sh ./install\`"
-    echo "$msg"
-    exit 1
-fi
+run() {
+    # Check script is being executed appropriatly
+    if [[ -z "${BASH_SOURCE}" ]]; then
+        msg="This file should be executed directly with \`./install\`
+        and not interpreted with \`sh ./install\`"
+        echo "$msg"
+        exit 1
+    fi
 
-# Platform Specifics
-if [[ "$(uname)" = "Darwin" ]]; then
-    export PLATFORM="macos"
-    export HOMEBREW_BIN="/usr/local/bin"
-elif [[ "$(uname)" = "Linux" ]] && command -v apt-get &> /dev/null ; then
-    export PLATFORM="linux"
-    export HOMEBREW_BIN="/home/linuxbrew/.linuxbrew/bin"
-else
-    echo "Unsupported/unknown platform."; exit 1
-fi
+    # Platform Specifics
+    if [[ "$(uname)" = "Darwin" ]]; then
+        export PLATFORM="macos"
+        export HOMEBREW_BIN="/usr/local/bin"
+    elif [[ "$(uname)" = "Linux" ]] && command -v apt-get &> /dev/null ; then
+        export PLATFORM="linux"
+        export HOMEBREW_BIN="/home/linuxbrew/.linuxbrew/bin"
+    else
+        echo "Unsupported/unknown platform."; exit 1
+    fi
 
-# Constants
-BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DOTBOT_DIR="dotbot/core"
-DOTBOT_BIN="bin/dotbot"
-PROFILE_DIR="profiles"
-DEFAULT_PROFILE="base"
+    # Constants
+    BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    DOTBOT_DIR="dotbot/core"
+    DOTBOT_BIN="bin/dotbot"
+    PROFILE_DIR="profiles"
+    DEFAULT_PROFILE="base"
 
-cd "${BASEDIR}"
-git submodule update --init --recursive "${DOTBOT_DIR}"
-git submodule update --init --recursive "dotbot/asdf"
-git submodule update --init --recursive "dotbot/brewfile"
-git submodule update --init --recursive "dotbot/vscode"
+    cd "${BASEDIR}"
+    git submodule update --init --recursive "${DOTBOT_DIR}"
+    git submodule update --init --recursive "dotbot/asdf"
+    git submodule update --init --recursive "dotbot/brewfile"
+    git submodule update --init --recursive "dotbot/vscode"
 
-# Scripts will setup PATH appropriatly
-# but need to assume first run so make sure
-# everything we need is there
-export PATH="$HOMEBREW_BIN:$PATH"
-export HOMEBREW_BUNDLE_NO_LOCK=1
+    # Scripts will setup PATH appropriatly
+    # but need to assume first run so make sure
+    # everything we need is there
+    export PATH="$HOMEBREW_BIN:$PATH"
+    export HOMEBREW_BUNDLE_NO_LOCK=1
 
-for PROFILE in ${DEFAULT_PROFILE} ${@}; do
-    echo "Runing platform agnostic \"${PROFILE}\" profile"
-    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
-        --plugin-dir dotbot/asdf \
-        --plugin-dir dotbot/brewfile \
-        --plugin-dir dotbot/vscode \
-        -c "${PROFILE_DIR}/${PROFILE}.yaml"
-
-    # extend with platform specific profile of current platform
-    PLATFORM_PROFILE="${PROFILE_DIR}/${PROFILE}.${PLATFORM}.yaml"
-    if [ -f "$PLATFORM_PROFILE" ]; then
-        echo "Running platform specific \"${PROFILE}\" profile for ${PLATFORM}"
+    for PROFILE in ${DEFAULT_PROFILE} ${@}; do
+        echo "Runing platform agnostic \"${PROFILE}\" profile"
         "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
             --plugin-dir dotbot/asdf \
             --plugin-dir dotbot/brewfile \
             --plugin-dir dotbot/vscode \
-            -c "${PLATFORM_PROFILE}"
-    fi
-done
+            -c "${PROFILE_DIR}/${PROFILE}.yaml"
+
+        # extend with platform specific profile of current platform
+        PLATFORM_PROFILE="${PROFILE_DIR}/${PROFILE}.${PLATFORM}.yaml"
+        if [ -f "$PLATFORM_PROFILE" ]; then
+            echo "Running platform specific \"${PROFILE}\" profile for ${PLATFORM}"
+            "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -v -d "${BASEDIR}" \
+                --plugin-dir dotbot/asdf \
+                --plugin-dir dotbot/brewfile \
+                --plugin-dir dotbot/vscode \
+                -c "${PLATFORM_PROFILE}"
+        fi
+    done
+
+    echo "                                      "
+    echo "============== COMPLETE =============="
+    echo "                                      "
+    echo "   Please run this in your terminal:  "
+    echo "   $ source ~/.profile                "
+    echo "                                      "
+    echo "======================================"
+    echo "                                      "
+}
+
+run 2>&1 | tee "$(date +'%Y-%m-%d-%H-%M-%S').log"
