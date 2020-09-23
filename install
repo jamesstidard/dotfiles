@@ -71,4 +71,4 @@ run() {
     echo "                                      "
 }
 
-run 2>&1 | tee "$(date +'%Y-%m-%d-%H-%M-%S').log"
+run ${@} 2>&1 | tee "$(date +'%Y-%m-%d-%H-%M-%S').log"
