@@ -1,3 +1,13 @@
+Host udm
+ Hostname 10.0.0.1
+ User james
+ StrictHostKeyChecking no
+
+Host aggeroth
+ HostName 10.0.0.100
+ User james
+ StrictHostKeyChecking no
+
 Host freebie
  HostName freebie.local
  User james

@@ -100,6 +100,8 @@ function set_fish_profile
     abbr -a gf git fetch
     abbr -a gco git checkout
     abbr -a gl git log
+    abbr -a gu git reset --soft HEAD~1
+    abbr -a gr git reset --hard HEAD
     abbr -a gsm git submodule
     abbr -a gsmi git submodule init
     abbr -a gsms git submodule sync
@@ -108,6 +110,7 @@ function set_fish_profile
     abbr -a iterm open -a iTerm
     abbr -a term open -a iTerm
     abbr -a mta marta
+    abbr -a vnc open vnc://
 
     abbr -a c code
     abbr -a asp "code --add (pipenv --venv)/lib/python*/site-packages --add (pipenv --venv)/src"
