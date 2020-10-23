@@ -110,7 +110,6 @@ function set_fish_profile
     abbr -a iterm open -a iTerm
     abbr -a term open -a iTerm
     abbr -a mta marta
-    abbr -a vnc open vnc://
 
     abbr -a c code
     abbr -a asp "code --add (pipenv --venv)/lib/python*/site-packages --add (pipenv --venv)/src"

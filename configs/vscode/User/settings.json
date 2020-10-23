@@ -175,6 +175,8 @@
         "dedupe",
         "deque",
         "devtool",
+        "docx",
+        "docxtpl",
         "dropna",
         "dtype",
         "dtypes",
