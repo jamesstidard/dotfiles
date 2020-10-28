@@ -16,19 +16,19 @@ Host aggeroth
  StrictHostKeyChecking no
 
 Host freebie
- HostName freebie.local
+ HostName 10.0.0.101
  MACAddress f0:18:98:27:2d:af
  User james
  StrictHostKeyChecking no
 
 Host johnas
- HostName johnas.local
+ HostName 10.0.10.104
  MACAddress d4:9a:20:78:45:73
  User james
  StrictHostKeyChecking no
 
 Host muttson
- HostName muttson.local
+ HostName 10.0.0.102
  MACAddress 50:e0:85:bd:56:69
  User james
  RequestTTY force
@@ -36,7 +36,7 @@ Host muttson
  StrictHostKeyChecking no
 
 Host nigel
- HostName nigel.local
+ HostName 10.0.0.103
  MacAddress a4:83:e7:c6:e7:6d
  User james
  StrictHostKeyChecking no
