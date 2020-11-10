@@ -13,7 +13,7 @@ function update
 
     if type -q fisher
         echo_header "Fisherman"
-        fisher self-update
+        fisher update
     end
 
     if type -q brew
