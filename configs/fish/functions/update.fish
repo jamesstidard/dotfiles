@@ -40,7 +40,7 @@ function update
 
     if type -q softwareupdate
         echo_header "macOS"
-        softwareupdate --instal --all
+        softwareupdate --install --all
     end
 
     if type -q apt-get
