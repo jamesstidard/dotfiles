@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "shift+cmd+s",
@@ -449,11 +448,6 @@
         "key": "cmd+m",
         "command": "editor.debug.action.selectionToWatch"
     },
-    // {
-    //     "key": "backspace",
-    //     "command": "debug.removeWatchExpression",
-    //     "when": "watchedExpressionFocused"
-    // },
     {
         "key": "cmd+k",
         "command": "workbench.action.debug.continue",
@@ -553,13 +547,13 @@
     },
     {
         "key": "shift+enter",
-        "command": "-python.datascience.execSelectionInteractive",
-        "when": "editorFocus && editorHasSelection && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
+        "command": "-jupyter.execSelectionInteractive",
+        "when": "editorFocus && editorHasSelection && jupyter.featureenabled && jupyter.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
     },
     {
         "key": "shift+enter",
-        "command": "-python.datascience.runcurrentcelladvance",
-        "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
+        "command": "-jupyter.runcurrentcelladvance",
+        "when": "editorFocus && jupyter.featureenabled && jupyter.hascodecells && !editorHasSelection"
     },
     {
         "key": "cmd+.",

@@ -281,6 +281,7 @@
         "pyqtgraph",
         "pytest",
         "pythonpath",
+        "pytz",
         "quantile",
         "randomise",
         "randomised",
@@ -371,7 +372,6 @@
     "python.terminal.activateEnvironment": false,
     "workbench.colorTheme": "Mariana Pro (Cool)",
     "python.formatting.provider": "black",
-    "python.dataScience.askForKernelRestart": false,
     // "vim.normalModeKeyBindingsNonRecursive": [
     //     {
     //         "before": [":"],
@@ -397,7 +397,6 @@
     "python.showStartPage": false,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "python.dataScience.debugJustMyCode": false,
     "cSpell.enabled": true,
     "editor.formatOnSaveMode": "modifications",
     "screencastMode.onlyKeyboardShortcuts": true,
@@ -405,4 +404,10 @@
     "workbench.editor.showTabs": true,
     "breadcrumbs.enabled": true,
     "workbench.activityBar.visible": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.debugJustMyCode": false,
+    "workbench.editorAssociations": [],
+    "docker.showStartPage": true,
+    "python.linting.flake8Path": "/Users/james/.local/bin/flake8",
+    "python.formatting.blackPath": "/Users/james/.local/bin/black",
 }
