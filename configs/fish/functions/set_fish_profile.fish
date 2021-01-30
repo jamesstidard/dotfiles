@@ -142,6 +142,11 @@ function set_fish_profile
     abbr -a pes pipenv sync --dev
     abbr -a peo pipenv open
 
+    abbr -a px pipx
+    abbr -a pxr pipx run
+    abbr -a pxi pipx install
+    abbr -a pxu pipx uninstall
+
     abbr -a brwe brew
     abbr -a bs brew search
     abbr -a bi brew install
@@ -157,6 +162,8 @@ function set_fish_profile
     abbr -a ipscan 'nmap -sP "10.1.62.*"'
 
     abbr -a md "pbpaste | pandoc --highlight-style kate --standalone --metadata pagetitle=\"...\" --from gfm --to html | textutil -stdin -format html -convert rtf -stdout | pbcopy"
+
+    abbr -a kb keybase
 
     # FISHER
     set -Ux fisher_path ~/.config/fish/fisher
