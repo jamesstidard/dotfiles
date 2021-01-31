@@ -143,6 +143,7 @@ function set_fish_profile
     abbr -a peo pipenv open
 
     abbr -a px pipx
+    abbr -a pxl pipx list --include-injected
     abbr -a pxr pipx run
     abbr -a pxi pipx install
     abbr -a pxu pipx uninstall
