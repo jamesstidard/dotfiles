@@ -24,7 +24,7 @@ function update
 
     if type -q pipx
         echo_header "pipx"
-        pipx upgrade-all
+        pipx upgrade-all --include-injected
     end
 
     echo_header "Purging Orphaned Venvs"
