@@ -121,6 +121,7 @@ function set_fish_profile
     abbr -a sm smerge
     abbr -a smd smerge mergetool
 
+    abbr -a dnl docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}]: {{ range $k, $v := .Spec.Labels }}{{ $k }}={{ $v }} {{end}}'
     abbr -a dc docker-compose
 
     abbr -a hm cd ~
