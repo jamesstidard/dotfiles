@@ -93,6 +93,8 @@ function set_fish_profile
 
     abbr -a up update
 
+    abbr -a kp killport
+
     abbr -a gcl git clone
     abbr -a gs git status
     abbr -a gx git pull
