@@ -77,6 +77,9 @@ function set_fish_profile
     set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf
     add_path ~/.asdf/shims
 
+    # PIPX
+    add_path ~/.local/bin
+
     # COMPILER FLAGS
     set -Ux CPPFLAGS "-I"(brew --prefix zlib)"/include -I"(brew --prefix sqlite)"/include -I"(brew --prefix openssl)"/include"
     set -Ux LDFLAGS "-L"(brew --prefix zlib)"/lib -L"(brew --prefix sqlite)"/lib -L"(brew --prefix bzip2)"/lib -L"(brew --prefix openssl)"/lib"
@@ -89,6 +92,8 @@ function set_fish_profile
     end
 
     abbr -a up update
+
+    abbr -a kp killport
 
     abbr -a gcl git clone
     abbr -a gs git status
@@ -118,6 +123,7 @@ function set_fish_profile
     abbr -a sm smerge
     abbr -a smd smerge mergetool
 
+    abbr -a dnl docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}]: {{ range $k, $v := .Spec.Labels }}{{ $k }}={{ $v }} {{end}}'
     abbr -a dc docker-compose
 
     abbr -a hm cd ~
@@ -139,6 +145,12 @@ function set_fish_profile
     abbr -a pes pipenv sync --dev
     abbr -a peo pipenv open
 
+    abbr -a px pipx
+    abbr -a pxl pipx list --include-injected
+    abbr -a pxr pipx run
+    abbr -a pxi pipx install
+    abbr -a pxu pipx uninstall
+
     abbr -a brwe brew
     abbr -a bs brew search
     abbr -a bi brew install
@@ -154,6 +166,8 @@ function set_fish_profile
     abbr -a ipscan 'nmap -sP "10.1.62.*"'
 
     abbr -a md "pbpaste | pandoc --highlight-style kate --standalone --metadata pagetitle=\"...\" --from gfm --to html | textutil -stdin -format html -convert rtf -stdout | pbcopy"
+
+    abbr -a kb keybase
 
     # FISHER
     set -Ux fisher_path ~/.config/fish/fisher

@@ -22,6 +22,11 @@ function update
         brew upgrade
     end
 
+    if type -q pipx
+        echo_header "pipx"
+        pipx upgrade-all --include-injected
+    end
+
     echo_header "Purging Orphaned Venvs"
     for venv in ~/.local/share/virtualenvs/*/.project
         read directory < $venv
