@@ -50,7 +50,7 @@ HOST_INPUT = {
 }
 
 try:
-    hostname = sys.argv[1]
+    hostname = "muttson"
 except IndexError:
     hostname = socket.gethostname()
 
@@ -68,10 +68,22 @@ elif platform.system() == "Darwin":
     binary = os.path.join(HERE, "ddcctl")
 
     for display, input_ in HOST_INPUT[hostname].items():
+        serial = MONITORS[display]["Serial Number"]
         value = MONITORS[display]["Input Value"][input_]
-        cmd = [binary, "-d", 1, "-i", value]
-        cmd = [str(arg) for arg in cmd]
-        subprocess.check_call(cmd)
+
+        for n in range(1, 3):
+            # determin if right display number
+            output = subprocess.run(
+                ["configs/display/ddcctl", "-d", "1"],
+                check=True,
+                stdout=subprocess.PIPE,
+            )
+
+            if serial in output.stdout.decode("utf8"):
+                cmd = [binary, "-d", n, "-i", value]
+                cmd = [str(arg) for arg in cmd]
+                subprocess.check_call(cmd)
+                break
 
 else:
     raise NotImplementedError("Unsupported platform", platform.system())
