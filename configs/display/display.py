@@ -39,7 +39,7 @@ HOST_INPUT = {
     },
     "nigel": {
         "4k": "HDMI",
-        "2K": "HDMI 2.0",
+        "2k": "HDMI 2.0",
     },
     "muttson": {
         "4k": "DP",
