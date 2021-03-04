@@ -74,7 +74,7 @@ elif platform.system() == "Darwin":
         for n in range(1, 3):
             # determin if right display number
             output = subprocess.run(
-                ["configs/display/ddcctl", "-d", "1"],
+                ["configs/display/ddcctl", "-d", str(n)],
                 check=True,
                 stdout=subprocess.PIPE,
             )
