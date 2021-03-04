@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import sys
 import socket
@@ -17,7 +19,7 @@ MONITORS = {
             "DP": 15,
             "mDP": 16,
             "HDMI": 17,
-        }
+        },
     },
     "2k": {
         "Monitor Device Name": r"\\.\DISPLAY1\Monitor0",
@@ -29,7 +31,7 @@ MONITORS = {
             "DP": 15,
             "HDMI 1.0": 17,
             "HDMI 2.0": 18,
-        }
+        },
     },
 }
 HOST_INPUT = {
@@ -44,7 +46,7 @@ HOST_INPUT = {
     "muttson": {
         "4k": "DP",
         "2k": "DP",
-    }
+    },
 }
 
 try:
@@ -63,7 +65,13 @@ if platform.system() == "Windows":
         subprocess.check_call(cmd)
 
 elif platform.system() == "Darwin":
-    pass
+    binary = os.path.join(HERE, "ddcctl")
+
+    for display, input_ in HOST_INPUT[hostname].items():
+        value = MONITORS[display]["Input Value"][input_]
+        cmd = [binary, "-d", 1, "-i", value]
+        cmd = [str(arg) for arg in cmd]
+        subprocess.check_call(cmd)
 
 else:
     raise NotImplementedError("Unsupported platform", platform.system())
