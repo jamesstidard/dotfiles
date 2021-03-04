@@ -191,3 +191,18 @@ Return
 <!<#<^L::
     Send #{Right Down}
 Return
+
+
+; === Display Switching ===
+
+<!<#<^1::
+    Run python C:\Users\James\Development\James-Stidard\dotfiles\configs\display\switch muttson
+Return
+
+<!<#<^2::
+    Run python C:\Users\James\Development\James-Stidard\dotfiles\configs\display\switch nigel
+Return
+
+<!<#<^3::
+    Run python C:\Users\James\Development\James-Stidard\dotfiles\configs\display\switch freebie
+Return
