@@ -50,7 +50,7 @@ HOST_INPUT = {
 }
 
 try:
-    hostname = "muttson"
+    hostname = sys.argv[1]
 except IndexError:
     hostname = socket.gethostname()
 
