@@ -1,0 +1,38 @@
+[[display]]
+name = "4k"
+serial = "FN84K89510GL"
+
+  [[display.input]]
+  name = "muttson"
+  type = "DP"
+  code = 15
+
+  [[display.input]]
+  name = "freebie"
+  type = "mDP"
+  code = 16
+
+  [[display.input]]
+  name = "nigel"
+  type = "HDMI"
+  code = 17
+
+
+[[display]]
+name = "2k"
+serial = "1XTP7P2"
+
+  [[display.input]]
+  name = "muttson"
+  type = "DP"
+  code = 15
+
+  [[display.input]]
+  name = "freebie"
+  type = "HDMI 1.0"
+  code = 16
+
+  [[display.input]]
+  name = "nigel"
+  type = "HDMI 2.0"
+  code = 17

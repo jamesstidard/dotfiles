@@ -170,6 +170,7 @@
         "dask",
         "datetime",
         "dateutil",
+        "ddcctl",
         "decex",
         "dedupe",
         "deque",
@@ -242,6 +243,7 @@
         "mobilisation",
         "mobilisations",
         "monzo",
+        "msys",
         "nacl",
         "nargs",
         "nbytes",
@@ -270,6 +272,7 @@
         "pkgutil",
         "plist",
         "popen",
+        "posixify",
         "postgres",
         "ppath",
         "prepend",
@@ -407,7 +410,12 @@
     "workbench.activityBar.visible": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.debugJustMyCode": false,
-    "workbench.editorAssociations": [],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "docker.showStartPage": true,
     "python.linting.flake8Path": "/Users/james/.local/bin/flake8",
     "python.formatting.blackPath": "/Users/james/.local/bin/black",
