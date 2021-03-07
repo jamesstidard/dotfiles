@@ -15,6 +15,7 @@
     ~/.config/fish/fisher/fishfile: configs/fish/fisher/fishfile
     ~/.config/fish/functions: configs/fish/functions
     ~/.config/flake8: configs/python/flake8
+    ~/.switch-display/config.toml: configs/switch-display/config.toml
     ~/.gitconfig: configs/git/.gitconfig
 
 - shell:
