@@ -1,5 +1,5 @@
 [[display]]
-name = "4k"
+name = "left"
 serial = "FN84K89510GL"
 
   [[display.input]]
@@ -19,7 +19,7 @@ serial = "FN84K89510GL"
 
 
 [[display]]
-name = "2k"
+name = "right"
 serial = "1XTP7P2"
 
   [[display.input]]
