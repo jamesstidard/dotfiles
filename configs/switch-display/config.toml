@@ -25,14 +25,14 @@ serial = "1XTP7P2"
   [[display.input]]
   name = "muttson"
   type = "DP"
-  code = 15
+  code = 16
 
   [[display.input]]
   name = "freebie"
   type = "HDMI 1.0"
-  code = 16
+  code = 17
 
   [[display.input]]
   name = "nigel"
   type = "HDMI 2.0"
-  code = 17
+  code = 18
