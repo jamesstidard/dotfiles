@@ -21,8 +21,7 @@ function pyground
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal",
-            "envFile": "${workspaceFolder}/.env"
+            "console": "integratedTerminal"
         }
     ]
 }'
@@ -30,13 +29,14 @@ function pyground
 
     set --local settings \
 '{
-    "python.pythonPath": "'(pipenv --py)'"
+    "python.pythonPath": "'(pipenv --py)'",
+    "python.envFile": "${workspaceFolder}/.env"
 }'
     echo $settings > .vscode/settings.json
 
     touch main.py
 
-    echo "PYTHONPATH="$dir > .env
+    echo "PYTHONPATH=." > .env
 
     gitignore macos windows linux python
     echo ".vscode" >> .gitignore
