@@ -25,6 +25,10 @@ function update
     if type -q pipx
         echo_header "pipx"
         pipx upgrade-all --include-injected
+        if test $status -eq 1
+            pipx reinstall-all
+        end
+
     end
 
     echo_header "Purging Orphaned Venvs"
