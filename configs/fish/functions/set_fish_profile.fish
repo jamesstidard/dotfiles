@@ -126,6 +126,7 @@ function set_fish_profile
     # Pipenv
     set -Ux PIPENV_VENV_IN_PROJECT true
     set -Ux PIPENV_IGNORE_VIRTUALENVS true
+    set -Ux PIPENV_SHELL_FANCY
     set -Ux PIPENV_INSTALL_TIMEOUT 1800  # 30mins
     set -Ux PIPENV_TIMEOUT 1800  # 30mins
     abbr -a pe pipenv
