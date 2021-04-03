@@ -31,6 +31,7 @@ function pyground
 '{
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.env",
+    "terminal.integrated.cwd": "${workspaceFolder}",
     "terminal.integrated.shellArgs.linux": [
         "-l", "-c", "pipenv shell"
     ],
