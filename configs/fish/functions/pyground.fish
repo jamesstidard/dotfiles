@@ -22,7 +22,7 @@ function pyground
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        }
+        },
     ]
 }'
     echo $launch > .vscode/launch.json
@@ -30,7 +30,16 @@ function pyground
     set --local settings \
 '{
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
-    "python.envFile": "${workspaceFolder}/.env"
+    "python.envFile": "${workspaceFolder}/.env",
+    "terminal.integrated.shellArgs.linux": [
+        "-l", "-c", "pipenv shell"
+    ],
+    "terminal.integrated.shellArgs.osx": [
+        "-l", "-c", "pipenv shell"
+    ],
+    "terminal.integrated.shellArgs.windows": [
+        "-NoExit", "-Command", "pipenv shell"
+    ],
 }'
     echo $settings > .vscode/settings.json
 
