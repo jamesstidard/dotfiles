@@ -29,17 +29,25 @@ function pyground
 
     set --local settings \
 '{
-    "python.pythonPath": "'(pipenv --py)'",
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.env"
 }'
     echo $settings > .vscode/settings.json
 
     touch main.py
 
-    echo "PYTHONPATH=." > .env
+    set --local vars \
+'PYTHONPATH=.'
+    echo $vars > .env
 
     gitignore macos windows linux python
-    echo ".vscode" >> .gitignore
+    read -z basegitignore < .gitignore
+    set --local extragitignore \
+'.vscode
+.venv
+.idea'
+    echo $extragitignore > .gitignore
+    echo $basegitignore >> .gitignore
 
     git init
     git add .
