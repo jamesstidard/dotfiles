@@ -55,3 +55,11 @@
       stdin: true
       stdout: true
       stderr: true
+
+- shell:
+    -
+        command: ./scripts/pipx ./configs/pipx/Pipxfile.base
+        description: Installing Pipxfile
+        stdin: true
+        stdout: true
+        stderr: true

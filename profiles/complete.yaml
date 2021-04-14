@@ -26,3 +26,11 @@
       global: 14.5.0
       versions:
         - 14.5.0
+
+- shell:
+    -
+        command: ./scripts/pipx ./configs/pipx/Pipxfile.complete
+        description: Installing Pipxfile
+        stdin: true
+        stdout: true
+        stderr: true

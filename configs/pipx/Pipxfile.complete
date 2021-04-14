@@ -1,0 +1,4 @@
+black
+cookiecutter
+poetry
+git+ssh://git@github.com/jamesstidard/switch-display-cli.git

@@ -1,5 +1,4 @@
 black
-cookiecutter
 flake8
 - flake8-black
 - flake8-bugbear
@@ -9,5 +8,3 @@ flake8
 - flake8-mutable
 - pep8-naming
 pipenv
-poetry
-git+ssh://git@github.com/jamesstidard/switch-display-cli.git
