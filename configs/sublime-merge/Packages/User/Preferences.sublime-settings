@@ -5,14 +5,8 @@
 	"hide_menu": false,
 	"theme": "Merge Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	/*"editor_path": "/Applications/Visual Studio Code.app",*/
-	/*"editor_path": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",*/
 	"time_format": "24h",
-	/*"editor_argument_format": "-g ${file}:${line}:${col}",*/
-	/*"editor_argument_format": "--goto ${file}:${line}:${col}",*/
-	/*"editor_path": "code",*/
-	/*"editor_argument_format": "--goto ${file}:${line}:${col}",*/
-	/*"editor_path": "code",*/
-	"editor_argument_format": "--goto ${file}:${line}:${col}",
-	"editor_path": "code",
+	"editor_argument_format": "--goto '${file}:${line}:${col}'",
+	"editor_path": "/usr/local/bin/code",
+	"editor_wait_args": "--wait"
 }

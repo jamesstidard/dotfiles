@@ -1,0 +1,14 @@
+black
+cookiecutter
+flake8
+- flake8-black
+- flake8-bugbear
+- flake8-builtins
+- flake8-commas
+- flake8-executable
+- flake8-mutable
+- pandas-vet
+- pep8-naming
+pipenv
+poetry
+git+ssh://git@github.com/jamesstidard/switch-display-cli.git

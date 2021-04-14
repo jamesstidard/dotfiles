@@ -6,7 +6,7 @@ Host *
 
 Host udm
  Hostname 10.0.0.1
- User james
+ User root
  StrictHostKeyChecking no
 
 Host aggeroth

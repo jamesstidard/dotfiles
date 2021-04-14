@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -e
+
+pipxfile=$1
+
+while read line; do
+    if [[ $line == -* ]] ;
+    then
+        inject=$(echo $line | cut -c 3-)
+        pipx inject $package $inject
+    else
+        package=$line
+        pipx install --force $package
+    fi
+done <$pipxfile
