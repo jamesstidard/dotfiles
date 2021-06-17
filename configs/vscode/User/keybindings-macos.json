@@ -815,5 +815,9 @@
     {
         "key": "ctrl+cmd+w",
         "command": "-workbench.action.toggleTabsVisibility"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "python.sortImports"
     }
 ]

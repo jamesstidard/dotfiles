@@ -32,15 +32,36 @@ function pyground
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.env",
     "terminal.integrated.cwd": "${workspaceFolder}",
-    "terminal.integrated.shellArgs.linux": [
-        "-l", "-c", "pipenv shell"
-    ],
-    "terminal.integrated.shellArgs.osx": [
-        "-l", "-c", "pipenv shell"
-    ],
-    "terminal.integrated.shellArgs.windows": [
-        "-NoExit", "-Command", "pipenv shell"
-    ],
+    "terminal.integrated.profiles.linux": {
+        "fish": {
+            "path": "/usr/local/bin/fish",
+            "args": [
+                "-l",
+                "-c",
+                "pipenv shell"
+            ],
+        }
+    },
+    "terminal.integrated.profiles.osx": {
+        "fish": {
+            "path": "/usr/local/bin/fish",
+            "args": [
+                "-l",
+                "-c",
+                "pipenv shell"
+            ],
+        }
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell -NoProfile": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "pipenv shell"
+            ]
+        }
+    },
 }'
     echo $settings > .vscode/settings.json
 
