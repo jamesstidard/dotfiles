@@ -29,7 +29,7 @@ function pyground
 
     set --local settings \
 '{
-    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.env",
     "terminal.integrated.cwd": "${workspaceFolder}",
     "terminal.integrated.profiles.linux": {

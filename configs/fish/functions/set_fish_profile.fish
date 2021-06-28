@@ -181,7 +181,7 @@ function set_fish_profile
     abbr -a smd smerge mergetool
 
     # Docker
-    abbr -a dnl "docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}]: {{ range $k, $v := .Spec.Labels }}{{ $k }}={{ $v }} {{end}}'"
+    abbr -a dnl "docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}]: {{ range \$k, \$v := .Spec.Labels }}{{ \$k }}={{ \$v }} {{end}}'"
     abbr -a dc docker-compose
 
     # Keybase
