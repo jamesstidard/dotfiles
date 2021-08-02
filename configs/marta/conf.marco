@@ -1,7 +1,10 @@
 behavior {
     doublePaneConfigurationInSublime true
     preselectFirstMenuItem true
-    showActionBar true
+    
+    layout {
+        showActionBar true
+    }
 
     actions {
         core.copy.askTargetPath false
@@ -9,11 +12,13 @@ behavior {
         core.trash.confirm false
     }
     theme "Kon"
-
-    sheetDialogs false
+    
+    style {
+        sheetDialogs false
+    }
 
     table {
-        showGoUpDirectory false
+        showGoUpfolder false
     }
 }
 
@@ -70,97 +75,73 @@ gadgets [
 ]
 
 keyBindings {
+    "F1" "core.documentation"
+    "F2" "core.documentation"
+    "F3" "core.documentation"
+    "F4" "core.documentation"
+    "F5" "core.documentation"
+    "F6" "core.documentation"
+    "F7" "core.documentation"
+    "F8" "core.documentation"
+    "F9" "core.documentation"
+    "F10" "core.documentation"
+    "F11" "core.documentation"
+    "F12" "core.documentation"
+    
+    "Shift+F1" "core.documentation"
+    "Shift+F2" "core.documentation"
+    "Shift+F3" "core.documentation"
+    "Shift+F4" "core.documentation"
+    "Shift+F5" "core.documentation"
+    "Shift+F6" "core.documentation"
+    "Shift+F7" "core.documentation"
+    "Shift+F8" "core.documentation"
+    "Shift+F9" "core.documentation"
+    "Shift+F10" "core.documentation"
+    "Shift+F11" "core.documentation"
+    "Shift+F12" "core.documentation"
 
-    "F1" { }
-    "F2" { }
-    "F3" { }
-    "F4" { }
-    "F5" { }
-    "F6" { }
-    "F7" { }
-    "F8" { }
-    "F9" { }
-    "F10" { }
-    "F11" { }
-    "F12" { }
+    "Left" "core.go.up"
+    "Right" "core.open.folder"
+    
+    "Return" "core.open"
 
-    "Left" { id "core.go.up" }
+    "Alt+Cmd+C" "core.path"
 
-    "Right" { id "core.open.directory" }
+    "Cmd+G" "core.go"
+    
+    "Cmd+Shift+T" "core.terminal.toggle"
+    
+    "Cmd+[" "core.back"
+    "Cmd+]" "core.forward"
 
-    "Alt+Cmd+C" { id "core.copy.selected.paths" }
+    "Shift+Cmd+C" "core.copy"
+    "Shift+Cmd+M" "core.move"
 
-    "Cmd+G" {
-        id "core.goto.path"
-    }
+    "Cmd+F" "core.lookup"
 
-    "Cmd+Shift+T" {
-        id "core.toggle.terminal"
-    }
+    "Control+Cmd+R" "core.rename"
 
-    "Cmd+[" {
-        id "core.back"
-    }
+    "Shift+Cmd+." "core.display.hidden"
 
-    "Cmd+]" {
-        id "core.forward"
-    }
+    "Shift+Cmd+F" "core.lookup.here"
 
-    "Shift+Cmd+C" {
-        id "core.copy.to"
-    }
+    "Shift+Alt+Cmd+C" "core.path.folder"
 
-    "Shift+Cmd+M" {
-        id "core.move.to"
-    }
+    "Cmd+Alt+N" "core.new.file"
+    "Shift+Cmd+N" "core.new.folder"
 
-    "Cmd+F" {
-        id "core.lookup"
-    }
+    "Shift+Cmd+G" "gadget.action.sublimemerge"
 
-    "Control+Cmd+R" {
-        id "core.rename"
-    }
+    "Cmd+R" "core.refresh"
 
-    "Shift+Cmd+." {
-        id "core.toggle.show.hidden.files"
-    }
+    "Cmd+Alt+O" "core.open.with"
 
-    "Shift+Cmd+F" {
-        id "core.lookup.here"
-    }
+    "Cmd+E" "core.edit"
 
-    "Shift+Alt+Cmd+C" {
-        id "core.copy.current.dir.path"
-    }
+    "Cmd+Shift+E" "core.edit.folder"
 
-    "Cmd+Alt+N" {
-        id "core.new.file"
-    }
-
-    "Shift+Cmd+N" {
-        id "core.new.directory"
-    }
-
-    "Shift+Cmd+G" {
-        id "gadget.action.sublimemerge"
-    }
-
-    "Cmd+R" {
-        id "core.refresh"
-    }
-
-    "Cmd+O" { id "core.open" }
-
-    "Cmd+Alt+O" { id "core.open.with" }
-
-    "Cmd+E" { id "core.edit" }
-
-    "Cmd+Shift+E" { id "core.open.editor.here" }
-
-    "Return" { id "core.rename" }
-
-    "Cmd+Alt+Backspace" { id "core.delete" }
+    "Cmd+Backspace" "core.delete"
 }
 
 setup {
@@ -169,10 +150,9 @@ setup {
         "core.open.with"
         "core.edit"
         "core.rename"
-        "core.copy.to"
-        "core.move.to"
+        "core.copy"
+        "core.move"
         "core.new.directory"
         "core.new.file"
-        "core.trash"
     ]
 }

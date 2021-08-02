@@ -203,10 +203,13 @@
         "gameplay",
         "getsizeof",
         "gitignore",
+        "gmsh",
         "gpio",
         "graphql",
         "groupby",
         "histogramdd",
+        "hkey",
+        "igraph",
         "ilike",
         "iloc",
         "inet",
@@ -268,6 +271,7 @@
         "normalise",
         "nrel",
         "numpy",
+        "nunique",
         "oauth",
         "open",
         "openpyxl",
@@ -423,11 +427,16 @@
     "jupyter.askForKernelRestart": false,
     "jupyter.debugJustMyCode": false,
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "docker.showStartPage": true,
     "python.linting.flake8Path": "/Users/james/.local/bin/flake8",
     "python.formatting.blackPath": "/Users/james/.local/bin/black",
     "docker.commands.build": "docker build --ssh default --rm -f \"${dockerfile}\" -t ${tag} \"${context}\"",
     "Lua.telemetry.enable": true,
+    "redhat.telemetry.enabled": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
 }
