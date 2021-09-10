@@ -2,3 +2,6 @@
 
 # iTerm shell integration
 test -e ~/.iterm2_shell_integration.fish ; and source ~/.iterm2_shell_integration.fish ; or true
+
+# asdf init
+source /usr/local/opt/asdf/libexec/asdf.fish

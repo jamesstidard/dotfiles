@@ -1,10 +1,6 @@
 behavior {
     doublePaneConfigurationInSublime true
     preselectFirstMenuItem true
-    
-    layout {
-        showActionBar true
-    }
 
     actions {
         core.copy.askTargetPath false
@@ -12,13 +8,22 @@ behavior {
         core.trash.confirm false
     }
     theme "Kon"
-    
+
     style {
-        sheetDialogs false
+        sheetDialogs true
     }
 
     table {
         showGoUpfolder false
+    }
+
+    dateFormat {
+        normal "%d/%m/%Y"
+    }
+
+    timeFormat {
+        separator " "
+        normal "%H:%M"
     }
 }
 
@@ -34,6 +39,17 @@ etty {
     fonts {
         normal [ "SF Mono" 12 ]
     }
+}
+
+fonts {
+    actionBar [ "SF Mono" 12 ]
+    breadcrumbs [ "SF Mono" 12 ]
+    virtualTabs [ "SF Mono Bold" 12 ]
+    files [ "SF Mono" 12 ]
+    statusBar [ "SF Mono Light" 11 ]
+    tableHeader [ "SF Mono" 11 ]
+    tabs [ "SF Mono" 12 ]
+    preferences [ "SF Mono" 12 ]
 }
 
 gadgets [
@@ -87,7 +103,7 @@ keyBindings {
     "F10" "core.documentation"
     "F11" "core.documentation"
     "F12" "core.documentation"
-    
+
     "Shift+F1" "core.documentation"
     "Shift+F2" "core.documentation"
     "Shift+F3" "core.documentation"
@@ -103,15 +119,27 @@ keyBindings {
 
     "Left" "core.go.up"
     "Right" "core.open.folder"
+
+    "Alt+Up" "core.move.page.up"    
+    "Alt+Down" "core.move.page.down"
     
+    "Shift+Alt+Up" "core.select.move.page.up"    
+    "Shift+Alt+Down" "core.select.move.page.down"
+    
+    "Cmd+Up" "core.move.home"    
+    "Cmd+Down" "core.move.end"
+
+    "Shift+Cmd+Up" "core.select.move.home"    
+    "Shift+Cmd+Down" "core.select.move.end"
+
     "Return" "core.open"
 
     "Alt+Cmd+C" "core.path"
 
     "Cmd+G" "core.go"
-    
+
     "Cmd+Shift+T" "core.terminal.toggle"
-    
+
     "Cmd+[" "core.back"
     "Cmd+]" "core.forward"
 
@@ -119,12 +147,11 @@ keyBindings {
     "Shift+Cmd+M" "core.move"
 
     "Cmd+F" "core.lookup"
+    "Shift+Cmd+F" "core.lookup.here"
 
     "Control+Cmd+R" "core.rename"
 
     "Shift+Cmd+." "core.display.hidden"
-
-    "Shift+Cmd+F" "core.lookup.here"
 
     "Shift+Alt+Cmd+C" "core.path.folder"
 
@@ -142,6 +169,8 @@ keyBindings {
     "Cmd+Shift+E" "core.edit.folder"
 
     "Cmd+Backspace" "core.delete"
+
+    "cmd+L" "core.select"
 }
 
 setup {
@@ -155,4 +184,7 @@ setup {
         "core.new.directory"
         "core.new.file"
     ]
+    
+    touchBar [
+   ]
 }

@@ -819,5 +819,15 @@
     {
         "key": "shift+alt+i",
         "command": "python.sortImports"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "shift+cmd+y",
+        "command": "-workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
     }
 ]

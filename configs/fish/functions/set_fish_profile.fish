@@ -108,8 +108,9 @@ function set_fish_profile
     abbr -a bcu brew cask uninstall
 
     # ASDF
-    set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf
-    add_path ~/.asdf/shims
+    # moved to conf.d/profile
+    # set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec/lib
+    # add_path ~/.asdf/shims
     abbr -a ai asdf install
     abbr -a au asdf uninstall
     abbr -a al asdf list

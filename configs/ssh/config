@@ -10,7 +10,7 @@ Host udm
  StrictHostKeyChecking no
 
 Host aggeroth
- HostName 10.0.0.100
+ HostName 10.0.10.100
  MACAddress dc:a6:32:73:50:91
  User james
  StrictHostKeyChecking no

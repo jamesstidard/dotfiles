@@ -6,5 +6,5 @@
 "Nextcloud" "~/Nextcloud"
 "Downloads" "${user.downloads}"
 "Library" "${user.library}"
-"Python Virtual Environments" "~/.local/share/virtualenvs"
 "Trash" "~/.Trash"
+"WV GUI App Data" "~/Library/Preferences/Wave Venture/WV_GUI"
