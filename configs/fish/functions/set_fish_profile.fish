@@ -141,9 +141,14 @@ function set_fish_profile
     abbr -a peo pipenv open
 
     # COMPILER FLAGS
-    set -Ux CPPFLAGS "-I"(brew --prefix sqlite)"/include"
-    set -Ux LDFLAGS "-L"(brew --prefix zlib)"/lib -L"(brew --prefix sqlite)"/lib"
-    set -Ux PKG_CONFIG_PATH (brew --prefix sqlite)"/lib/pkgconfig "(brew --prefix zlib)"/lib/pkgconfig"
+    set -Ux CPPFLAGS ""
+    set -Ux LDFLAGS ""
+    set -Ux PKG_CONFIG_PATH ""
+    for lib in sqlite libpng libjpg zlib
+        set --append CPPFLAGS "-I"(brew --prefix $lib)"/include"
+        set --append LDFLAGS "-L"(brew --prefix $lib)"/lib"
+        set --append PKG_CONFIG_PATH (brew --prefix $lib)"/lib/pkgconfig"
+    end
     set -Ux OPENBLAS (brew --prefix openblas)
 
     # GIT
