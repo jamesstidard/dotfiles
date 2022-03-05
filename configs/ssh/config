@@ -10,10 +10,11 @@ Host udm
  StrictHostKeyChecking no
 
 Host aggeroth
- HostName 10.0.10.100
- MACAddress dc:a6:32:73:50:91
+ # HostName 10.0.0.100
+ HostName aggeroth.stidard.com
+ Port 29228
+ MACAddress dc:a6:32:73:50:8f
  User james
- StrictHostKeyChecking no
 
 Host freebie
  HostName 10.0.0.101

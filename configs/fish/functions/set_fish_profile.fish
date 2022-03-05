@@ -144,7 +144,7 @@ function set_fish_profile
     set -Ux CPPFLAGS ""
     set -Ux LDFLAGS ""
     set -Ux PKG_CONFIG_PATH ""
-    for lib in sqlite libpng libjpg zlib
+    for lib in sqlite libpng libjpg zlib hdf5
         set --append CPPFLAGS "-I"(brew --prefix $lib)"/include"
         set --append LDFLAGS "-L"(brew --prefix $lib)"/lib"
         set --append PKG_CONFIG_PATH (brew --prefix $lib)"/lib/pkgconfig"

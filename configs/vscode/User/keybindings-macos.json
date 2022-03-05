@@ -12,10 +12,6 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    {
         "key": "cmd+escape",
         "command": "workbench.action.toggleSidebarVisibility"
     },
@@ -188,7 +184,7 @@
         "command": "-workbench.action.openEditorAtIndex9"
     },
     {
-        "key": "shift+alt+cmd+d",
+        "key": "shift+cmd+d",
         "command": "editor.action.smartSelect.expand",
         "when": "editorTextFocus"
     },
@@ -208,7 +204,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "shift+alt+cmd+x",
+        "key": "shift+cmd+x",
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
     },
@@ -829,5 +825,55 @@
         "key": "shift+cmd+y",
         "command": "-workbench.debug.action.toggleRepl",
         "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+tab",
+        "command": "-workbench.action.showAllEditors"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+k shift+cmd+d",
+        "command": "workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "cmd+alt+k cmd+alt+d",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]
