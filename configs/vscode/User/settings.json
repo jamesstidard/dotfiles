@@ -62,7 +62,6 @@
     "debug.inlineValues": true,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "SF Mono",
-    "git.autoStash": true,
     "git.fetchOnPull": true,
     "git.autofetch": true,
     "git.defaultCloneDirectory": "/Users/james/Development",
@@ -72,9 +71,7 @@
     "python.disableInstallationCheck": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "python.venvPath": "/Users/james/.local/share/virtualenvs",
-    "python.linting.mypyEnabled": false,
     "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
     "python.linting.pycodestyleEnabled": false,
     "editor.rulers": [
         90
@@ -375,7 +372,6 @@
     "rust-client.channel": "stable",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.zoomLevel": 0,
     "window.newWindowDimensions": "inherit",
     "git.confirmSync": false,
     "terminal.integrated.cursorStyle": "line",
@@ -413,7 +409,7 @@
     "terminal.integrated.rendererType": "experimentalWebgl",
     "docker.defaultRegistryPath": "node1.external.wv:5000",
     "liveshare.featureSet": "stable",
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Default",
     "python.showStartPage": false,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
@@ -423,7 +419,6 @@
     "zenMode.fullScreen": false,
     "workbench.editor.showTabs": true,
     "breadcrumbs.enabled": true,
-    "workbench.activityBar.visible": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.debugJustMyCode": false,
     "workbench.editorAssociations": {
@@ -439,4 +434,30 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "cmake.configureOnEdit": false,
+    "git.autofetchPeriod": 60,
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "custom-dictionary-user",
+            "path": "~/.cspell/custom-dictionary-user.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
+    "diffEditor.maxComputationTime": 0,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "explorer.autoReveal": false,
+    "python.linting.mypyPath": "/Users/james/.local/bin/mypy",
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent",
+        "--ignore-missing-imports",
+        "--show-column-numbers",
+        "--no-pretty",
+        "--strict"
+    ],
+    "python.linting.flake8Enabled": true,
 }
