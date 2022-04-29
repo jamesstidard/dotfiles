@@ -168,6 +168,7 @@ function set_fish_profile
     abbr -a gsmi git submodule init
     abbr -a gsms git submodule sync
     abbr -a gsmu git submodule update --recursive
+    abbr -a gsmc "git submodule foreach --recursive git clean -xfd; and git submodule foreach --recursive git reset --hard; and git submodule update --init --recursive"
 
     # iTerm
     abbr -a iterm open -a iTerm
