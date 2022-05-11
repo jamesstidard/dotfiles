@@ -63,7 +63,6 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "SF Mono",
     "git.fetchOnPull": true,
-    "git.autofetch": true,
     "git.defaultCloneDirectory": "/Users/james/Development",
     "git.enableSmartCommit": true,
     "git.path": "/usr/local/bin/hub",
@@ -460,4 +459,11 @@
         "--strict"
     ],
     "python.linting.flake8Enabled": true,
+    "docker.containers.label": "RepositoryNameAndTag",
+    "docker.containers.description": [
+        "Status"
+    ],
+    "docker.containers.groupBy": "Registry",
+    "git.autofetch": "all",
+    "git.autorefresh": false,
 }

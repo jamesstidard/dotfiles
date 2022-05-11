@@ -2,7 +2,7 @@ Host *
  IgnoreUnknown UseKeychain,AddKeysToAgent,MACAddress
  AddKeysToAgent yes
  UseKeychain yes
- IdentityFile ~/.ssh/id_rsa
+ IdentityFile ~/.1password/agent.sock
 
 Host udm
  Hostname 10.0.0.1
