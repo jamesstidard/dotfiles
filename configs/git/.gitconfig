@@ -3,6 +3,7 @@
 [user]
 	name = James Stidard
 	email = james@stidard.com
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDORoNkzAe30tOY2MEt0LQN1IJqtUL9PBwbli3akycOBzSh/FENgD7dqGgw0pCEuOVdlKM+8bXnLt0G/WuDNzO2zXBUzWquzKrO4X9MPPLwJcoXtJ3CNN2iIGYNvJqMT3BrMPywzDAgNfBg51xIweEi7PCUDEtKzWrFfjH1L5UGnZAbrN6YufzbAM/ejYvDfmMhqbDaL+h7x8eQ3mT+23br/bdSWJovjVJMKaoy6wb41xaAtQYHIvlLX+7CLOrEoErda83aXe9soqucjdWQJyA37An4Bh3tIkP4OfQXmiTPBncOfActg6KIXYs09lrhHn1p9ZqRGfE/7TaO6gDIVB8qT9t/Mf5vEL7lpqvuJGoaJK8O5d1DoG8Fc886UrbL61iHEv+X0xTvDwBvR7xm1CSx6iN11ijIjJE4TJUpDt2KXq0aMfAQGj6/nIqnlS8ZKDfX5N2UjDoZfF+CdjcR6Mn+wu8amFIa5HI0Td+eTgGQt8T5IU9rvxWHf+372izSoUVwNJH7jozoZH1dQ1CyrdpApedbE9RgZOTAl60GzntsTTGdTAogV2PPDNc+hMDdFQz4EFkVTXn3RfwiVwcsqepOlqfr1CPqu4q1Vak2H7KPJ/IEaI/VAJY/rurSLhRpQMLxMkuDu5bFDxQNsx9TNmRuWu+YqW4hA5t0KcKn+r7OnQ==
 [merge]
     tool = "smerge"
 [mergetool "smerge"]
@@ -17,3 +18,9 @@
 	required = true
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

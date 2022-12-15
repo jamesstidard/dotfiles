@@ -8,5 +8,6 @@
 	"time_format": "24h",
 	"editor_argument_format": "--goto '${file}:${line}:${col}'",
 	"editor_path": "/usr/local/bin/code",
-	"editor_wait_args": "--wait"
+	"editor_wait_args": "--wait",
+	"expand_merge_commits_by_default": false,
 }

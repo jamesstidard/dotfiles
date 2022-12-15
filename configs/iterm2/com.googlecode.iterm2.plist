@@ -8,6 +8,8 @@
 	<true/>
 	<key>BadgeFont</key>
 	<string>SF Mono Regular</string>
+	<key>BootstrapDaemon</key>
+	<false/>
 	<key>Command</key>
 	<string>/usr/local/bin/fish</string>
 	<key>Default Bookmark Guid</key>
@@ -1205,7 +1207,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowMetalFPSmeter</key>
 	<false/>
 	<key>ShowNewOutputIndicator</key>

@@ -67,6 +67,16 @@ function pyground
 
     touch main.py
 
+    set --local pyproject \
+'
+[tool.isort]
+profile = "black"
+length_sort = true
+include_trailing_comma = true
+known_first_party = ["my_module1", "my_module2"]
+'
+    echo $pyproject > pyproject.toml
+
     set --local vars \
 'PYTHONPATH=.'
     echo $vars > .env

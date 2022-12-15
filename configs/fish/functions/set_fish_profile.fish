@@ -140,6 +140,20 @@ function set_fish_profile
     abbr -a pes pipenv sync --dev
     abbr -a peo pipenv open
 
+    # Conda
+    # NOTE: doesntt work here... but slow to put in profile start up...
+    # eval /usr/local/Caskroom/miniconda/base/bin/conda "shell.fish" "hook" $argv | source
+    # # conda is horrible and injects its own environmpt prompt
+    # # over the top of mine... roll that back...
+    # if functions -q __fish_prompt_orig
+    #     functions -e fish_prompt
+    #     functions -c __fish_prompt_orig fish_prompt
+    # end
+    # if functions -q __fish_right_prompt_orig
+    #     functions -e fish_right_prompt
+    #     functions -c __fish_right_prompt_orig fish_right_prompt
+    # end
+
     # COMPILER FLAGS
     set -Ux CPPFLAGS ""
     set -Ux LDFLAGS ""
@@ -197,6 +211,7 @@ function set_fish_profile
 
     # Miscellaneous
     abbr -a ipscan 'nmap -sP "10.1.62.*"'
+    abbr -a wol wakeonlan
     abbr -a md "pbpaste | pandoc --highlight-style kate --standalone --metadata pagetitle=\"...\" --from gfm --to html | textutil -stdin -format html -convert rtf -stdout | pbcopy"
     add_path ~/.bin
 end

@@ -2,7 +2,7 @@ Host *
  IgnoreUnknown UseKeychain,AddKeysToAgent,MACAddress
  AddKeysToAgent yes
  UseKeychain yes
- IdentityFile ~/.1password/agent.sock
+ IdentityAgent ~/.1password/agent.sock
 
 Host udm
  Hostname 10.0.0.1
@@ -34,6 +34,14 @@ Host muttson
  User james
  RequestTTY force
  RemoteCommand wsl
+ StrictHostKeyChecking no
+
+Host deck
+ HostName 10.0.0.105
+ MACAddress 14:d4:24:08:a5:d7
+ User deck
+ RequestTTY force
+ RemoteCommand fish
  StrictHostKeyChecking no
 
 Host nigel

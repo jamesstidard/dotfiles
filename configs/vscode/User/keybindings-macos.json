@@ -204,7 +204,7 @@
         "when": "textInputFocus"
     },
     {
-        "key": "shift+cmd+x",
+        "key": "shift+alt+cmd+d",
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
     },
@@ -875,5 +875,47 @@
         "key": "shift+cmd+k",
         "command": "-editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+x",
+        "command": "-workbench.view.extensions",
+        "when": "viewContainer.workbench.view.extensions.enabled"
+    },
+    {
+        "key": "shift+cmd+x",
+        "command": "workbench.view.testing.focus"
+    },
+    {
+        "key": "shift+cmd+.",
+        "command": "toggleexcludedfiles.toggle"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "-toggleexcludedfiles.toggle",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-toggleSuggestionDetails",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "debug.jumpToCursor"
+    },
+    {
+        "key": "alt+tab",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
