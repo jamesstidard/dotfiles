@@ -2,9 +2,9 @@ function set_fish_profile
     # UTILS
     function add_path
         if set -l index (contains -i $argv[1] $PATH)
-            set --erase --universal fish_user_paths[$index]
+            set --erase --global fish_user_paths[$index]
         end
-        set -U fish_user_paths $argv[1] $fish_user_paths
+        set --global fish_user_paths $argv[1] $fish_user_paths
     end
 
     function add_manpath
@@ -107,6 +107,9 @@ function set_fish_profile
     abbr -a bci brew cask install
     abbr -a bcu brew cask uninstall
 
+    # 1PASSWORD
+    set -Ux SSH_AUTH_SOCK ~/.1password/agent.sock
+
     # ASDF
     # moved to conf.d/profile
     # set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec/lib
@@ -176,6 +179,7 @@ function set_fish_profile
     abbr -a gf git fetch
     abbr -a gco git checkout
     abbr -a gl git log
+    abbr -a gb 'git browse -- '
     abbr -a gu git reset --soft HEAD~1
     abbr -a gr git reset --hard HEAD
     abbr -a gsm git submodule
@@ -205,6 +209,9 @@ function set_fish_profile
     # Docker
     abbr -a dnl "docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}] ({{ .Status.State }}): {{ range \$k, \$v := .Spec.Labels }}{{ \$k }}={{ \$v }} {{end}}'"
     abbr -a dc docker-compose
+
+    # K8
+    abbr -a k8 kubectl
 
     # Keybase
     abbr -a kb keybase

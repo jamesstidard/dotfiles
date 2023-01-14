@@ -6,17 +6,19 @@
     "editor.padding.top": 64,
     "timeline.showView": true,
     "files.exclude": {
-        "**/__pycache__": false,
+        "**/__pycache__": true,
         "**/.github": false,
-        "**/.idea": false,
+        "**/.idea": true,
         "**/.mypy_cache": false,
-        "**/.pytest_cache": false,
+        "**/.pytest_cache": true,
         "**/.venv": false,
         "**/.vscode": false,
-        "**/*.egg-info": false,
+        "**/*.egg-info": true,
+        "**/app_data*": false,
         "**/dask-worker-space": false,
         "**/dist": false,
-        "**/node_modules": false
+        "**/node_modules": false,
+        "**/scratch": false
     },
     "files.associations": {
         "Corefile": "caddyfile"
