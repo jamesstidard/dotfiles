@@ -107,9 +107,6 @@ function set_fish_profile
     abbr -a bci brew cask install
     abbr -a bcu brew cask uninstall
 
-    # 1PASSWORD
-    set -Ux SSH_AUTH_SOCK ~/.1password/agent.sock
-
     # ASDF
     # moved to conf.d/profile
     # set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec/lib
