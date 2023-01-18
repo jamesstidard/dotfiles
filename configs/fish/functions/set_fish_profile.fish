@@ -2,9 +2,9 @@ function set_fish_profile
     # UTILS
     function add_path
         if set -l index (contains -i $argv[1] $PATH)
-            set --erase --global fish_user_paths[$index]
+            set --erase -U fish_user_paths[$index]
         end
-        set --global fish_user_paths $argv[1] $fish_user_paths
+        set -U fish_user_paths $argv[1] $fish_user_paths
     end
 
     function add_manpath
@@ -109,8 +109,8 @@ function set_fish_profile
 
     # ASDF
     # moved to conf.d/profile
-    # set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec/lib
-    # add_path ~/.asdf/shims
+    set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec
+    add_path ~/.asdf/shims
     abbr -a ai asdf install
     abbr -a au asdf uninstall
     abbr -a al asdf list

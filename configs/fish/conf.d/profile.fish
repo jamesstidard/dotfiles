@@ -7,4 +7,5 @@ set -gx SSH_AUTH_SOCK ~/.1password/agent.sock
 test -e ~/.iterm2_shell_integration.fish ; and source ~/.iterm2_shell_integration.fish ; or true
 
 # asdf init
-test -e $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish; and source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish ; or true
+# set in set_fish_profile
+# test -e $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish; and source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish ; or true
