@@ -176,7 +176,7 @@ function set_fish_profile
     abbr -a gf git fetch
     abbr -a gco git checkout
     abbr -a gl git log
-    abbr -a gb 'git browse -- '
+    abbr -a gb 'git browse --'
     abbr -a gu git reset --soft HEAD~1
     abbr -a gr git reset --hard HEAD
     abbr -a gsm git submodule

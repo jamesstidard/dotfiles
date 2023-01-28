@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    /etc/hosts: configs/hosts
     ~/.config/iterm2: configs/iterm2
     ~/.config/karabiner/karabiner.json: configs/karabiner/karabiner.json
     ~/Library/Application Support/org.yanex.marta/conf.marco: configs/marta/conf.marco

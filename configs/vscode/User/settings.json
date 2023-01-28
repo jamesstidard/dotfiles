@@ -462,7 +462,6 @@
         "--no-pretty",
         "--strict"
     ],
-    "python.linting.flake8Enabled": true,
     "docker.containers.label": "RepositoryNameAndTag",
     "docker.containers.description": [
         "Status"
@@ -484,10 +483,10 @@
         ".gitignore": ".gitmodules"
     },
     "explorer.fileNesting.enabled": true,
-    "python.sortImports.path": "isort",
+    "isort.path": "isort",
     "extensions.supportUntrustedWorkspaces": {},
     "editor.codeActionsOnSave": {},
-    "python.sortImports.args": [
+    "isort.args": [
         "--profile",
         "black"
     ],
@@ -498,4 +497,5 @@
     "editor.lightbulb.enabled": false,
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
+    "python.linting.flake8Enabled": true,
 }

@@ -1,0 +1,25 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+10.1.62.100	accounts.internal.wv
+10.1.62.100	analytics.internal.wv
+10.1.62.100	assets.internal.wv
+10.1.62.100	daemon.internal.wv
+10.1.62.100	dashboard.internal.wv
+10.1.62.100	dask.internal.wv
+10.1.62.100	docs.internal.wv
+10.1.62.100	download.internal.wv
+10.1.62.100	nextcloud.internal.wv
+10.1.62.100	odoo.internal.wv
+10.1.62.100	pypi.internal.wv
+10.1.62.100	wiki.internal.wv
