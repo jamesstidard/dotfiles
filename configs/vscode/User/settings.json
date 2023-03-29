@@ -72,14 +72,11 @@
     "git.defaultCloneDirectory": "/Users/james/Development",
     "git.enableSmartCommit": true,
     "git.path": "/usr/local/bin/hub",
-    "python.diagnostics.sourceMapsEnabled": false,
-    "diffEditor.ignoreTrimWhitespace": true,
+    "python.diagnostics.sourceMapsEnabled": true,
     "python.linting.pylintEnabled": false,
-    "python.linting.pycodestyleEnabled": false,
     "editor.rulers": [
         80
     ],
-    "python.linting.flake8CategorySeverity.E": "Information",
     // "workbench.colorCustomizations": {
     //     "editorWarning.foreground": "#FFCC00",
     //     "gitDecoration.untrackedResourceForeground": "#e97777",
@@ -125,7 +122,6 @@
             // ]
         // }
     },
-    "python.linting.flake8CategorySeverity.W": "Hint",
     "workbench.startupEditor": "newUntitledFile",
     "git.countBadge": "off",
     "problems.decorations.enabled": false,
@@ -412,7 +408,7 @@
     "terminal.integrated.rendererType": "experimentalWebgl",
     "docker.defaultRegistryPath": "node1.external.wv:5000",
     "liveshare.featureSet": "stable",
-    "python.languageServer": "Default",
+    "python.languageServer": "Pylance",
     "python.showStartPage": false,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
@@ -498,4 +494,11 @@
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "python.linting.flake8Enabled": true,
+    "python.analysis.autoImportUserSymbols": true,
+    "python.analysis.autoImportCompletions": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.linting.flake8CategorySeverity.E": "Warning",
+    "diffEditor.ignoreTrimWhitespace": false,
 }

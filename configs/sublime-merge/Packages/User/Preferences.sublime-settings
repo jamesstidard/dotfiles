@@ -10,4 +10,9 @@
 	"editor_path": "/usr/local/bin/code",
 	"editor_wait_args": "--wait",
 	"expand_merge_commits_by_default": false,
+	"diff_style": "auto",
+	"expand_untracked_files_by_default": false,
+	"render_commit_dialog_message_at_top": true,
+	"side_bar_layout": "locations_as_column",
+	"trim_trailing_white_space_on_save": true,
 }

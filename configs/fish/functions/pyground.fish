@@ -31,7 +31,7 @@ function pyground
 '{
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.env",
-    "python.analysis.typeCheckingMode": "strict",
+    //"python.analysis.typeCheckingMode": "strict",
     "terminal.integrated.cwd": "${workspaceFolder}",
     // "terminal.integrated.profiles.linux": {
     //     "fish": {

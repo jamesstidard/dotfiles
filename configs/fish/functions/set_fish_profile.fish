@@ -43,11 +43,6 @@ function set_fish_profile
         set -U fish_complete_path $argv[1] $OLDPATH
     end
 
-    # CLEAR ABBRIVIATIONS
-    for a in (abbr --list)
-        abbr --erase $a
-    end
-
     # Global
     set -Ux EDITOR code
 
@@ -55,15 +50,6 @@ function set_fish_profile
     set fish_greeting
     add_manpath "/usr/share/man"
     add_infopath "/usr/share/info"
-    abbr -a up update
-    abbr -a kp killport
-    abbr -a pg pyground
-    abbr -a hm cd ~
-    abbr -a dt cd ~/Desktop
-    abbr -a dv cd ~/Development
-    abbr -a js cd ~/Development/James-Stidard
-    abbr -a wv cd ~/Development/Wave-Venture
-    abbr -a dl cd ~/Downloads
     fish_vi_key_bindings
     set -U fish_cursor_insert line
     set -U fish_cursor_default block
@@ -100,29 +86,14 @@ function set_fish_profile
     add_path $HOMEBREW_PREFIX/bin
     add_manpath "$HOMEBREW_PREFIX/share/man"
     add_infopath "$HOMEBREW_PREFIX/share/info"
-    abbr -a brwe brew
-    abbr -a bs brew search
-    abbr -a bi brew install
-    abbr -a bu brew rmtree
-    abbr -a bci brew cask install
-    abbr -a bcu brew cask uninstall
 
     # ASDF
     # moved to conf.d/profile
     set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec
     add_path ~/.asdf/shims
-    abbr -a ai asdf install
-    abbr -a au asdf uninstall
-    abbr -a al asdf list
-    abbr -a as asdf current
 
     # PIPX
     add_path ~/.local/bin
-    abbr -a px pipx
-    abbr -a pxl pipx list --include-injected
-    abbr -a pxr pipx run
-    abbr -a pxi pipx install
-    abbr -a pxu pipx uninstall
 
     # Pipenv
     set -Ux PIPENV_VENV_IN_PROJECT true
@@ -130,15 +101,6 @@ function set_fish_profile
     set -Ux PIPENV_SHELL_FANCY
     set -Ux PIPENV_INSTALL_TIMEOUT 1800  # 30mins
     set -Ux PIPENV_TIMEOUT 1800  # 30mins
-    abbr -a pe pipenv
-    abbr -a pei pipenv install
-    abbr -a peu pipenv update
-    abbr -a perm pipenv uninstall
-    abbr -a pel pipenv lock
-    abbr -a per pipenv run
-    abbr -a perp pipenv run python
-    abbr -a pes pipenv sync --dev
-    abbr -a peo pipenv open
 
     # Conda
     # NOTE: doesntt work here... but slow to put in profile start up...
@@ -165,57 +127,5 @@ function set_fish_profile
     end
     set -Ux OPENBLAS (brew --prefix openblas)
 
-    # GIT
-    abbr -a gcl git clone
-    abbr -a gs git status
-    abbr -a gx git pull
-    abbr -a gp git push
-    abbr -a ga git add
-    abbr -a gc git commit
-    abbr -a gca git commit --all --message
-    abbr -a gf git fetch
-    abbr -a gco git checkout
-    abbr -a gl git log
-    abbr -a gb 'git browse --'
-    abbr -a gu git reset --soft HEAD~1
-    abbr -a gr git reset --hard HEAD
-    abbr -a gsm git submodule
-    abbr -a gsmi git submodule init
-    abbr -a gsms git submodule sync
-    abbr -a gsmu git submodule update --recursive
-    abbr -a gsmc "git submodule foreach --recursive git clean -xfd; and git submodule foreach --recursive git reset --hard; and git submodule update --init --recursive"
-
-    # iTerm
-    abbr -a iterm open -a iTerm
-    abbr -a term open -a iTerm
-
-    # Marta
-    abbr -a mta marta
-
-    # Xcode
-    abbr -a xc xcode
-
-    # VSCode
-    abbr -a c code
-    abbr -a asp "code --add (pipenv --venv)/lib/python*/site-packages --add (pipenv --venv)/src"
-
-    # Sublime Merge
-    abbr -a sm smerge
-    abbr -a smd smerge mergetool
-
-    # Docker
-    abbr -a dnl "docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}] ({{ .Status.State }}): {{ range \$k, \$v := .Spec.Labels }}{{ \$k }}={{ \$v }} {{end}}'"
-    abbr -a dc docker-compose
-
-    # K8
-    abbr -a k8 kubectl
-
-    # Keybase
-    abbr -a kb keybase
-
-    # Miscellaneous
-    abbr -a ipscan 'nmap -sP "10.1.62.*"'
-    abbr -a wol wakeonlan
-    abbr -a md "pbpaste | pandoc --highlight-style kate --standalone --metadata pagetitle=\"...\" --from gfm --to html | textutil -stdin -format html -convert rtf -stdout | pbcopy"
     add_path ~/.bin
 end
