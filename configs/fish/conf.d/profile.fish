@@ -31,9 +31,10 @@ abbr --add dl cd ~/Downloads
 abbr --add brwe brew
 abbr --add bs brew search
 abbr --add bi brew install
-abbr --add bu brew rmtree
-abbr --add bci brew cask install
-abbr --add bcu brew cask uninstall
+abbr --add bu brew unstall
+abbr --add brm brew rmtree
+abbr --add bic brew install --cask
+abbr --add buc brew uninstall --cask
 
 # ASDF
 abbr --add ai asdf install
@@ -95,7 +96,7 @@ abbr --add asp "code --add (pipenv --venv)/lib/python*/site-packages --add (pipe
 
 # Sublime Merge
 abbr --add sm smerge
-abbr --add smd smerge mergetool
+abbr --add smt smerge mergetool
 
 # Docker
 abbr --add dnl "docker node ls -q | xargs docker node inspect -f '{{ .ID }} [{{ .Description.Hostname }}] ({{ .Status.State }}): {{ range \$k, \$v := .Spec.Labels }}{{ \$k }}={{ \$v }} {{end}}'"
