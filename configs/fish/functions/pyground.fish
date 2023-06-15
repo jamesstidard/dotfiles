@@ -5,16 +5,13 @@ function pyground
     set --local dir
 
     if set -q _flag_directory
-        echo "has dir"
         eval set dir "$_flag_directory"
         mkdir -p $dir
     else
-        echo "tmp dir"
         set dir (mktemp -d -t pyground.XXXXXXX)
     end
 
     set -l dir_files (ls -A $dir)
-    echo $dir_files
     if test -n "$dir_files"
         echo "directory not empty! probably mistake"
         return
