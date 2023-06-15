@@ -1,5 +1,21 @@
 function pyground
-    set --local dir (mktemp -d -t pyground.XXXXXXX)
+    argparse --name=pyground 'd/directory=!test -d "$_flag_value"' -- $argv
+    or return
+
+    set --local dir
+
+    if set -q _flag_directory
+        eval set dir "$_flag_directory"
+        mkdir -p $dir
+    else
+        set dir (mktemp -d -t pyground.XXXXXXX)
+    end
+
+    set -l dir_files (ls -A $dir)
+    if test -n "$dir_files"
+        echo "directory not empty! probably mistake"
+        return
+    end
 
     cd $dir
 
