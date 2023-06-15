@@ -1,5 +1,5 @@
 function pyground
-    argparse --name=pyground 'd/directory=!test -d "$_flag_value"' -- $argv
+    argparse --name=pyground 'd/directory=' -- $argv
     or return
 
     set --local dir
