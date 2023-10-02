@@ -7,7 +7,7 @@ LCtrl & Tab:: AltTab
 !Tab:: Send ^{Tab}
 !+Tab:: Send ^+{Tab}
 
-<^Space:: Send ^{Esc}
+;<^Space:: Send ^{Esc}
 
 ^Left::
     Send {Home}
@@ -70,6 +70,33 @@ Return
 +Esc::
     Send {~ down}
     Send {~ up}
+Return
+
+
+; === Accents ===
+
+#A::
+    Send ä
+Return
+
+#+A::
+    Send Ä
+Return
+
+!A::
+    Send å
+Return
+
+!+A::
+    Send Å
+Return
+
+#o::
+    Send ö
+Return
+
+#+o::
+    Send Ö
 Return
 
 
@@ -176,33 +203,33 @@ Return
 
 ; === Window Snapping ===
 
-<!<#<^H::
-    Send #{Left Down}
-Return
+;<!<#<^H::
+;    Send #{Left Down}
+;Return
 
-<!<#<^J::
-    Send #{Down Down}
-Return
+;<!<#<^J::
+;    Send #{Down Down}
+;Return
 
-<!<#<^K::
-    Send #{Up Down}
-Return
+;<!<#<^K::
+;    Send #{Up Down}
+;Return
 
-<!<#<^L::
-    Send #{Right Down}
-Return
+;<!<#<^L::
+;    Send #{Right Down}
+;Return
 
 
 ; === Display Switching ===
 
 <!<#<^1::
-    Run python C:\Users\James\Development\James-Stidard\dotfiles\configs\display\switch muttson
+    Run switch-display muttson
 Return
 
 <!<#<^2::
-    Run python C:\Users\James\Development\James-Stidard\dotfiles\configs\display\switch nigel
+    Run switch-display nigel
 Return
 
 <!<#<^3::
-    Run python C:\Users\James\Development\James-Stidard\dotfiles\configs\display\switch freebie
+    Run switch-display freebie
 Return
