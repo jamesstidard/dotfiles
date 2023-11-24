@@ -127,5 +127,8 @@ function set_fish_profile
     end
     set -Ux OPENBLAS (brew --prefix openblas)
 
+    # PYCHARM
+    add_path "/Applications/PyCharm CE.app/Contents/MacOS"
+
     add_path ~/.bin
 end

@@ -791,7 +791,7 @@
 			<key>Show Status Bar</key>
 			<false/>
 			<key>Silence Bell</key>
-			<true/>
+			<false/>
 			<key>Space</key>
 			<integer>-1</integer>
 			<key>Status Bar Layout</key>
@@ -1210,6 +1210,8 @@
 	</dict>
 	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
 	<false/>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SeparateWindowTitlePerTab</key>

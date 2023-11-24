@@ -155,6 +155,7 @@
         "cafile",
         "capex",
         "capturable",
+        "categorising",
         "certifi",
         "cfgrib",
         "chdir",
@@ -384,7 +385,6 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-    "python.terminal.activateEnvironment": false,
     "workbench.colorTheme": "Mariana Pro (Cool)",
     "python.formatting.provider": "black",
     // "vim.normalModeKeyBindingsNonRecursive": [
@@ -410,14 +410,11 @@
     "liveshare.featureSet": "stable",
     "python.languageServer": "Pylance",
     "python.showStartPage": false,
-    "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
     "cSpell.enabled": true,
     "editor.formatOnSaveMode": "modifications",
     "screencastMode.onlyKeyboardShortcuts": true,
-    "zenMode.fullScreen": false,
     "workbench.editor.showTabs": true,
-    "breadcrumbs.enabled": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.debugJustMyCode": false,
     "workbench.editorAssociations": {
@@ -501,4 +498,23 @@
     },
     "python.linting.flake8CategorySeverity.E": "Warning",
     "diffEditor.ignoreTrimWhitespace": false,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": true,
+    "workbench.tree.indent": 16,
+    "editor.renderControlCharacters": false,
+    "openscad.launchPath": "/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD",
+    "remote.SSH.connectTimeout": 30,
+    "python.testing.pytestEnabled": true,
+    "python.experiments.optInto": [
+        "pythonTerminalEnvVarActivation"
+    ],
+    "python.analysis.autoFormatStrings": true,
+    "terminal.integrated.inheritEnv": false,
+    "python.terminal.activateEnvironment": false,
 }

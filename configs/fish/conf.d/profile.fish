@@ -31,7 +31,7 @@ abbr --add dl cd ~/Downloads
 abbr --add brwe brew
 abbr --add bs brew search
 abbr --add bi brew install
-abbr --add bu brew unstall
+abbr --add bu brew uninstall
 abbr --add brm brew rmtree
 abbr --add bic brew install --cask
 abbr --add buc brew uninstall --cask
