@@ -60,6 +60,16 @@ abbr --add perp pipenv run python
 abbr --add pes pipenv sync --dev
 abbr --add peo pipenv open
 
+# POETRY
+abbr --add po poetry
+abbr --add poi poetry install
+abbr --add poa poetry add
+abbr --add peu poetry update
+abbr --add porm poetry remove
+abbr --add pol poetry lock
+abbr --add por poetry run
+abbr --add porp poetry run python
+
 # GIT
 abbr --add gcl git clone
 abbr --add gs git status
