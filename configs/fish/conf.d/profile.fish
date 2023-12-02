@@ -68,6 +68,7 @@ abbr --add peu poetry update
 abbr --add porm poetry remove
 abbr --add pol poetry lock
 abbr --add por poetry run
+abbr --add pos poetry shell
 abbr --add porp poetry run python
 
 # GIT
