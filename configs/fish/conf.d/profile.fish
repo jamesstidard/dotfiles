@@ -85,7 +85,7 @@ abbr --add cn cargo new
 abbr --add ci cargo init
 abbr --add cb cargo build
 abbr --add cr cargo run
-abbr --add cr cargo test
+abbr --add ct cargo test
 
 # GIT
 abbr --add gcl git clone
