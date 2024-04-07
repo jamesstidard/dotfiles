@@ -79,6 +79,7 @@ abbr --add pos poetry shell
 abbr --add porp poetry run python
 
 # RUST CARGO
+abbr --add cg cargo
 abbr --add cn cargo new
 abbr --add ci cargo init
 abbr --add cb cargo build
