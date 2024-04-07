@@ -49,7 +49,7 @@ function rsground
 HELLO = "WORLD"
 
 [tools]
-rust = "'(mise latest rust)'""
+rust = "'(mise latest rust)'"
 '
     echo $mise > mise.toml
 
