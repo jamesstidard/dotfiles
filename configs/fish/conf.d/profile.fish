@@ -20,6 +20,7 @@ abbr --add !! --position anywhere --function last_history_item
 abbr --add up update
 abbr --add kp killport
 abbr --add pg pyground
+abbr --add rg rsground
 abbr --add hm cd ~
 abbr --add dt cd ~/Desktop
 abbr --add dv cd ~/Development
@@ -84,6 +85,7 @@ abbr --add cn cargo new
 abbr --add ci cargo init
 abbr --add cb cargo build
 abbr --add cr cargo run
+abbr --add cr cargo test
 
 # GIT
 abbr --add gcl git clone
