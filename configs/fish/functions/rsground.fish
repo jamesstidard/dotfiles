@@ -20,7 +20,10 @@ function rsground
     cd $dir
 
     cargo init
-    cargo add $argv
+
+    if count $argv > /dev/null
+        cargo add $argv
+    end
 
     mkdir .vscode
 
