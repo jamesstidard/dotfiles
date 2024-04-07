@@ -47,6 +47,7 @@ abbr --add mi mise install
 abbr --add mu mise uninstall
 abbr --add ml mise list
 abbr --add ms mise current
+abbr --add mx mise exec --
 
 # PIPX
 abbr --add px pipx
@@ -76,6 +77,12 @@ abbr --add pol poetry lock
 abbr --add por poetry run
 abbr --add pos poetry shell
 abbr --add porp poetry run python
+
+# RUST CARGO
+abbr --add cn cargo new
+abbr --add ci cargo init
+abbr --add cb cargo build
+abbr --add cr cargo run
 
 # GIT
 abbr --add gcl git clone

@@ -16,11 +16,12 @@ function fish_prompt
     printf '%s' (prompt_pwd)
     set_color normal
 
+    if test $VIRTUAL_ENV
+        printf " %s" (set_color blue)(basename $VIRTUAL_ENV)(set_color normal)
+    end
+
     # Line 2
     echo
-    if test $VIRTUAL_ENV
-        printf "%s " (set_color blue)(basename $VIRTUAL_ENV)(set_color normal)
-    end
 
     switch $fish_bind_mode
         case default
