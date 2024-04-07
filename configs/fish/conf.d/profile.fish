@@ -36,11 +36,17 @@ abbr --add brm brew rmtree
 abbr --add bic brew install --cask
 abbr --add buc brew uninstall --cask
 
-# ASDF
-abbr --add ai asdf install
-abbr --add au asdf uninstall
-abbr --add al asdf list
-abbr --add as asdf current
+# # ASDF
+# abbr --add ai asdf install
+# abbr --add au asdf uninstall
+# abbr --add al asdf list
+# abbr --add as asdf current
+
+# MISE
+abbr --add mi mise install
+abbr --add mu mise uninstall
+abbr --add ml mise list
+abbr --add ms mise current
 
 # PIPX
 abbr --add px pipx

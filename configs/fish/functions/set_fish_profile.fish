@@ -89,8 +89,8 @@ function set_fish_profile
 
     # ASDF
     # moved to conf.d/profile
-    set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec
-    add_path ~/.asdf/shims
+    # set -Ux ASDF_DIR $HOMEBREW_PREFIX/opt/asdf/libexec
+    # add_path ~/.asdf/shims
 
     # PIPX
     add_path ~/.local/bin
