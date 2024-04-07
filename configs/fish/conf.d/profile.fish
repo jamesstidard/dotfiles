@@ -84,7 +84,7 @@ abbr --add cg cargo
 abbr --add cn cargo new
 abbr --add ci cargo init
 abbr --add cb cargo build
-abbr --add cr cargo run
+abbr --add cr cargo run --
 abbr --add ct cargo test
 abbr --add ca cargo add
 
