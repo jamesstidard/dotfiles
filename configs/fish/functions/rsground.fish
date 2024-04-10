@@ -19,7 +19,7 @@ function rsground
 
     cd $dir
 
-    cargo init
+    cargo init --name rsground
 
     if count $argv > /dev/null
         cargo add $argv
@@ -65,6 +65,8 @@ HELLO = "WORLD"
 '.vscode
 .idea
 target/
+mise.local.toml
+mise.*.local.toml
 '
     echo $extragitignore > .gitignore
     echo $basegitignore >> .gitignore
