@@ -75,7 +75,7 @@ mise.*.local.toml
     git add .
     git commit -m "init"
 
-    code $dir main.py
+    code $dir src/main.rs
 
     cd -
 end
