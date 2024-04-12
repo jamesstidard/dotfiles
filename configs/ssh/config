@@ -61,7 +61,7 @@ Host caldigit
 
 Host nigel
  HostName 10.0.0.103
- MacAddress f0:18:98:f3:ed:4d
+ MACAddress f0:18:98:f3:ed:4d
  User james
  StrictHostKeyChecking no
 

@@ -16,6 +16,11 @@ function update
         fisher update
     end
 
+    if type -q mise
+        echo_header "Mise"
+        mise up
+    end
+
     if type -q brew
         echo_header "Brew"
         brew update
