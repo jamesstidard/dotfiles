@@ -34,6 +34,16 @@ function rsground
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug: Run",
+            "program": "${workspaceRoot}/target/debug/rsground",
+            "args": [],
+            "sourceLanguages": ["rustc"],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "rust: cargo build",
+        },
     ]
 }'
     echo $launch > .vscode/launch.json
