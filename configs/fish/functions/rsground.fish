@@ -61,13 +61,13 @@ HELLO = "WORLD"
 [tools]
 rust = "'(mise latest rust)'"
 '
-    echo $mise > mise.toml
+    echo $mise > .mise.toml
 
     set --local mise \
 '[env]
 HELLO = "WORLD"
 '
-    echo $mise > mise.local.toml
+    echo $mise > .mise.local.toml
 
     gitignore macos windows linux rust
     read -z basegitignore < .gitignore
@@ -75,8 +75,8 @@ HELLO = "WORLD"
 '.vscode
 .idea
 target/
-mise.local.toml
-mise.*.local.toml
+.mise.local.toml
+.mise.*.local.toml
 '
     echo $extragitignore > .gitignore
     echo $basegitignore >> .gitignore
