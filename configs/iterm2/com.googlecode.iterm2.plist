@@ -1164,7 +1164,7 @@
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
-	<false/>
+	<true/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>0</integer>
 	<key>PasteSpecialRegex</key>

@@ -234,16 +234,8 @@
         "command": "workbench.action.editorLayoutThreeColumns"
     },
     {
-        "key": "cmd+k cmd+h",
-        "command": "workbench.action.focusLeftGroup"
-    },
-    {
         "key": "cmd+k cmd+left",
         "command": "-workbench.action.focusLeftGroup"
-    },
-    {
-        "key": "cmd+k cmd+l",
-        "command": "workbench.action.focusRightGroup"
     },
     {
         "key": "cmd+k cmd+right",
@@ -947,5 +939,21 @@
         "key": "cmd+[",
         "command": "-editor.action.outdentLines",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorUp"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorDown"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorRight"
     }
 ]

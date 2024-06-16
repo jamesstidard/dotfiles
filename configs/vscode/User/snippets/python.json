@@ -12,6 +12,22 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"Print Progress": {
+		"prefix": "defprintprogress",
+		"body": [
+			"def print_progress(name, itr):",
+			"    itr = list(itr)",
+			"    total = len(itr)",
+			"    delete = \"\\b\" * 0",
+			"",
+			"    for idx, item in enumerate(itr, start=1):",
+			"        msg = f\"{name}: {idx}/{total}\"",
+			"        end = \"\\n\" if idx == total else \"\"",
+			"        print(delete + msg, sep=\" \", end=end, flush=True)",
+			"        yield item",
+			"        delete = \"\\b\" * len(msg)",
+		]
+	},
 	"Async Main": {
 		"prefix": "defasyncmain",
 		"body": [
@@ -40,7 +56,7 @@
 	"Benchmark Context Manager": {
 		"prefix": "defbenchmark",
 		"body": [
-			"@contextmanager",
+			"@contextlib.contextmanager",
 			"def benchmark(name):",
 			"    \"\"\"Prints the elapsed time of the code within the \"with\" statement.\"\"\"",
 			"    start = time.time()",
@@ -48,7 +64,7 @@
 			"    yield",
 			"    end = time.time()",
 			"    elapsed = (end - start)",
-			"    print(f\"STOPPING: {name} (ELAPSED: {elapsed:.1f} seconds)\"",
+			"    print(f\"STOPPING: {name} (ELAPSED: {elapsed:.1f} seconds)\")",
 		],
 	},
 	"Chunk Iterable": {
