@@ -18,7 +18,14 @@ function update
 
     if type -q mise
         echo_header "Mise"
-        mise up
+        if type -q brew
+            # https://stackoverflow.com/questions/77898710/ginstall-cannot-stat-modules-blake2-cpython-312-darwin-so
+            brew uninstall --ignore-dependencies openssl@1.1
+            mise up
+            brew install openssl@1.1
+        else
+            mise up
+        end
     end
 
     if type -q brew

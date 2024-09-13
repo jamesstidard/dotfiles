@@ -298,7 +298,7 @@
         "command": "-workbench.action.moveActiveEditorGroupRight"
     },
     {
-        "key": "shift+cmd+k shift+cmd+1",
+        "key": "shift+alt+cmd+n",
         "command": "workbench.action.moveEditorToFirstGroup"
     },
     {
@@ -413,7 +413,7 @@
         "command": "-workbench.action.gotoLine"
     },
     {
-        "key": "alt+cmd+n",
+        "key": "shift+cmd+n",
         "command": "workbench.action.files.newUntitledFile"
     },
     {
@@ -955,5 +955,9 @@
     {
         "key": "cmd+k cmd+\\",
         "command": "-workbench.action.splitEditorRight"
+    },
+    {
+        "key": "alt+cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
     }
 ]
