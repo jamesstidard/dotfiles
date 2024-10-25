@@ -120,7 +120,7 @@ function set_fish_profile
     set -Ux CPPFLAGS ""
     set -Ux LDFLAGS ""
     set -Ux PKG_CONFIG_PATH ""
-    for lib in sqlite libpng libjpg zlib hdf5 openssl@1.1
+    for lib in sqlite libpng libjpg zlib hdf5 openssl
         set --append CPPFLAGS "-I"(brew --prefix $lib)"/include"
         set --append LDFLAGS "-L"(brew --prefix $lib)"/lib"
         set --append PKG_CONFIG_PATH (brew --prefix $lib)"/lib/pkgconfig"
@@ -129,6 +129,12 @@ function set_fish_profile
 
     # PYCHARM
     add_path "/Applications/PyCharm CE.app/Contents/MacOS"
+
+    # TKINTER
+    # add_path "/usr/local/opt/tcl-tk/bin"
+    # set --append CPPFLAGS "-I/usr/local/opt/tcl-tk/include"
+    # set --append LDFLAGS "-L/usr/local/opt/tcl-tk/lib"
+    # set --append PKG_CONFIG_PATH "/usr/local/opt/tcl-tk/lib/pkgconfig"
 
     add_path ~/.bin
 end
