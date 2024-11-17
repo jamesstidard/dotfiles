@@ -19,9 +19,8 @@ function pyground
 
     cd $dir
 
-    set --local --export PIPENV_VENV_IN_PROJECT 1
-    set --local --export PIPENV_IGNORE_VIRTUALENVS 1
-    pipenv --bare install $argv
+    uv init
+    uv add $argv
 
     mkdir .vscode
 
@@ -49,50 +48,18 @@ function pyground
     "python.envFile": "${workspaceFolder}/.env",
     //"python.analysis.typeCheckingMode": "strict",
     "terminal.integrated.cwd": "${workspaceFolder}",
-    // "terminal.integrated.profiles.linux": {
-    //     "fish": {
-    //         "path": "/usr/local/bin/fish",
-    //         "args": [
-    //             "-l",
-    //             "-c",
-    //             "pipenv shell"
-    //         ],
-    //     }
-    // },
-    // "terminal.integrated.profiles.osx": {
-    //     "fish": {
-    //         "path": "/usr/local/bin/fish",
-    //         "args": [
-    //             "-l",
-    //             "-c",
-    //             "pipenv shell"
-    //         ],
-    //     }
-    // },
-    // "terminal.integrated.profiles.windows": {
-    //     "PowerShell -NoProfile": {
-    //         "source": "PowerShell",
-    //         "args": [
-    //             "-NoExit",
-    //             "-Command",
-    //             "pipenv shell"
-    //         ]
-    //     }
-    // },
 }'
     echo $settings > .vscode/settings.json
 
-    touch main.py
-
-    set --local pyproject \
-'
-[tool.isort]
-profile = "black"
-length_sort = true
-include_trailing_comma = true
-known_first_party = ["my_module1", "my_module2"]
-'
-    echo $pyproject > pyproject.toml
+#     set --local pyproject \
+# '
+# [tool.isort]
+# profile = "black"
+# length_sort = true
+# include_trailing_comma = true
+# known_first_party = ["my_module1", "my_module2"]
+# '
+#     echo $pyproject > pyproject.toml
 
     set --local vars \
 'PYTHONPATH=.'
@@ -111,7 +78,7 @@ known_first_party = ["my_module1", "my_module2"]
     git add .
     git commit -m "init"
 
-    code $dir main.py
+    code $dir hello.py
 
     cd -
 end
